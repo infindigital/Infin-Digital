@@ -113,7 +113,7 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
           <div className="at-offcanvas-top d-flex align-items-center justify-content-between">
             <div className="at-offcanvas-logo">
               <Link to="/" className="text-decoration-none d-inline-flex align-items-center" aria-label="Infin Digital">
-                <img className="dark-mode-invert" src="/assets/imgs/template/logo/infin-logo.svg" alt="Infin Digital" style={{ height: 26, width: "auto" }} />
+                <img className="dark-mode-invert" src="/assets/imgs/template/logo/infin-logo.svg" alt="INFIN Digital, digital marketing agency in Mangalore" style={{ height: 26, width: "auto" }} />
               </Link>
             </div>
             <div className="at-offcanvas-close-btn">
@@ -180,7 +180,7 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
           <div className="at-offcanvas-2-left">
             <div className="at-header-logo d-flex justify-content-between align-items-center mb-50">
               <Link to="/" className="text-decoration-none d-inline-flex align-items-center" aria-label="Infin Digital">
-                <img className="dark-mode-invert" src="/assets/imgs/template/logo/infin-logo.svg" alt="Infin Digital" style={{ height: 26, width: "auto" }} />
+                <img className="dark-mode-invert" src="/assets/imgs/template/logo/infin-logo.svg" alt="INFIN Digital, digital marketing agency in Mangalore" style={{ height: 26, width: "auto" }} />
               </Link>
               <span className="hamburger-close-btn close-sidebar" role="button" tabIndex={0} aria-label="Close" onClick={onClose}>
                 <CloseIconSvg />

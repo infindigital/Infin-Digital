@@ -11,18 +11,21 @@ type PortfolioItem = {
     tags: PortfolioCard1Tag[];
 };
 
+// NOTE: titles are deliberate bracketed placeholders. Do not replace them with
+// invented client or project names. Swap in a real name only once that project
+// is live and the client has approved being shown here.
 // NOTE: category values below map to the shared PortfolioFilterSort filter tabs.
 // FilterValue only allows "design" | "photography" | "marketing" (+ "all"),
-// so real categories are mapped as: Web -> "design", E-Commerce -> "photography",
+// so real categories are mapped as: Web Design -> "design", E-Commerce -> "photography",
 // Branding/Marketing -> "marketing". See report flag re: renaming the tab labels.
 const PORTFOLIO_DATA: PortfolioItem[] = [
     {
         classList: "col-xxl-6 col-lg-7",
         category: "design",
-        link: "/portfolio-details-1",
+        link: "/work",
         img: "/assets/imgs/pages/img-11.webp",
-        title: "Spice Coast Kitchen",
-        description: "Restaurant website & online ordering",
+        title: "[Restaurant site]",
+        description: "Restaurant website work: menu, table booking and online ordering",
         tags: [
             { label: "web design", href: "#" },
             { label: "online ordering", href: "#" },
@@ -33,10 +36,10 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
     {
         classList: "col-xxl-6 col-lg-7",
         category: "photography",
-        link: "/portfolio-details-1",
+        link: "/work",
         img: "/assets/imgs/pages/img-12.webp",
-        title: "Malabar Threads",
-        description: "Premium ethnic-wear online store",
+        title: "[Clothing store]",
+        description: "Clothing e-commerce work: size guides, variants and a short checkout",
         tags: [
             { label: "ecommerce", href: "#" },
             { label: "online store", href: "#" },
@@ -47,10 +50,10 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
     {
         classList: "col-xxl-6 col-lg-7",
         category: "design",
-        link: "/portfolio-details-1",
+        link: "/work",
         img: "/assets/imgs/pages/img-13.webp",
-        title: "Coastal Realty Group",
-        description: "Lead-generating property portal",
+        title: "[Property site]",
+        description: "Property website work: listing pages, filters and enquiry capture",
         tags: [
             { label: "web design", href: "#" },
             { label: "lead generation", href: "#" },
@@ -61,10 +64,10 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
     {
         classList: "col-xxl-6 col-lg-7",
         category: "marketing",
-        link: "/portfolio-details-1",
+        link: "/work",
         img: "/assets/imgs/pages/img-14.webp",
-        title: "Niras Wellness",
-        description: "Identity, packaging & brand guidelines",
+        title: "[Wellness brand]",
+        description: "Branding work: logo system, packaging artwork and usage guidelines",
         tags: [
             { label: "brand identity", href: "#" },
             { label: "packaging", href: "#" },
@@ -75,24 +78,24 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
     {
         classList: "col-xxl-6 col-lg-7",
         category: "marketing",
-        link: "/portfolio-details-1",
+        link: "/work",
         img: "/assets/imgs/pages/img-170.webp",
-        title: "Pravega Fitness",
-        description: "3x ROI performance campaign",
+        title: "[Fitness brand]",
+        description: "Performance marketing work: paid campaigns, landing pages and tracking",
         tags: [
             { label: "performance marketing", href: "#" },
             { label: "paid ads", href: "#" },
-            { label: "roi", href: "#" },
+            { label: "conversion tracking", href: "#" },
             { label: "campaign", href: "#" },
         ],
     },
     {
         classList: "col-xxl-6 col-lg-7",
         category: "marketing",
-        link: "/portfolio-details-1",
+        link: "/work",
         img: "/assets/imgs/pages/img-171.webp",
-        title: "TideWorks Agency",
-        description: "B2B brand refresh & website redesign",
+        title: "[B2B rebrand]",
+        description: "B2B work: brand refresh, messaging and a rebuilt company website",
         tags: [
             { label: "brand refresh", href: "#" },
             { label: "b2b", href: "#" },
@@ -117,11 +120,11 @@ export default function Section1() {
             <div className="container pb-60">
                 <div className="row align-items-end">
                     <div className="col-xxl-8 col-lg-7">
-                        <h1 className="fz-ds-1 fw-500">Selected Work</h1>
+                        <h1 className="fz-ds-1 fw-500">Website Design Work</h1>
                     </div>
                     <div className="col-xxl-3 col-lg-5 ms-lg-auto">
                         <p className="fz-font-lg neutral-900 text-lg-end">
-                            A selection of web, e-commerce, branding and marketing work built to drive real business outcomes.
+                            The kind of work we take on as a website designer in Mangalore: web builds, e-commerce, SEO, branding and paid campaigns.
                         </p>
                     </div>
                 </div>

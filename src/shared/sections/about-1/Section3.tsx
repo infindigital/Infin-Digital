@@ -34,49 +34,49 @@ const DIAMOND_ICON = (
 
 const AWARDS = [
     {
-        date: "[ 19 Oct 2024 ]",
+        date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-40-lg.webp",
         img: "/assets/imgs/pages/img-40.webp",
-        title: "Best Web Design Agency",
-        webExcellence: "Web Excellence Awards",
-        url: "csswinner.com",
-        href: "https://csswinner.com",
+        title: "[Add award name]",
+        webExcellence: "[Add awarding organisation]",
+        url: "[add-website.com]",
+        href: "#",
     },
     {
-        date: "[ 12 Feb 2026 ]",
+        date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-41-lg.webp",
         img: "/assets/imgs/pages/img-41.webp",
-        title: "Digital Agency of the Year",
-        webExcellence: "Global Digital Excellence Awards",
-        url: "globaldigitalawards.com",
-        href: "https://globaldigitalawards.com",
+        title: "[Add award name]",
+        webExcellence: "[Add awarding organisation]",
+        url: "[add-website.com]",
+        href: "#",
     },
     {
-        date: "[ 08 Aug 2025 ]",
+        date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-42-lg.webp",
         img: "/assets/imgs/pages/img-42.webp",
-        title: "Innovation in Digital Experience",
-        webExcellence: "International Digital Awards",
-        url: "digital-awards.org",
-        href: "https://digital-awards.org",
+        title: "[Add award name]",
+        webExcellence: "[Add awarding organisation]",
+        url: "[add-website.com]",
+        href: "#",
     },
     {
-        date: "[ 19 Oct 2024 ]",
+        date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-43-lg.webp",
         img: "/assets/imgs/pages/img-43.webp",
-        title: "Best Integrated Digital Campaign",
-        webExcellence: "Drum Awards",
-        url: "thedrum.com",
-        href: "https://thedrum.com",
+        title: "[Add award name]",
+        webExcellence: "[Add awarding organisation]",
+        url: "[add-website.com]",
+        href: "#",
     },
     {
-        date: "[ 03 Apr 2026 ]",
+        date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-44-lg.webp",
         img: "/assets/imgs/pages/img-44.webp",
-        title: "Growth-Driven Digital Agency",
-        webExcellence: "Clutch Leaders Awards",
-        url: "clutch.co",
-        href: "https://clutch.co",
+        title: "[Add award name]",
+        webExcellence: "[Add awarding organisation]",
+        url: "[add-website.com]",
+        href: "#",
     },
 ];
 
@@ -87,7 +87,7 @@ export default function Section3() {
                 <div className="container">
                     <div className="row align-items-end">
                         <div className="col-lg-3 col-md-6">
-                            <h1 className="fw-500 fz-ds-1 mb-0">Awards.</h1>
+                            <h2 className="fw-500 fz-ds-1 mb-0">Awards.</h2>
                         </div>
                         <div className="col-lg-3 col-md-4 ms-auto mb-lg-4 d-flex justify-content-lg-end">
                             <div
@@ -96,13 +96,13 @@ export default function Section3() {
                                 data-fade-from="bottom"
                                 data-ease="bounce"
                             >
-                                <Link className="at-btn-circle" to="/portfolio-1">
+                                <Link className="at-btn-circle" to="/work">
                                     {ARROW_CIRCLE_SVG}
                                 </Link>
-                                <Link className="at-btn z-index-1" to="/portfolio-1">
+                                <Link className="at-btn z-index-1" to="/work">
                                     View All Awards
                                 </Link>
-                                <Link className="at-btn-circle" to="/portfolio-1">
+                                <Link className="at-btn-circle" to="/work">
                                     {ARROW_CIRCLE_SVG}
                                 </Link>
                             </div>
@@ -128,7 +128,7 @@ export default function Section3() {
                                             <div className="card-award-image">
                                                 <img
                                                     src={award.img}
-                                                    alt="Award"
+                                                    alt="Placeholder award badge, replace with a real recognition"
                                                     width={120}
                                                     height={90}
                                                     className="w-100 h-100"
@@ -154,8 +154,9 @@ export default function Section3() {
                                 <div className="content">
                                     <h5 className="revert-text mb-0 reveal-text">
                                         <RevealText>
-                                            Infin Digital is a digital agency creating impactful digital experiences. We think
-                                            like strategists and execute with clarity, creativity, and performance.
+                                            Our mission is to give every business we work with a website and a marketing
+                                            plan it can defend with numbers. Recognition is welcome, but the real
+                                            scoreboard is enquiries, orders, and repeat customers.
                                         </RevealText>
                                     </h5>
                                 </div>

@@ -95,11 +95,11 @@ export default function Section2() {
                                     </i>
                                 </span>
                                 <h2 className="at-section-title reveal-text text-white lh-1 mb-40 mt-20">
-                                    <RevealText>We build digital experiences that drive real growth.</RevealText>
+                                    <RevealText>Design, search, and paid media working as one growth system.</RevealText>
                                 </h2>
                                 <p className="text-white mb-0">
-                                    Infin Digital is a Mangalore-based web design and digital marketing agency.{" "}
-                                    <br className="d-xxl-block d-lg-none d-none" /> We help brands grow online through thoughtful design, sharp strategy, and measurable results.
+                                    Infin Digital is a web design and digital marketing agency based in Mangalore, working with businesses across Dakshina Kannada and beyond.{" "}
+                                    <br className="d-xxl-block d-lg-none d-none" /> We start with the commercial question, who you want to reach and what you need them to do, and then build the website, the search visibility, and the ad campaigns that answer it. One team handles the design, the code, the copy, the tracking, and the reporting, so nothing falls through the gaps between vendors. Every decision is tied to a number you can check.
                                 </p>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ export default function Section2() {
                                 <div className="card-item__bg">
                                     <img
                                         src="/assets/imgs/pages/img-29.webp"
-                                        alt="Mountain background"
+                                        alt="Snow covered mountain peak rising through cloud"
                                         className="home-2-card-item__bg-img img-cover"
                                         width={400}
                                         height={400} loading="lazy" />
@@ -121,7 +121,7 @@ export default function Section2() {
                                 <div className="card-item-avatar p-absolute top-0 end-0 changeless">
                                     <img
                                         src="/assets/imgs/template/avatar/avatar-9.webp"
-                                        alt="Profile"
+                                        alt="Portrait photograph used in the Infin Digital brand collage"
                                         className="home-2-card-item__avatar-img"
                                         width={65}
                                         height={65} loading="lazy" />
@@ -129,7 +129,7 @@ export default function Section2() {
                                 <div className="card-item-content p-absolute bottom-0 start-0">
                                     {QUOTE_SVG}
                                     <h6 className="card-item-text mb-0 text-white">
-                                        Trusted by fast-growing brands across India
+                                        Built for brands that want measurable growth
                                     </h6>
                                 </div>
                             </div>

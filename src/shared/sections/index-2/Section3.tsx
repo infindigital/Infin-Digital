@@ -19,12 +19,12 @@ type Brand = {
 };
 
 const BRAND_SOURCES: Brand[] = [
-    { src: "/assets/imgs/icons/brand-1.webp", alt: "logo-brand", width: 147, height: 40 },
-    { src: "/assets/imgs/icons/brand-2.webp", alt: "logo-brand", width: 173, height: 43 },
-    { src: "/assets/imgs/icons/brand-3.webp", alt: "logo-brand", width: 162, height: 47 },
-    { src: "/assets/imgs/icons/brand-4.webp", alt: "logo-brand", width: 167, height: 35 },
-    { src: "/assets/imgs/icons/brand-5.webp", alt: "logo-brand", width: 105, height: 24 },
-    { src: "/assets/imgs/icons/brand-6.webp", alt: "logo-brand", width: 170, height: 48 },
+    { src: "/assets/imgs/icons/brand-1.webp", alt: "Partner brand logo placeholder", width: 147, height: 40 },
+    { src: "/assets/imgs/icons/brand-2.webp", alt: "Partner brand logo placeholder", width: 173, height: 43 },
+    { src: "/assets/imgs/icons/brand-3.webp", alt: "Partner brand logo placeholder", width: 162, height: 47 },
+    { src: "/assets/imgs/icons/brand-4.webp", alt: "Partner brand logo placeholder", width: 167, height: 35 },
+    { src: "/assets/imgs/icons/brand-5.webp", alt: "Partner brand logo placeholder", width: 105, height: 24 },
+    { src: "/assets/imgs/icons/brand-6.webp", alt: "Partner brand logo placeholder", width: 170, height: 48 },
 ];
 
 const BRANDS: Brand[] = [...BRAND_SOURCES, ...BRAND_SOURCES, ...BRAND_SOURCES];
@@ -38,8 +38,8 @@ export default function Section3() {
                         <div className="at-about-title-wrap d-flex flex-wrap flex-lg-nowrap align-items-start gap-4 mb-30">
                             <span className="at-btn common-black bg-transparent rounded-0 p-0 mt-xxl-2">
                                 <span className="text-uppercase text-nowrap">
-                                    <span className="text-1">Our Partners</span>
-                                    <span className="text-2">Our Partners</span>
+                                    <span className="text-1">How we partner</span>
+                                    <span className="text-2">How we partner</span>
                                 </span>
                                 <i>
                                     {ARROW_SVG}
@@ -48,7 +48,7 @@ export default function Section3() {
                             </span>
                             <h4 className="at-section-title reveal-text">
                                 <RevealText>
-                                    Collaborating with progressive brands to shape meaningful, long-term impact.
+                                    We work as a long-term partner, not a one-off vendor, on every engagement.
                                 </RevealText>
                             </h4>
                         </div>
@@ -101,7 +101,7 @@ export default function Section3() {
                             >
                                 <img
                                     src="/assets/imgs/icons/badge-1.svg"
-                                    alt="Infin Digital"
+                                    alt="Circular badge inviting you to email Infin Digital"
                                     width={140}
                                     height={140} loading="lazy" />
                                 <span className="position-absolute top-50 start-50 translate-middle d-flex flex-column align-items-center justify-content-center">
@@ -115,8 +115,8 @@ export default function Section3() {
                                 </span>
                             </Link>
                             <p className="mb-0">
-                                Empowering ambitious brands to <br className="d-block" /> define their
-                                presence with focus <br className="d-block" /> and precision.
+                                Tell us the target you need <br className="d-block" /> to hit this quarter and
+                                we will <br className="d-block" /> tell you what it takes.
                             </p>
                         </div>
                     </div>

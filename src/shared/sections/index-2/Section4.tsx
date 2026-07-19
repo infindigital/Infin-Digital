@@ -13,37 +13,41 @@ const SERVICES = [
     {
         title: "Branding",
         description:
-            "Visual identity and brand systems that make a lasting first impression across every touchpoint.",
-        listLeft: ["Research & Insights", "Purpose, Mission & Vision", "Value Proposition"],
-        listRight: ["Research & Insights", "Purpose, Mission & Vision", "Value Proposition"],
+            "A name, a logo, a colour system, and a way of speaking that stays consistent everywhere your business shows up.",
+        listLeft: ["Brand Research & Positioning", "Logo & Identity Design", "Colour & Type Systems"],
+        listRight: ["Packaging & Print", "Brand Guidelines"],
         image: "/assets/imgs/pages/img-30.webp",
+        imageAlt: "Smooth white sculptural object beside a slim ceramic vase",
         itemClass: "pb-40",
     },
     {
         title: "Web Design & Development",
         description:
-            "Fast, responsive websites and web apps crafted to perform and convert.",
-        listLeft: ["UX Research & User Journeys", "Information Architecture", "Wireframing & Prototyping"],
-        listRight: ["Interface Design (UI)", "Design Systems"],
+            "Fast, mobile friendly business websites built to load quickly, rank well, and turn visitors into enquiries.",
+        listLeft: ["UX Research & User Journeys", "Responsive Interface Design", "WordPress & Custom Builds"],
+        listRight: ["E-Commerce Development", "Speed & Core Web Vitals"],
         image: "/assets/imgs/pages/img-31.webp",
+        imageAlt: "Close view of layered sandstone showing fine natural strata",
         itemClass: "pb-40",
     },
     {
         title: "Digital Marketing",
         description:
-            "Full-funnel digital campaigns that connect your brand to the right audience.",
-        listLeft: ["Digital Strategy", "Content Marketing", "Social Media Marketing"],
-        listRight: ["Paid Advertising (PPC)", "Email Marketing"],
+            "Social content, campaigns, and always on activity that keep your brand in front of the people who buy from you.",
+        listLeft: ["Social Media Marketing", "Content & Creative Production", "Email & WhatsApp Campaigns"],
+        listRight: ["Performance Marketing", "Reporting & Analytics"],
         image: "/assets/imgs/pages/img-32.webp",
+        imageAlt: "Abstract red ridges lit against a soft grey sky",
         itemClass: "pb-40",
     },
     {
         title: "SEO",
         description:
-            "Organic search strategies that improve rankings, drive traffic, and build lasting authority.",
-        listLeft: ["Conversion Rate Optimization (CRO)", "A/B Testing", "User Behavior Analysis"],
-        listRight: ["SEO Optimization", "Performance Audits"],
+            "Technical, local, and content SEO that gets your business found when people in Mangalore search for what you sell.",
+        listLeft: ["Technical SEO Audits", "Local SEO & Google Business", "Keyword & Content Strategy"],
+        listRight: ["On-Page Optimisation", "Conversion Rate Optimisation"],
         image: "/assets/imgs/pages/img-33.webp",
+        imageAlt: "Fine golden particles drifting through soft blue light",
         itemClass: "pb-50",
     },
 ];
@@ -71,7 +75,7 @@ export default function Section4({ className }: Section4Props) {
                                     </i>
                                 </span>
                                 <span className="fs-font-md fw-500 text-decoration-underline">
-                                    © Since 2014
+                                    © Mangalore, India
                                 </span>
                             </div>
                         </div>
@@ -87,9 +91,9 @@ export default function Section4({ className }: Section4Props) {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="d-flex flex-column justify-content-between h-100 py-4 px-2">
-                                                <h1 className="fz-ds-1 fw-500 text-scale-anim-2 pb-xxl-5 pb-4">
+                                                <h2 className="fz-ds-1 fw-500 text-scale-anim-2 pb-xxl-5 pb-4">
                                                     {service.title}
-                                                </h1>
+                                                </h2>
                                                 <div className="d-xxl-flex align-items-end">
                                                     <p className="fz-font-2xl neutral-950 reveal-text pe-xxl-5 mb-3">
                                                         <RevealText>{service.description}</RevealText>
@@ -113,7 +117,7 @@ export default function Section4({ className }: Section4Props) {
                                             <div className="rounded-4 overflow-hidden">
                                                 <img
                                                     src={service.image}
-                                                    alt="Infin Digital"
+                                                    alt={service.imageAlt}
                                                     width={600}
                                                     height={400}
                                                     className="img-cover" loading="lazy" />

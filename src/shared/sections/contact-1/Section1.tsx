@@ -47,48 +47,26 @@ const ARROW_ICON_SM = (
     </svg>
 );
 
+// Decorative avatar row (stock template imagery, not photographs of named staff),
+// so every alt is intentionally empty for screen readers.
 const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-10.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-11.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-12.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-13.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-14.webp", alt: "Infin Digital", hiddenOnMobile: true },
+    { src: "/assets/imgs/template/avatar/avatar-10.webp", alt: "", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-11.webp", alt: "", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-12.webp", alt: "", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-13.webp", alt: "", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-14.webp", alt: "", hiddenOnMobile: true },
 ];
 
 const SOCIAL_ITEMS = [
     {
-        label: "Twitter",
-        href: "#",
+        label: "WhatsApp",
+        href: "https://wa.me/918073302248",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
                 <path
                     fillRule="evenodd"
                     clipRule="evenodd"
-                    d="M0 0H5.25L8.98421 5.21053L13.5 0H15.5L9.8895 6.47368L16 15H10.75L7.01579 9.7895L2.5 15H0.5L6.11053 8.52632L0 0ZM11.5204 13.5L2.92043 1.5H4.47957L13.0796 13.5H11.5204Z"
-                    fill="currentColor"
-                />
-            </svg>
-        ),
-    },
-    {
-        label: "Facebook",
-        href: "#",
-        icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                <path
-                    d="M12.4024 18V11.0344H14.7347L15.0838 8.3265H12.4024V6.59765C12.4024 5.81364 12.62 5.27934 13.7443 5.27934L15.1783 5.27867V2.85676C14.9302 2.82382 14.0791 2.75006 13.0888 2.75006C11.0213 2.75006 9.606 4.01198 9.606 6.32952V8.3265H7.2677V11.0344H9.606V18H1C0.44772 18 0 17.5523 0 17V1C0 0.44772 0.44772 0 1 0H17C17.5523 0 18 0.44772 18 1V17C18 17.5523 17.5523 18 17 18H12.4024Z"
-                    fill="currentColor"
-                />
-            </svg>
-        ),
-    },
-    {
-        label: "Linkedin",
-        href: "#",
-        icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                <path
-                    d="M15.3352 15.339H12.6697V11.1622C12.6697 10.1662 12.6495 8.8845 11.2807 8.8845C9.89102 8.8845 9.67872 9.9683 9.67872 11.0887V15.339H7.01322V6.75H9.57372V7.9207H9.60822C9.96602 7.2457 10.836 6.53325 12.1357 6.53325C14.8365 6.53325 15.336 8.3108 15.336 10.6245L15.3352 15.339ZM4.00275 5.57475C3.14475 5.57475 2.4555 4.88025 2.4555 4.026C2.4555 3.1725 3.1455 2.47875 4.00275 2.47875C4.85775 2.47875 5.55075 3.1725 5.55075 4.026C5.55075 4.88025 4.857 5.57475 4.00275 5.57475ZM5.33925 15.339H2.66625V6.75H5.33925V15.339ZM16.6687 0H1.32825C0.594 0 0 0.5805 0 1.29675V16.7033C0 17.4202 0.594 18 1.32825 18H16.6665C17.4 18 18 17.4202 18 16.7033V1.29675C18 0.5805 17.4 0 16.6665 0H16.6687Z"
+                    d="M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.359.101 11.945c0 2.096.549 4.142 1.595 5.945L0 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.581 0 11.94-5.359 11.943-11.945a11.821 11.821 0 0 0-3.416-8.4ZM12.05 21.785h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884a9.82 9.82 0 0 1 6.988 2.896 9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885Zm5.421-7.403c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347Z"
                     fill="currentColor"
                 />
             </svg>
@@ -96,7 +74,7 @@ const SOCIAL_ITEMS = [
     },
     {
         label: "Instagram",
-        href: "#",
+        href: "https://www.instagram.com/infindigital.in/",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <path
@@ -107,14 +85,26 @@ const SOCIAL_ITEMS = [
         ),
     },
     {
-        label: "Youtube",
-        href: "#",
+        label: "LinkedIn",
+        href: "https://in.linkedin.com/company/infin-digital",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 18 13" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <path
+                    d="M15.3352 15.339H12.6697V11.1622C12.6697 10.1662 12.6495 8.8845 11.2807 8.8845C9.89102 8.8845 9.67872 9.9683 9.67872 11.0887V15.339H7.01322V6.75H9.57372V7.9207H9.60822C9.96602 7.2457 10.836 6.53325 12.1357 6.53325C14.8365 6.53325 15.336 8.3108 15.336 10.6245L15.3352 15.339ZM4.00275 5.57475C3.14475 5.57475 2.4555 4.88025 2.4555 4.026C2.4555 3.1725 3.1455 2.47875 4.00275 2.47875C4.85775 2.47875 5.55075 3.1725 5.55075 4.026C5.55075 4.88025 4.857 5.57475 4.00275 5.57475ZM5.33925 15.339H2.66625V6.75H5.33925V15.339ZM16.6687 0H1.32825C0.594 0 0 0.5805 0 1.29675V16.7033C0 17.4202 0.594 18 1.32825 18H16.6665C17.4 18 18 17.4202 18 16.7033V1.29675C18 0.5805 17.4 0 16.6665 0H16.6687Z"
+                    fill="currentColor"
+                />
+            </svg>
+        ),
+    },
+    {
+        label: "Google Business Profile",
+        href: "https://maps.app.goo.gl/e2k7gFiubpNxbLCN6",
+        icon: (
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
                 <path
                     fillRule="evenodd"
                     clipRule="evenodd"
-                    d="M16.0322 0.388283C16.8071 0.602295 17.4162 1.23059 17.6237 2.03009C17.9985 3.47775 18 6.49997 18 6.49997C18 6.49997 18 9.52214 17.6237 10.9698C17.4162 11.7694 16.8071 12.3977 16.0322 12.6116C14.6291 13 8.99997 13 8.99997 13C8.99997 13 3.37092 13 1.96772 12.6116C1.1928 12.3977 0.583804 11.7694 0.376354 10.9698C-3.83173e-08 9.52214 0 6.49997 0 6.49997C0 6.49997 -3.83173e-08 3.47775 0.376354 2.03009C0.583804 1.23059 1.1928 0.602295 1.96772 0.388283C3.37092 1.18595e-07 8.99997 0 8.99997 0C8.99997 0 14.6291 1.18595e-07 16.0322 0.388283ZM11.8751 6.50027L7.19879 9.2855V3.71499L11.8751 6.50027Z"
+                    d="M12 0C7.802 0 4 3.403 4 7.602 4 11.8 7.469 16.812 12 24c4.531-7.188 8-12.2 8-16.398C20 3.403 16.199 0 12 0Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"
                     fill="currentColor"
                 />
             </svg>
@@ -131,20 +121,22 @@ export default function Section1() {
                         <div className="at-about-title-wrap mb-30">
                             <span className="at-btn common-black bg-transparent mb-10 rounded-0 p-0">
                                 <span className="text-uppercase">
-                                    <span className="text-1">cONTACT US</span>
-                                    <span className="text-2">cONTACT US</span>
+                                    <span className="text-1">Contact Us</span>
+                                    <span className="text-2">Contact Us</span>
                                 </span>
                                 <i>
                                     {ARROW_SVG}
                                     {ARROW_SVG}
                                 </i>
                             </span>
-                            <h2 className="at-section-title reveal-text mb-lg-0 mb-4">
+                            {/* Page H1. The `h2` class carries the original h2 sizing at every
+                                breakpoint, so promoting the tag changes semantics only, not layout. */}
+                            <h1 className="h2 at-section-title reveal-text mb-lg-0 mb-4">
                                 <RevealText>
-                                    Reach out to discuss
-                                    your project requirements
+                                    Talk to a digital marketing
+                                    company in Mangalore
                                 </RevealText>
-                            </h2>
+                            </h1>
                             <div className="at-about-content d-flex flex-md-row flex-column justify-content-between gap-4 pt-40">
                                 <div className="d-flex gap-4 w-lg-50">
                                     <div className="icon">
@@ -176,9 +168,9 @@ export default function Section1() {
                                     <div>
                                         <h6 className="fw-600">Get in touch</h6>
                                         <span className="fz-font-md neutral-500">
-                                            1st floor, Shah Complex, Opposite Radha Medical, Bendoorwell
+                                            Tell us your business, what you want to fix and a rough budget
                                             <br className="d-block" />
-                                            Kankanady, Mangaluru, Karnataka 575002
+                                            Open 24 Hours, so your message reaches us at any time
                                             <br className="d-block" />
                                             Phone:{" "}
                                             <span className="neutral-900">
@@ -217,23 +209,23 @@ export default function Section1() {
                             ))}
                         </div>
                         <h6 className="mb-4 fz-font-lg">
-                            Start the conversation by sharing your vision. <br />
-                            Our team will respond within 1–2 business days.
+                            Tell us what you want to build, fix or grow. <br />
+                            A real person here reads every enquiry and replies.
                         </h6>
                     </div>
                 </div>
                 <div className="row g-5 pt-120 align-items-end">
                     <div className="col-xxl-6 col-lg-7">
-                        <h4>Drop us a line</h4>
+                        <h4>Tell us about your project</h4>
                         <form className="sec-4-about-form" action="#" method="post">
                             <div className="sec-4-about-form__field">
                                 <input
                                     type="text"
                                     className="sec-4-about-form__input"
                                     name="name"
-                                    placeholder="Your name *"
+                                    placeholder="Your full name *"
                                     required
-                                    aria-label="Your name"
+                                    aria-label="Your full name"
                                 />
                             </div>
                             <div className="sec-4-about-form__field">
@@ -241,9 +233,9 @@ export default function Section1() {
                                     type="email"
                                     className="sec-4-about-form__input"
                                     name="email"
-                                    placeholder="Your email *"
+                                    placeholder="Email address we can reply to *"
                                     required
-                                    aria-label="Your email"
+                                    aria-label="Email address we can reply to"
                                 />
                             </div>
                             <div className="sec-4-about-form__field">
@@ -251,26 +243,26 @@ export default function Section1() {
                                     type="tel"
                                     className="sec-4-about-form__input"
                                     name="phone"
-                                    placeholder="Your phone *"
+                                    placeholder="Phone or WhatsApp number *"
                                     required
-                                    aria-label="Your phone"
+                                    aria-label="Phone or WhatsApp number"
                                 />
                             </div>
                             <div className="sec-4-about-form__field">
                                 <textarea
                                     className="sec-4-about-form__input sec-4-about-form__textarea"
                                     name="message"
-                                    placeholder="Your message *"
+                                    placeholder="What are you looking to build, fix or grow? *"
                                     rows={5}
                                     required
-                                    aria-label="Your message"
+                                    aria-label="What are you looking to build, fix or grow"
                                 />
                             </div>
                             <div className="sec-4-about-form__actions">
                                 <button type="submit" className="sec-4-about-form__btn at-btn">
                                     <span>
-                                        <span className="text-1 text-capitalize">Send Message</span>
-                                        <span className="text-2 text-capitalize">Send Message</span>
+                                        <span className="text-1 text-capitalize">Send My Enquiry</span>
+                                        <span className="text-2 text-capitalize">Send My Enquiry</span>
                                     </span>
                                     <i>
                                         {ARROW_SVG}
@@ -279,7 +271,7 @@ export default function Section1() {
                                 </button>
                             </div>
                             <p className="sec-4-about-form__disclaimer">
-                                By submitting, you agree to our{" "}
+                                No spam, no shared data. Send this and we will get back to you. See our{" "}
                                 <Link to="#" className="sec-4-about-form__link">
                                     Terms
                                 </Link>{" "}
@@ -292,7 +284,7 @@ export default function Section1() {
                         </form>
                     </div>
                     <div className="col-xxl-4 col-lg-5 ms-auto pb-40">
-                        <h6 className="fw-600 mb-3">Follow Us</h6>
+                        <h6 className="fw-600 mb-3">Find Us Online</h6>
                         <div className="alt-footer-social-item white-mode w-50">
                             <ul>
                                 {SOCIAL_ITEMS.map((item, i) => (

@@ -18,8 +18,10 @@ const FEATURE_ICON_SVG = (
     </svg>
 );
 
-const PERSONAL_PRICES = { starter: "$1,200", growth: "$2,800", scale: "$3,600" };
-const BUSINESS_PRICES = { starter: "$2,400", growth: "$5,600", scale: "$7,200" };
+// PLACEHOLDER PRICING. The figures shipped with the theme were USD and invented.
+// Replace with the real INR rate card before launch, keeping the same string shape.
+const PERSONAL_PRICES = { starter: "₹[00,000]", growth: "₹[00,000]", scale: "₹[00,000]" };
+const BUSINESS_PRICES = { starter: "₹[00,000]", growth: "₹[00,000]", scale: "₹[00,000]" };
 
 const PLANS = [
     {
@@ -142,7 +144,7 @@ export default function Section12Pricing({ titleSlot, footerSlot }: Section12Pri
                                     </span>
                                 </div>
                                 <p className="home-2-pricing-card__desc">{plan.desc}</p>
-                                <Link className="at-btn px-5" to="#">
+                                <Link className="at-btn px-5" to="/contact">
                                     <span>
                                         <span className="text-1 text-capitalize">{plan.btnText}</span>
                                         <span className="text-2 text-capitalize">{plan.btnText}</span>

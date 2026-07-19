@@ -78,7 +78,7 @@ const LOGO_SVG = (
 );
 
 const PORTFOLIO_DESC =
-    "A curated selection of projects where strategy, creativity, and craftsmanship come together to build meaningful and enduring brand experiences.";
+    "A selection of the work we take on: business websites, online stores, brand identities, and campaigns. Each one starts with a commercial goal and ends with something the client can measure, from enquiry volume to average order value.";
 
 function PortfolioThumb({
     src,
@@ -104,7 +104,7 @@ function PortfolioThumb({
 }) {
     return (
         <Link
-            to="/portfolio-details-1"
+            to="/work"
             className={`alt-portfolio-thumb p-relative fix d-block ${thumbBelowContent ? "" : "mb-15"}`.trim()}
         >
             <span className="w-100 d-block scale-img-from-to" data-value-1="1.5" data-value-2="1">
@@ -132,7 +132,7 @@ function PortfolioItemContent({ title }: { title: string }) {
     return (
         <div className="alt-portfolio-content d-flex justify-content-between align-items-center">
             <h5 className="alt-portfolio-title mb-0">
-                <Link to="/portfolio-details-1" className="common-underline">
+                <Link to="/work" className="common-underline">
                     {title}
                 </Link>
             </h5>
@@ -149,13 +149,13 @@ export default function Section6() {
                     <div className="row">
                         <div className="col-xxl-5 col-xl-5 col-md-8">
                             <div className="alt-portfolio-main-title-wrap portfolio-text">
-                                <h1 className="alt-portfolio-main-title reveal-text fz-ds-1 fw-500">
+                                <h2 className="alt-portfolio-main-title reveal-text fz-ds-1 fw-500">
                                     Our
                                     {STAR_SVG_LG}
                                     Selected
                                     <br /> Work
                                     {ARROW_SVG_104}
-                                </h1>
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -166,18 +166,18 @@ export default function Section6() {
                             <div className="alt-portfolio-item at-hover-item mb-30">
                                 <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
                                     <h5 className="alt-portfolio-title mb-0">
-                                        <Link to="/portfolio-details-1" className="common-underline">
-                                            Spice Coast Kitchen
+                                        <Link to="/work" className="common-underline">
+                                            [Project name 01]
                                         </Link>
                                     </h5>
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
                                 </div>
                                 <PortfolioThumb
                                     src="/assets/imgs/pages/img-34.webp"
-                                    alt="Infin Digital"
+                                    alt="Hand holding a small cream and black cosmetics box"
                                     tag="Web"
-                                    title="Restaurant website & online ordering"
-                                    description="A restaurant site with digital menu, reservations, and seamless online ordering."
+                                    title="Restaurant website with online ordering"
+                                    description="Digital menu, table reservations, and online ordering built into one website."
                                     thumbBelowContent
                                     width={400}
                                     height={500}
@@ -188,14 +188,14 @@ export default function Section6() {
                             <div className="alt-portfolio-item mb-30 alt-portfolio-item-2 at-hover-item">
                                 <PortfolioThumb
                                     src="/assets/imgs/pages/img-35.webp"
-                                    alt="Infin Digital"
+                                    alt="Fashion portrait of a model in a translucent iridescent jacket"
                                     tag="E-Commerce"
-                                    title="Premium ethnic-wear store"
-                                    description="End-to-end e-commerce build for a premium ethnic wear brand."
+                                    title="Online store for a clothing label"
+                                    description="Catalogue, payments, and shipping set up so the team can run it themselves."
                                     width={550}
                                     height={540}
                                 />
-                                <PortfolioItemContent title="Malabar Threads" />
+                                <PortfolioItemContent title="[Project name 02]" />
                             </div>
                         </div>
                     </div>
@@ -206,18 +206,18 @@ export default function Section6() {
                             <div className="alt-portfolio-item alt-portfolio-item-3 mb-30 at-hover-item">
                                 <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
                                     <h5 className="alt-portfolio-title mb-0">
-                                        <Link to="/portfolio-details-1" className="common-underline">
-                                            Coastal Realty Group
+                                        <Link to="/work" className="common-underline">
+                                            [Project name 03]
                                         </Link>
                                     </h5>
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
                                 </div>
                                 <PortfolioThumb
                                     src="/assets/imgs/pages/img-36.webp"
-                                    alt="Infin Digital"
+                                    alt="Portrait of a person in a dark fur coat against an open sky"
                                     tag="Web"
                                     title="Property portal built to convert"
-                                    description="A lead-generating property portal engineered for conversion."
+                                    description="Property listings, filters, and enquiry forms designed around how buyers search."
                                     thumbBelowContent
                                     width={400}
                                     height={550}
@@ -233,15 +233,15 @@ export default function Section6() {
                             <div className="alt-portfolio-item alt-portfolio-item-4 mb-30 at-hover-item">
                                 <PortfolioThumb
                                     src="/assets/imgs/pages/img-37.webp"
-                                    alt="Infin Digital"
+                                    alt="Shopfront with a painted signboard and orange awnings at dusk"
                                     tag="Branding"
-                                    title="Identity & packaging system"
-                                    description="Visual identity, packaging, and brand guidelines for a wellness label."
+                                    title="Identity and packaging system"
+                                    description="Logo, packaging, signage, and a guideline set the client can hand to any printer."
                                     overlayClass="end-0 me-3"
                                     width={400}
                                     height={450}
                                 />
-                                <PortfolioItemContent title="Niras Wellness" />
+                                <PortfolioItemContent title="[Project name 04]" />
                             </div>
                         </div>
                     </div>
@@ -252,18 +252,18 @@ export default function Section6() {
                             <div className="alt-portfolio-item alt-portfolio-item-5 mb-30 at-hover-item">
                                 <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
                                     <h5 className="alt-portfolio-title mb-0">
-                                        <Link to="/portfolio-details-1" className="common-underline">
-                                            Pravega Fitness
+                                        <Link to="/work" className="common-underline">
+                                            [Project name 05]
                                         </Link>
                                     </h5>
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
                                 </div>
                                 <PortfolioThumb
                                     src="/assets/imgs/pages/img-38.webp"
-                                    alt="Infin Digital"
+                                    alt="Person waiting on a platform as a train blurs past"
                                     tag="Marketing"
-                                    title="3x ROI performance campaign"
-                                    description="A performance-marketing campaign that drove 3x ROI for a fitness startup."
+                                    title="Performance marketing campaign"
+                                    description="Google and Meta ads run against a cost per enquiry target, reviewed every week."
                                     thumbBelowContent
                                     width={400}
                                     height={550}
@@ -274,14 +274,14 @@ export default function Section6() {
                             <div className="alt-portfolio-item alt-portfolio-item-6 mb-30 at-hover-item">
                                 <PortfolioThumb
                                     src="/assets/imgs/pages/img-39.webp"
-                                    alt="Infin Digital"
+                                    alt="Close portrait of a person looking up in warm sunlight"
                                     tag="Branding"
-                                    title="B2B brand refresh & redesign"
-                                    description="A brand refresh and website redesign for a B2B services firm."
+                                    title="Brand refresh and website redesign"
+                                    description="A clearer identity and a rebuilt site for a services firm selling to businesses."
                                     width={550}
                                     height={400}
                                 />
-                                <PortfolioItemContent title="TideWorks Agency" />
+                                <PortfolioItemContent title="[Project name 06]" />
                             </div>
                         </div>
                     </div>
@@ -300,13 +300,13 @@ export default function Section6() {
                                     data-fade-from="bottom"
                                     data-ease="bounce"
                                 >
-                                    <Link className="at-btn-circle" to="/portfolio-1">
+                                    <Link className="at-btn-circle" to="/work">
                                         {ARROW_SVG}
                                     </Link>
-                                    <Link className="at-btn z-index-1" to="/portfolio-1">
+                                    <Link className="at-btn z-index-1" to="/work">
                                         View latest projects
                                     </Link>
-                                    <Link className="at-btn-circle" to="/portfolio-1">
+                                    <Link className="at-btn-circle" to="/work">
                                         {ARROW_SVG}
                                     </Link>
                                 </div>

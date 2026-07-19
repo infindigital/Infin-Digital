@@ -35,7 +35,11 @@ const ARROW_UP_LEFT_SVG = (
 export default function NotFoundPage() {
     return (
         <>
-            <PageMeta title="Infin Digital - 404" />
+            <PageMeta
+                title="Page Not Found | INFIN Digital Mangalore"
+                description="The page you were looking for is not here. Head back to the INFIN Digital home page or browse our website development, SEO and digital marketing services in Mangalore."
+                noIndex
+            />
             <section className="sec-1-404 overflow-hidden pt-150">
                 <div className="container">
                     <div className="row">
@@ -54,9 +58,9 @@ export default function NotFoundPage() {
                                 <RevealText>Oops! That page can&apos;t be found.</RevealText>
                             </h1>
                             <p className="fw-400 fz-font-3xl neutral-900 mb-40 w-75 lh-sm">
-                                It looks like nothing was found at this location. Maybe try one of the links below or a search?
+                                The link may be old or mistyped. Search below, or head back to the home page to find what you need.
                             </p>
-                            <form action="/page-search-results" method="get" className="w-75 pt-50 pb-60">
+                            <form action="/" method="get" className="w-75 pt-50 pb-60">
                                 <div className="at-search-form-input opacity-100">
                                     <input type="text" name="q" placeholder="Search..." required />
                                     <span className="at-search-focus-border"></span>
@@ -92,7 +96,7 @@ export default function NotFoundPage() {
                                     data-speed=".8"
                                     className="img-cover"
                                     src="/assets/imgs/pages/img-168.webp"
-                                    alt="Amelia Courtney"
+                                    alt=""
                                     width={480}
                                     height={600}
                                     loading="lazy"

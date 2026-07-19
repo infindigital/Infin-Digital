@@ -14,54 +14,54 @@ const ARTICLES = [
     {
         classList: "blog-card-2-wrap scroll-move-up",
         categoryFilter: "",
-        linkPost: "/blog-details",
-        linkAuthor: "/team-details",
+        linkPost: "/services",
+        linkAuthor: "/about",
         img: "/assets/imgs/pages/img-50.webp",
-        category: "3D ANIMATION",
-        title: "Your Marketplace Dreams, We Shape Them Into Seamless Digital Reality",
+        category: "SEO",
+        title: "How Long Local SEO Really Takes for a Mangalore Business",
         excerpt:
-            "How thoughtful strategy and design transform marketplace ideas into scalable, high-performing digital platforms.",
-        author: "Lucas",
-        date: "July 17, 2026",
+            "What changes in the first month, what changes by month six, and why local search rewards patience over shortcuts.",
+        author: "[Author name]",
+        date: "[Add date]",
     },
     {
         classList: "blog-card-2-wrap scroll-move-up",
         categoryFilter: "",
-        linkPost: "/blog-details",
-        linkAuthor: "/team-details",
+        linkPost: "/services",
+        linkAuthor: "/about",
         img: "/assets/imgs/pages/img-51.webp",
-        category: "UX Design",
-        title: "Designing Digital Experiences That Connect Brands and People",
+        category: "Web Design",
+        title: "What Should Actually Be On Your Business Website Homepage",
         excerpt:
-            "Exploring how human-centered design builds emotional connections between brands and their audiences.",
-        author: "Olivia",
-        date: "July 28, 2026",
+            "The handful of things a visitor needs within five seconds, and the decorative extras that quietly cost you enquiries.",
+        author: "[Author name]",
+        date: "[Add date]",
     },
     {
         classList: "blog-card-2-wrap scroll-move-up",
         categoryFilter: "",
-        linkPost: "/blog-details",
-        linkAuthor: "/team-details",
+        linkPost: "/services",
+        linkAuthor: "/about",
         img: "/assets/imgs/pages/img-52.webp",
-        category: "Product Design",
-        title: "From Concept to Launch in 2026: Building Products That Truly Matter",
+        category: "Performance Marketing",
+        title: "Google Ads or Meta Ads: Which One Should You Start With",
         excerpt:
-            "A behind-the-scenes look at turning early ideas into meaningful digital products that solve real problems.",
-        author: "Daniel",
-        date: "July 08, 2026",
+            "A practical way to choose between search intent and social discovery when your monthly ad budget is limited.",
+        author: "[Author name]",
+        date: "[Add date]",
     },
     {
         classList: "blog-card-2-wrap scroll-move-up",
         categoryFilter: "",
-        linkPost: "/blog-details",
-        linkAuthor: "/team-details",
+        linkPost: "/services",
+        linkAuthor: "/about",
         img: "/assets/imgs/pages/img-53.webp",
         category: "BRANDING",
-        title: "Why Strong Visual Identity Is the Foundation of Modern Brands",
+        title: "Why a Consistent Brand Beats a Clever Logo Every Time",
         excerpt:
-            "Explore how cohesive visual systems create trust and recognition in today's competitive market.",
-        author: "Emma",
-        date: "July 12, 2026",
+            "How colour, type, and tone applied consistently across every touchpoint build the recognition a logo alone cannot.",
+        author: "[Author name]",
+        date: "[Add date]",
     },
 ];
 
@@ -83,13 +83,13 @@ export default function Section13() {
                                         {ARROW_SVG}
                                     </i>
                                 </span>
-                                <h1 className="fz-ds-1 mb-0">Inside</h1>
+                                <h2 className="fz-ds-1 mb-0">Inside</h2>
                             </div>
                             <div>
-                                <Link className="at-btn px-5" to="/archive-2">
+                                <Link className="at-btn px-5" to="/services">
                                     <span>
-                                        <span className="text-1 text-capitalize">ALL ARTICLES</span>
-                                        <span className="text-2 text-capitalize">ALL ARTICLES</span>
+                                        <span className="text-1 text-capitalize">EXPLORE SERVICES</span>
+                                        <span className="text-2 text-capitalize">EXPLORE SERVICES</span>
                                     </span>
                                     <i>
                                         {ARROW_SVG}

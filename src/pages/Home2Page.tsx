@@ -1,4 +1,13 @@
 import PageMeta from "@/seo/PageMeta";
+import { GENERAL_FAQS } from "@/seo/faqs";
+import {
+  breadcrumbSchema,
+  faqSchema,
+  graph,
+  localBusinessSchema,
+  organizationSchema,
+  webSiteSchema,
+} from "@/seo/schema";
 import Section1 from "@/shared/sections/index-2/Section1";
 import Section2 from "@/shared/sections/index-2/Section2";
 import Section3 from "@/shared/sections/index-2/Section3";
@@ -13,10 +22,23 @@ import Section11 from "@/shared/sections/index-2/Section11";
 import Section12 from "@/shared/sections/index-2/Section12";
 import Section13 from "@/shared/sections/index-2/Section13";
 
+const SCHEMA = graph([
+  organizationSchema(),
+  localBusinessSchema(),
+  webSiteSchema(),
+  breadcrumbSchema([{ name: "Home", path: "/" }]),
+  faqSchema(GENERAL_FAQS),
+]);
+
 export default function Home2Page() {
   return (
     <>
-      <PageMeta title="Infin Digital — Web, E-Commerce, SEO & Marketing" />
+      <PageMeta
+        title="Digital Marketing Agency in Mangalore | INFIN Digital"
+        description="INFIN Digital is a digital marketing and website development agency in Mangalore. We build fast, conversion focused websites and run SEO, Google Ads and Meta Ads that bring real enquiries."
+        path="/"
+        schema={SCHEMA}
+      />
                 <Section1 />
                 <Section2 />
                 <Section3 />

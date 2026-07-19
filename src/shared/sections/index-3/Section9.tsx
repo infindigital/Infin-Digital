@@ -23,18 +23,18 @@ const ARROW_CIRCLE = (
 );
 
 const TEAM = [
-    { classList: "col-lg-3 col-md-6 pt-md-5", linkPost: "/team-details", img: "/assets/imgs/pages/img-17.webp", name: "Darrell Steward", position: "UI/UX Designer" },
-    { classList: "col-lg-3 col-md-6", linkPost: "/team-details", img: "/assets/imgs/pages/img-18.webp", name: "Amelia Courtney", position: "Project Manager" },
-    { classList: "col-lg-3 col-md-6 pt-md-5", linkPost: "/team-details", img: "/assets/imgs/pages/img-19.webp", name: "Esther Howard", position: "Software Developer" },
-    { classList: "col-lg-3 col-md-6", linkPost: "/team-details", img: "/assets/imgs/pages/img-20.webp", name: "Jacob Jones", position: "Marketing CEO" },
+    { classList: "col-lg-3 col-md-6 pt-md-5", linkPost: "/contact", img: "/assets/imgs/pages/img-17.webp", name: "[Team member name]", position: "[Role]" },
+    { classList: "col-lg-3 col-md-6", linkPost: "/contact", img: "/assets/imgs/pages/img-18.webp", name: "[Team member name]", position: "[Role]" },
+    { classList: "col-lg-3 col-md-6 pt-md-5", linkPost: "/contact", img: "/assets/imgs/pages/img-19.webp", name: "[Team member name]", position: "[Role]" },
+    { classList: "col-lg-3 col-md-6", linkPost: "/contact", img: "/assets/imgs/pages/img-20.webp", name: "[Team member name]", position: "[Role]" },
 ];
 
 const TAGS = [
-    "[ Conversion-focused ]",
-    "[ Data-driven ]",
-    "[ Built for scale ]",
-    "[ User-centric ]",
-    "[Future-proof]",
+    "[ Conversion focused ]",
+    "[ Measured, not guessed ]",
+    "[ Built to scale ]",
+    "[ Accessible by default ]",
+    "[Fast by design]",
 ];
 
 export default function Section9() {
@@ -75,14 +75,14 @@ export default function Section9() {
                             </span>
                         </div>
                         <div className="col-lg-5 h-100">
-                            <h1 className="section-title fw-500 fz-ds-1 lh-1 reveal-text">
-                                <RevealText>Behind the Visionaries</RevealText>
-                            </h1>
+                            <h2 className="section-title fw-500 fz-ds-1 lh-1 reveal-text">
+                                <RevealText>The People Behind It</RevealText>
+                            </h2>
                         </div>
                         <div className="col-lg-5 ms-auto">
                             <p className="fz-font-3xl mb-4">
-                                Creative experts designing meaningful digital experiences that help ambitious brands grow
-                                faster and lead their markets.
+                                Designers, developers, SEO specialists, and media buyers working in one shared process,
+                                so nothing is lost between the design file and the live campaign.
                             </p>
                             <div
                                 className="at-btn-group at_fade_anim"
@@ -90,13 +90,13 @@ export default function Section9() {
                                 data-fade-from="bottom"
                                 data-ease="bounce"
                             >
-                                <Link className="at-btn-circle" to="/portfolio-1">
+                                <Link className="at-btn-circle" to="/contact">
                                     {ARROW_CIRCLE}
                                 </Link>
-                                <Link className="at-btn z-index-1" to="/portfolio-1">
+                                <Link className="at-btn z-index-1" to="/contact">
                                     Join our Team
                                 </Link>
-                                <Link className="at-btn-circle" to="/portfolio-1">
+                                <Link className="at-btn-circle" to="/contact">
                                     {ARROW_CIRCLE}
                                 </Link>
                             </div>

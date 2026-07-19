@@ -31,7 +31,7 @@ export default function Header2({ onOpenSearch, onToggleSidebar, onOpenHamburger
             <div className="col-xl-2 col-6">
               <div className="at-header-logo">
                 <Link to="/" className="text-decoration-none d-inline-flex align-items-center" aria-label="Infin Digital">
-                  <img className="dark-mode-invert" src="/assets/imgs/template/logo/infin-logo.svg" alt="Infin Digital" style={{ height: 26, width: "auto" }} />
+                  <img className="dark-mode-invert" src="/assets/imgs/template/logo/infin-logo.svg" alt="INFIN Digital, digital marketing agency in Mangalore" style={{ height: 26, width: "auto" }} />
                 </Link>
               </div>
             </div>

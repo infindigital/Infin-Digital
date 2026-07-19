@@ -13,18 +13,18 @@ const ARROW_SVG = (
 );
 
 const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-10.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-11.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-12.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-13.webp", alt: "Infin Digital", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-14.webp", alt: "Infin Digital", hiddenOnMobile: true },
+    { src: "/assets/imgs/template/avatar/avatar-10.webp", alt: "Portrait of an Infin Digital designer", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-11.webp", alt: "Portrait of an Infin Digital web developer", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-12.webp", alt: "Portrait of an Infin Digital SEO specialist", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-13.webp", alt: "Portrait of an Infin Digital campaign manager", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-14.webp", alt: "Portrait of an Infin Digital brand strategist", hiddenOnMobile: true },
 ];
 
 const SLIDES = [
-    { src: "/assets/imgs/pages/img-117.webp", alt: "Infin Digital" },
-    { src: "/assets/imgs/pages/img-118.webp", alt: "Infin Digital" },
-    { src: "/assets/imgs/pages/img-119.webp", alt: "Infin Digital" },
-    { src: "/assets/imgs/pages/img-120.webp", alt: "Infin Digital" },
+    { src: "/assets/imgs/pages/img-117.webp", alt: "Website design work in progress at the Infin Digital studio in Mangalore" },
+    { src: "/assets/imgs/pages/img-118.webp", alt: "Brand and identity design laid out during a client project review" },
+    { src: "/assets/imgs/pages/img-119.webp", alt: "Search and campaign performance being reviewed on screen" },
+    { src: "/assets/imgs/pages/img-120.webp", alt: "Team collaborating on a website build at the Infin Digital office" },
 ];
 
 export default function Section1() {
@@ -45,16 +45,19 @@ export default function Section1() {
                         </span>
                     </div>
                     <div className="col-lg-7 h-100">
-                        <h2 className="section-title fw-600 lh-1 reveal-text">
+                        {/* Page H1. The `h2` class carries the original h2 sizing at every
+                            breakpoint, so promoting the tag changes semantics only, not layout. */}
+                        <h1 className="h2 section-title fw-600 lh-1 reveal-text">
                             <RevealText>
-                                A Mangalore agency where great design and smart marketing work together
+                                The standards behind the best digital marketing agency in Mangalore
                             </RevealText>
-                        </h2>
+                        </h1>
                     </div>
                     <div className="col-lg-5 ms-auto">
                         <h6 className="mb-4 fw-600">
-                            Infin Digital helps brands across India grow online through design, strategy, and
-                            measurable results — web, SEO, e-commerce, and performance marketing under one roof.
+                            Infin Digital is a Mangalore based team covering web design and development, e-commerce,
+                            SEO, digital marketing, performance marketing, and branding. One team, one plan, one
+                            accountable process from first call to reporting.
                         </h6>
                         <div className="sec-2-home-5__avatars-row d-flex gap-2">
                             {AVATARS.map((avatar, i) => (

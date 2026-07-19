@@ -19,7 +19,14 @@ const SOCIAL_ARROW = (
   </svg>
 );
 
-const FOOTER_SERVICES = ["Web Development", "E-Commerce", "SEO", "Branding"];
+const FOOTER_SERVICES = [
+  "Web Development",
+  "E-Commerce",
+  "SEO",
+  "Digital Marketing",
+  "Performance Marketing",
+  "Branding",
+];
 
 function FooterServiceTag({ label }: { label: string }) {
   return (
@@ -46,7 +53,7 @@ const Footer2 = forwardRef<HTMLElement, Record<string, never>>(function Footer2(
               <div className="d-flex flex-wrap align-items-start gap-5">
                 <div className="at-header-logo">
                   <Link to="/" className="text-decoration-none d-inline-flex align-items-center" aria-label="Infin Digital">
-                    <img src="/assets/imgs/template/logo/infin-logo-dark.svg" alt="Infin Digital" style={{ height: 28, width: "auto" }} />
+                    <img src="/assets/imgs/template/logo/infin-logo-dark.svg" alt="INFIN Digital, digital marketing agency in Mangalore" style={{ height: 28, width: "auto" }} />
                   </Link>
                 </div>
                 <div className="d-flex flex-column gap-3">
@@ -98,6 +105,12 @@ const Footer2 = forwardRef<HTMLElement, Record<string, never>>(function Footer2(
                     </li>
                     <li className="mb-15">
                       <Link to="/services">SEO</Link>
+                    </li>
+                    <li className="mb-15">
+                      <Link to="/services">Digital Marketing</Link>
+                    </li>
+                    <li className="mb-15">
+                      <Link to="/services">Performance Marketing</Link>
                     </li>
                     <li className="mb-15">
                       <Link to="/services">Branding</Link>

@@ -82,8 +82,8 @@ export default function Section12({ className = "", showNoise = true }: Section1
                                 titleSlot={
                                     <h3 className="reveal-text fw-700 mb-0">
                                         <RevealText>
-                                            Strategic pricing plans built to align digital efforts with
-                                            your business goals
+                                            Clear plans that match what your business actually needs
+                                            to grow online
                                         </RevealText>
                                     </h3>
                                 }
@@ -95,9 +95,11 @@ export default function Section12({ className = "", showNoise = true }: Section1
                                                 <div>
                                                     <h6 className="fw-600">Need custom pricing?</h6>
                                                     <p className="fz-font-lg neutral-700">
-                                                        Tell us about your goals, challenges, and timeline.
-                                                        We&apos;ll craft a tailored digital solution that fits
-                                                        your needs and budget.
+                                                        Most work is quoted after a short conversation, because
+                                                        a five page brochure site and a full store with payments
+                                                        are not the same job. Tell us your goal, your timeline,
+                                                        and the budget you have in mind, and we will send back a
+                                                        scope with fixed deliverables and no surprise line items.
                                                     </p>
                                                 </div>
                                             </div>
@@ -109,7 +111,7 @@ export default function Section12({ className = "", showNoise = true }: Section1
                         </div>
 
                         <div className="col-xxl-2 text-end d-flex flex-column gap-2">
-                            <Link to="/contact-1" className="text-decoration-underline">
+                            <Link to="/contact" className="text-decoration-underline">
                                 Contact Us
                             </Link>
                             <h6 className="fw-600">

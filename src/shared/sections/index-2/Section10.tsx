@@ -40,7 +40,7 @@ const TESTIMONIALS = [
     },
     {
         quote:
-            '"Working with Infin Digital has been an excellent experience. Within a year they enhanced our digital presence, website, and ad performance — delivering more than expected."',
+            '"Working with Infin Digital has been an excellent experience. Within a year they enhanced our digital presence, website, and ad performance, delivering more than expected."',
         img: "/assets/imgs/template/avatar/avatar-7.webp",
         name: "Nafisa Afnan",
         position: "Founder",
@@ -48,7 +48,7 @@ const TESTIMONIALS = [
     },
     {
         quote:
-            '"The quality of service and communication with the team was excellent. Everything was done on time and with quality — their advice helped my business scale."',
+            '"The quality of service and communication with the team was excellent. Everything was done on time and with quality, and their advice helped my business scale."',
         img: "/assets/imgs/template/avatar/avatar-8.webp",
         name: "Hussain Yusuf",
         position: "CEO",
@@ -67,32 +67,32 @@ export default function Section10() {
                                 <div className="section-title-pin h-100">
                                     <span className="at-btn common-black bg-transparent mb-10 rounded-0 p-0">
                                         <span className="text-uppercase">
-                                            <span className="text-1">Why choose us</span>
-                                            <span className="text-2">Why choose us</span>
+                                            <span className="text-1">Client stories</span>
+                                            <span className="text-2">Client stories</span>
                                         </span>
                                         <i>
                                             {ARROW_SVG}
                                             {ARROW_SVG}
                                         </i>
                                     </span>
-                                    <h1 className="section-title fw-500 fz-ds-1 lh-1 mb-30 reveal-text">
+                                    <h2 className="section-title fw-500 fz-ds-1 lh-1 mb-30 reveal-text">
                                         <RevealText>
                                             What our <br />clients are <br />saying
                                         </RevealText>
-                                    </h1>
+                                    </h2>
                                     <div
                                         className="at-btn-group at_fade_anim"
                                         data-delay=".4"
                                         data-fade-from="bottom"
                                         data-ease="bounce"
                                     >
-                                        <Link className="at-btn-circle" to="/portfolio-1">
+                                        <Link className="at-btn-circle" to="/work">
                                             {ARROW_16_SVG}
                                         </Link>
-                                        <Link className="at-btn z-index-1" to="/portfolio-1">
+                                        <Link className="at-btn z-index-1" to="/work">
                                             View latest projects
                                         </Link>
-                                        <Link className="at-btn-circle" to="/portfolio-1">
+                                        <Link className="at-btn-circle" to="/work">
                                             {ARROW_16_SVG}
                                         </Link>
                                     </div>
@@ -120,7 +120,7 @@ export default function Section10() {
                                                                     <div className="testimonial-left-img">
                                                                         <img
                                                                             src={item.img}
-                                                                            alt="Infin Digital"
+                                                                            alt="Portrait of a client who reviewed Infin Digital"
                                                                             width={56}
                                                                             height={56} loading="lazy" />
                                                                     </div>

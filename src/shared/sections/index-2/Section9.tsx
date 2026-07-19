@@ -1,19 +1,19 @@
 import OdometerCounter from "@/shared/elements/OdometerCounter";
 const STATS = [
     {
-        prefix: "",
-        count: 750,
-        suffix: "+",
+        prefix: "[",
+        count: 0,
+        suffix: "0]+",
         label: (
             <>
-                Projects delivered <br /> across the world
+                Projects delivered <br /> for growing brands
             </>
         ),
     },
     {
-        prefix: "",
-        count: 10,
-        suffix: "+",
+        prefix: "[",
+        count: 0,
+        suffix: "0]+",
         label: (
             <>
                 Years of experience <br /> in digital growth
@@ -21,12 +21,12 @@ const STATS = [
         ),
     },
     {
-        prefix: "",
-        count: 98,
-        suffix: "%",
+        prefix: "[",
+        count: 0,
+        suffix: "0]%",
         label: (
             <>
-                Client satisfaction <br /> & retention rate
+                Client retention <br /> across retainers
             </>
         ),
     },
@@ -42,7 +42,7 @@ export default function Section9() {
                             key={index}
                             className="col-lg-4 col-md-6 col-6 text-center"
                         >
-                            <h1 className="fz-ds-1 fw-500 mb-0 text-nowrap">
+                            <h2 className="fz-ds-1 fw-500 mb-0 text-nowrap">
                                 {stat.prefix}
                                 <span
                                     className="odometer"
@@ -51,7 +51,7 @@ export default function Section9() {
                                     <OdometerCounter count={stat.count} />
                                 </span>
                                 {stat.suffix}
-                            </h1>
+                            </h2>
                             <h6 className="fw-500">{stat.label}</h6>
                         </div>
                     ))}

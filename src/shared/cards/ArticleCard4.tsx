@@ -54,7 +54,7 @@ export default function ArticleCard4({ card }: CardProps) {
                     <Link to={linkAuthor} className="blog-card__author">
                         {card.author}
                     </Link>
-                    <span className="blog-card__meta-text"> – {card.date}</span>
+                    <span className="blog-card__meta-text"> on {card.date}</span>
                 </p>
             </div>
         </div>

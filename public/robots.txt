@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+
+# Template demo routes shipped with the theme. They are reachable but are not
+# part of the INFIN Digital site and must not be indexed as duplicate content.
+Disallow: /index-1
+Disallow: /index-3
+Disallow: /index-4
+Disallow: /index-5
+Disallow: /index-6
+Disallow: /index-7
+Disallow: /index-8
+Disallow: /index-9
+Disallow: /index-1
+Disallow: /index-2
+Disallow: /about-1
+Disallow: /about-2
+Disallow: /about-3
+Disallow: /archive-
+Disallow: /blog-details
+Disallow: /coming-soon
+Disallow: /contact-1
+Disallow: /contact-2
+Disallow: /faqs
+Disallow: /portfolio-
+Disallow: /pricing
+Disallow: /product-
+Disallow: /services-1
+Disallow: /services-2
+Disallow: /services-3
+Disallow: /services-details
+Disallow: /team
+
+Sitemap: https://www.infindigital.in/sitemap.xml

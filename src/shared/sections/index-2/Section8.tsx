@@ -1,11 +1,11 @@
 import SwiperDynamic from "@/shared/components/SwiperDynamic";
 
 const SLIDES = [
-    { src: "/assets/imgs/pages/img-48.webp", alt: "Infin Digital" },
-    { src: "/assets/imgs/pages/img-45.webp", alt: "Infin Digital" },
-    { src: "/assets/imgs/pages/img-46.webp", alt: "Infin Digital" },
-    { src: "/assets/imgs/pages/img-47.webp", alt: "Infin Digital" },
-    { src: "/assets/imgs/pages/img-49.webp", alt: "Infin Digital" },
+    { src: "/assets/imgs/pages/img-48.webp", alt: "Model in a red patterned coat standing in a smoke lit alley" },
+    { src: "/assets/imgs/pages/img-45.webp", alt: "Model in a striped suit and hat photographed against a blue sky" },
+    { src: "/assets/imgs/pages/img-46.webp", alt: "Portrait of a model in crystal sunglasses and a beaded jacket" },
+    { src: "/assets/imgs/pages/img-47.webp", alt: "Portrait of a woman wearing headphones on a blue background" },
+    { src: "/assets/imgs/pages/img-49.webp", alt: "Motion blurred portrait of a commuter beside a moving train" },
 ];
 
 export default function Section8() {

@@ -15,29 +15,29 @@ const FAQ_ITEMS = [
     {
         id: "collapseOne",
         num: "1",
-        question: "What services does Infin Digital offer?",
-        answer: "We offer web design & development, e-commerce, SEO, digital marketing, performance marketing, and branding.",
+        question: "What does a typical website project look like?",
+        answer: "It starts with a discovery call about your customers, your competitors and the one action you want visitors to take. From there we agree a sitemap, wireframe the key pages, design the templates, then build, load real content, set up technical SEO and test on real devices before launch.",
         open: true,
     },
     {
         id: "collapseTwo",
         num: "2",
-        question: "How long does a typical website project take?",
-        answer: "Most projects take 3–6 weeks from kickoff to launch, depending on scope.",
+        question: "How long does a website project take?",
+        answer: "Scope decides it. A focused business website moves faster than a multi category e-commerce build with payments and logistics. We agree a schedule at kickoff, show you progress at the end of each stage, and tell you early if anything is likely to move the launch date.",
         open: false,
     },
     {
         id: "collapseThree",
         num: "3",
-        question: "Do you work with businesses outside Mangalore?",
-        answer: "Yes, we work with clients across India and welcome remote collaborations.",
+        question: "Which industries and areas do you work with?",
+        answer: "Retail and e-commerce, restaurants and cafes, clinics and healthcare, real estate, education, manufacturing and professional services, mostly across Mangalore and the wider Dakshina Kannada belt. The method stays the same in every sector. The research, the messaging and the proof a buyer needs are what change.",
         open: false,
     },
     {
         id: "collapseFour",
         num: "4",
-        question: "Will I be able to manage my website after launch?",
-        answer: "Absolutely — we provide handover training so you're fully in control.",
+        question: "Can I manage the website myself after launch?",
+        answer: "Yes. We build on systems you can edit without touching code, then run a handover session and leave you with short notes on updating content, swapping images and adding pages. If you would rather not maintain it yourself, ask us about ongoing support and SEO.",
         open: false,
     },
 ];
@@ -64,7 +64,7 @@ export default function Section7({ classList = "" }: { classList?: string }) {
                             </RevealText>
                         </h3>
                         <h6 className="fz-font-lg fw-500">
-                            Your questions about our process, services, <br className="d-none d-xxl-block" />and workflow—answered.
+                            What clients usually ask before we start a <br className="d-none d-xxl-block" />project, answered plainly.
                         </h6>
                     </div>
                     <div className="col-lg-7 ms-lg-auto">

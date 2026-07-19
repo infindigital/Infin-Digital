@@ -6,17 +6,17 @@ import type { Swiper as SwiperInstance } from "swiper";
 import { Autoplay, FreeMode, Thumbs } from "swiper/modules";
 
 const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-15.webp", alt: "Infin Digital", thumbClass: "thumb-slide-1" },
-    { src: "/assets/imgs/template/avatar/avatar-16.webp", alt: "Infin Digital", thumbClass: "thumb-slide-2" },
-    { src: "/assets/imgs/template/avatar/avatar-17.webp", alt: "Infin Digital", thumbClass: "thumb-slide-3" },
-    { src: "/assets/imgs/template/avatar/avatar-18.webp", alt: "Infin Digital", thumbClass: "thumb-slide-4" },
-    { src: "/assets/imgs/template/avatar/avatar-19.webp", alt: "Infin Digital", thumbClass: "thumb-slide-5" },
+    { src: "/assets/imgs/template/avatar/avatar-15.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-1" },
+    { src: "/assets/imgs/template/avatar/avatar-16.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-2" },
+    { src: "/assets/imgs/template/avatar/avatar-17.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-3" },
+    { src: "/assets/imgs/template/avatar/avatar-18.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-4" },
+    { src: "/assets/imgs/template/avatar/avatar-19.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-5" },
 ];
 
 const QUOTE_TEXT = (
     <>
-        Infin Digital helped us turn strategy into measurable digital growth &mdash;
-        a team that truly delivers.
+        &quot;[Add a real client quote here]&quot; [Client name],
+        [Role, Company]
     </>
 );
 
@@ -118,7 +118,7 @@ export default function Section5() {
                 return () => { };
             });
 
-            // 576px – 1399px
+            // 576px to 1399px
             mmThumbs.add("(min-width: 576px) and (max-width: 1399px)", () => {
                 const tl = gsap.timeline({
                     scrollTrigger: {
@@ -220,7 +220,7 @@ export default function Section5() {
                             >
                                 <Link
                                     className="at-btn-circle"
-                                    to="/contact-1"
+                                    to="/contact"
                                     onClick={(e) => {
                                         e.preventDefault();
                                         mainSwiperRef.current?.slidePrev();
@@ -229,12 +229,12 @@ export default function Section5() {
                                 >
                                     {ARROW_SVG}
                                 </Link>
-                                <Link className="at-btn z-index-1" to="/contact-1">
+                                <Link className="at-btn z-index-1" to="/contact">
                                     Get in touch
                                 </Link>
                                 <Link
                                     className="at-btn-circle"
-                                    to="/contact-1"
+                                    to="/contact"
                                     onClick={(e) => {
                                         e.preventDefault();
                                         mainSwiperRef.current?.slideNext();

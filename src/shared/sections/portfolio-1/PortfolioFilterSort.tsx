@@ -16,10 +16,12 @@ export type LoadMoreProps = {
 const INITIAL_PAGE_SIZE = 4;
 const LOAD_MORE_SIZE = 4;
 
+// Labels describe the work INFIN Digital actually does. The underlying values are
+// kept as-is because portfolio-2 through portfolio-6 share this component.
 const FILTER_OPTIONS: { value: FilterValue; label: string }[] = [
     { value: "all", label: "All Work" },
-    { value: "design", label: "UI / UX Design" },
-    { value: "photography", label: "Photography" },
+    { value: "design", label: "Web Design" },
+    { value: "photography", label: "E-Commerce" },
     { value: "marketing", label: "Digital Marketing" },
 ];
 

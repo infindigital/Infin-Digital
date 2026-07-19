@@ -13,12 +13,12 @@ const ARROW_SVG = (
 );
 
 const POSTS = [
-    { category: "Optimize", title: "Designing Digital Experiences That Connect Brands and People", author: "Daniel", date: "July 8, 2026", img: "/assets/imgs/pages/img-71.webp" },
-    { category: "Trending", title: "From Concept to Launch: Building Products That Truly Matter", author: "Olivia", date: "July 3, 2026", img: "/assets/imgs/pages/img-72.webp" },
-    { category: "marketing", title: "Why Strong Visual Identity Is the Foundation of Modern Brands", author: "Lucas", date: "July 17, 2026", img: "/assets/imgs/pages/img-73.webp" },
-    { category: "Optimize", title: "Designing Digital Experiences That Connect Brands and People", author: "Olivia", date: "July 28, 2026", img: "/assets/imgs/pages/img-51.webp" },
-    { category: "Trending", title: "From Concept to Launch: Building Products That Truly Matter", author: "Daniel", date: "July 08, 2026", img: "/assets/imgs/pages/img-52.webp" },
-    { category: "marketing", title: "Why Strong Visual Identity Is the Foundation of Modern Brands", author: "Emma", date: "July 17, 2026", img: "/assets/imgs/pages/img-53.webp" },
+    { category: "Local SEO", title: "How Local Search Puts Mangalore Businesses on the Map", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-71.webp" },
+    { category: "Web", title: "What Actually Makes a Business Website Load Fast", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-72.webp" },
+    { category: "branding", title: "Why a Clear Visual Identity Makes Every Campaign Cheaper", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-73.webp" },
+    { category: "Technical SEO", title: "The Checks Every New Website Should Pass Before Launch", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-51.webp" },
+    { category: "Conversion", title: "Turning Website Visitors Into Enquiries With Better Structure", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-52.webp" },
+    { category: "paid media", title: "Planning an Ad Budget You Can Measure From Day One", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-53.webp" },
 ];
 
 export default function Section11() {
@@ -38,12 +38,12 @@ export default function Section11() {
                                 </i>
                             </span>
                             <h3 className="reveal-text fz-ds-1 mb-30 fw-500 lh-1">
-                                <RevealText>Explore our Latest journal</RevealText>
+                                <RevealText>Topics we get asked about</RevealText>
                             </h3>
-                            <Link className="at-btn" to="/archive-2">
+                            <Link className="at-btn" to="/services">
                                 <span>
-                                    <span className="text-1">ALL ARTICLES</span>
-                                    <span className="text-2">ALL ARTICLES</span>
+                                    <span className="text-1">ALL SERVICES</span>
+                                    <span className="text-2">ALL SERVICES</span>
                                 </span>
                                 <i>
                                     {ARROW_SVG}
@@ -62,23 +62,23 @@ export default function Section11() {
                                                 <div className="blog-card-2__left flex-grow-1">
                                                     <span className="blog-card-2__category">{post.category}</span>
                                                     <h6 className="blog-card-2__title">
-                                                        <Link to="/blog-details" className="blog-card-2__title-link">
+                                                        <Link to="/services" className="blog-card-2__title-link">
                                                             {post.title}
                                                         </Link>
                                                     </h6>
                                                     <p className="blog-card-2__meta">
                                                         <span className="blog-card-2__meta-text">By </span>
-                                                        <Link to="/team-details" className="blog-card-2__author">
+                                                        <Link to="/about" className="blog-card-2__author">
                                                             {post.author}
                                                         </Link>
-                                                        <span className="blog-card-2__meta-text"> – {post.date}</span>
+                                                        <span className="blog-card-2__meta-text"> on {post.date}</span>
                                                     </p>
                                                 </div>
                                                 <div className="blog-card-2__thumb hover-effect-1">
-                                                    <Link to="/blog-details" className="blog-card-2__img-link">
+                                                    <Link to="/services" className="blog-card-2__img-link">
                                                         <img
                                                             src={post.img}
-                                                            alt="Infin Digital"
+                                                            alt={`Illustration for the topic: ${post.title}`}
                                                             width={400}
                                                             height={280}
                                                             className="blog-card-2__img" loading="lazy" />

@@ -12,16 +12,19 @@ export type PortfolioCard1Props = {
   description: string;
   tags: PortfolioCard1Tag[];
   classList?: string;
+  /** Describes the image itself. Falls back to the description, since the title
+      may be a placeholder until real project names are supplied. */
+  imgAlt?: string;
 };
 
-export default function PortfolioCard1({ link, img, title, description, tags, classList = "" }: PortfolioCard1Props) {
+export default function PortfolioCard1({ link, img, title, description, tags, classList = "", imgAlt }: PortfolioCard1Props) {
   return (
     <div className={`${classList} mg-portfolio-item anim-zoomin-wrap`}>
       <div className="mg-portfolio-thumb anim-zoomin not-hide-cursor">
         <Link to={link} className="mg-portfolio-thumb d-block">
           <img
             src={img}
-            alt={title}
+            alt={imgAlt ?? description}
             data-speed=".8"
             data-delay=".4"
             data-fade-from="bottom"

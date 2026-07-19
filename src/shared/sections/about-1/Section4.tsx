@@ -69,8 +69,8 @@ const SOCIAL_ITEMS = [
     },
     {
         label: "LinkedIn",
-        href: "#",
-        ariaLabel: "LinkedIn",
+        href: "https://in.linkedin.com/company/infin-digital",
+        ariaLabel: "Infin Digital on LinkedIn",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
                 <path
@@ -82,8 +82,8 @@ const SOCIAL_ITEMS = [
     },
     {
         label: "Instagram",
-        href: "#",
-        ariaLabel: "Instagram",
+        href: "https://www.instagram.com/infindigital.in/",
+        ariaLabel: "Infin Digital on Instagram",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden>
                 <path
@@ -124,8 +124,8 @@ const OFFICES = [
     {
         icon: OFFICE_ICON_2,
         title: "Enquiries",
-        address: "For new projects, partnerships, and general questions —",
-        city: "we typically reply within 1–2 business days.",
+        address: "For new projects, partnerships, and general questions,",
+        city: "we usually reply within one or two business days.",
         phone: "+91 80733 02248",
         phoneHref: "tel:+918073302248",
         email: "contact@infindigital.in",
@@ -149,15 +149,15 @@ export default function Section4({ classList = "" }: { classList?: string }) {
                                 {ARROW_SVG}
                             </i>
                         </span>
-                        <h1 className="alt-section-title fz-ds-1 lh-1 fw-500 mb-30 reveal-text mb-0">
+                        <h2 className="alt-section-title fz-ds-1 lh-1 fw-500 mb-30 reveal-text mb-0">
                             <RevealText>Get in touch</RevealText>
-                        </h1>
+                        </h2>
                     </div>
                     <div className="col-xxl-4 col-lg-6 col-md-8 ms-lg-auto text-lg-end">
                         <div className="scroll-rotate d-lg-inline-block d-none">{SCROLL_ROTATE_SVG}</div>
                         <p className="fz-font-lg pt-lg-4 mb-0">
-                            Start the conversation by sharing your vision. <br />
-                            Our team will respond within 1–2 business days.
+                            Tell us the business, the market, and the result. <br />
+                            You get a clear scope and a plan, not a sales pitch.
                         </p>
                     </div>
                 </div>

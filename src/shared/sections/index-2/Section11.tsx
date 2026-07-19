@@ -10,10 +10,10 @@ interface MarqueeRow {
 }
 
 const MARQUEE_ROWS: MarqueeRow[] = [
-    { dir: "left", items: ["SHOWREEL 2026", "•", "WATCH NOW", "•", "PLAY", "•", "CREATIVE STUDIO", "•"] },
-    { dir: "right", items: ["SCROLL TO REVEAL", "•", "INFIN DIGITAL", "•", "BEHIND THE SCENES", "•", "2026", "•"] },
+    { dir: "left", items: ["SHOWREEL", "•", "WATCH NOW", "•", "PLAY", "•", "DIGITAL STUDIO", "•"] },
+    { dir: "right", items: ["SCROLL TO REVEAL", "•", "INFIN DIGITAL", "•", "BEHIND THE WORK", "•", "MANGALORE", "•"] },
     { dir: "left", items: ["PLAY", "•", "SHOWREEL", "•", "INFIN DIGITAL", "•", "WATCH", "•"] },
-    { dir: "right", items: ["CREATIVE AGENCY", "•", "SHOWREEL 2026", "•", "PLAY", "•", "WATCH NOW", "•"] },
+    { dir: "right", items: ["DIGITAL AGENCY", "•", "SHOWREEL", "•", "PLAY", "•", "WATCH NOW", "•"] },
 ];
 
 function MarqueeRowEl({ row }: { row: MarqueeRow }) {
@@ -44,10 +44,10 @@ export default function Section11() {
                                 ))}
                             </div>
                             <a href="#">
-                                <img className="postbox-scroll-zoom-img img-cover" src="/assets/imgs/pages/bg-img-2.webp" alt="Infin Digital" loading="lazy" />
+                                <img className="postbox-scroll-zoom-img img-cover" src="/assets/imgs/pages/bg-img-2.webp" alt="Large outdoor screen glowing with fire at dusk" loading="lazy" />
                             </a>
                             <div className="postbox-play-btn postbox-scroll-zoom-play z-index-1 d-flex align-items-center justify-content-center gap-3">
-                                <h1 className="text-white d-none d-md-flex">Play</h1>
+                                <h2 className="h1 text-white d-none d-md-flex">Play</h2>
                                 <a
                                     className="popup-video"
                                     href="https://www.youtube.com/watch?v=VCPGMjCW0is"
@@ -56,7 +56,7 @@ export default function Section11() {
                                 >
                                     <span className="text-white">{PLAY_SVG}</span>
                                 </a>
-                                <h1 className="text-white d-none d-md-flex">showreel</h1>
+                                <h2 className="h1 text-white d-none d-md-flex">showreel</h2>
                             </div>
                         </div>
                     </div>

@@ -8,21 +8,21 @@ const ARROW_SVG = (
 );
 
 const SERVICE_IMAGES = [
-    "/assets/imgs/pages/img-5.webp",
-    "/assets/imgs/pages/img-6.webp",
-    "/assets/imgs/pages/img-7.webp",
-    "/assets/imgs/pages/img-8.webp",
-    "/assets/imgs/pages/img-9.webp",
-    "/assets/imgs/pages/img-10.webp",
+    { src: "/assets/imgs/pages/img-5.webp", alt: "Matte black control unit with dials on a marble ledge" },
+    { src: "/assets/imgs/pages/img-6.webp", alt: "Product photography styling used in an online store catalogue" },
+    { src: "/assets/imgs/pages/img-7.webp", alt: "Clean editorial layout used as a search visibility reference" },
+    { src: "/assets/imgs/pages/img-8.webp", alt: "Campaign visual reference for a social media content plan" },
+    { src: "/assets/imgs/pages/img-9.webp", alt: "Studio still used as a paid advertising creative reference" },
+    { src: "/assets/imgs/pages/img-10.webp", alt: "Brand identity mock up showing colour and material choices" },
 ];
 
 const SERVICES = [
-    { num: "01", title: "Web Design & Development", text: "Fast, responsive websites and web apps crafted to perform and convert.", thumb: "/assets/imgs/pages/img-5-sm.webp" },
-    { num: "02", title: "E-Commerce Development", text: "Scalable online stores built for growth, from setup to seamless checkout.", thumb: "/assets/imgs/pages/img-6-sm.webp" },
-    { num: "03", title: "SEO", text: "Organic search strategies that improve rankings, drive traffic, and build authority.", thumb: "/assets/imgs/pages/img-7-sm.webp" },
-    { num: "04", title: "Digital Marketing", text: "Full-funnel campaigns that connect your brand to the right audience.", thumb: "/assets/imgs/pages/img-8-sm.webp" },
-    { num: "05", title: "Performance Marketing", text: "Data-driven paid media across Meta, Google, and beyond, optimised for ROI.", thumb: "/assets/imgs/pages/img-9-sm.webp" },
-    { num: "06", title: "Branding", text: "Visual identity and brand systems that make a lasting first impression.", thumb: "/assets/imgs/pages/img-10-sm.webp" },
+    { num: "01", title: "Web Design & Development", text: "Custom, responsive websites built on clean code, fast page loads and clear conversion paths.", thumb: "/assets/imgs/pages/img-5-sm.webp", alt: "Web design and development work in progress on screen" },
+    { num: "02", title: "E-Commerce Development", text: "Online stores with tidy catalogues, trusted payment options and a checkout built to convert.", thumb: "/assets/imgs/pages/img-6-sm.webp", alt: "Product shot of the kind used across an ecommerce store" },
+    { num: "03", title: "SEO", text: "Technical fixes, keyword mapping and local SEO that earn durable organic search visibility.", thumb: "/assets/imgs/pages/img-7-sm.webp", alt: "Reference image for organic search and content planning" },
+    { num: "04", title: "Digital Marketing", text: "Social media, content and email working together to build demand and steady enquiries.", thumb: "/assets/imgs/pages/img-8-sm.webp", alt: "Visual reference for a social media marketing campaign" },
+    { num: "05", title: "Performance Marketing", text: "Google Ads and Meta Ads campaigns measured on tracked leads, not vanity metrics.", thumb: "/assets/imgs/pages/img-9-sm.webp", alt: "Creative reference for a paid advertising campaign" },
+    { num: "06", title: "Branding", text: "Logo design, colour, type and brand guidelines that keep every touchpoint consistent.", thumb: "/assets/imgs/pages/img-10-sm.webp", alt: "Brand identity materials arranged for a logo design project" },
 ];
 
 export default function Section4() {
@@ -42,45 +42,45 @@ export default function Section4() {
                                     {ARROW_SVG}
                                 </i>
                             </span>
-                            <span className="fs-font-md fw-500 text-decoration-underline">Since 2014</span>
+                            <span className="fs-font-md fw-500 text-decoration-underline">Based in Mangalore</span>
                         </div>
                     </div>
                     <div className="col-xxl-4 col-lg-4 col-xl-4 mb-40">
                         <div className="at-service-content mr-60 mt-20">
                             <div className="at-service-sales-wrap at-panel-pin fix p-relative">
                                 <div className="at-service-img-wrapper image-container">
-                                    {SERVICE_IMAGES.map((src, i) => (
+                                    {SERVICE_IMAGES.map((img, i) => (
                                         <div key={i} className="hover-image">
                                             <img
                                                 className="thumb"
-                                                src={src}
-                                                alt="Service Image"
+                                                src={img.src}
+                                                alt={img.alt}
                                                 width={800}
                                                 height={600} loading="lazy" />
                                         </div>
                                     ))}
                                 </div>
                                 <h5 className="fw-600 mb-0 mt-10">
-                                    <OdometerCounter count={38} suffix="+" />
+                                    <OdometerCounter count={6} />
                                 </h5>
-                                <span className="fz-font-lg neutral-500 fw-500">Completed projects</span>
+                                <span className="fz-font-lg neutral-500 fw-500">Core service lines</span>
                             </div>
                         </div>
                     </div>
                     <div className="col-xxl-7 ms-auto col-lg-8 col-xl-8 mb-40">
                         <div className="at-service-list-wrap">
                             {SERVICES.map((s) => (
-                                <Link key={s.num} to="/services-details">
+                                <Link key={s.num} to="/contact">
                                     <div className="at-service-item service-item">
                                         <div className="count">
                                             <span className="number">[{s.num}]</span>
                                         </div>
                                         <div className="content">
-                                            <h1 className="title">{s.title}</h1>
+                                            <h3 className="title">{s.title}</h3>
                                             <p className="text">{s.text}</p>
                                         </div>
                                         <div className="thumb anim-zoomin">
-                                            <img src={s.thumb} alt="Infin Digital" width={200} height={200} loading="lazy" />
+                                            <img src={s.thumb} alt={s.alt} width={200} height={200} loading="lazy" />
                                         </div>
                                     </div>
                                 </Link>

@@ -39,7 +39,7 @@ export default function ArticleCard1({
           <Link to={linkAuthor} className="blog-card__author">
             {author}
           </Link>
-          <span className="blog-card__meta-text"> – {date}</span>
+          <span className="blog-card__meta-text"> on {date}</span>
         </p>
       </div>
     </div>

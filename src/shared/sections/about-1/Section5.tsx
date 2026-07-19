@@ -54,7 +54,7 @@ export default function Section5() {
                                         >
                                             <img
                                                 src={logoSrc(logo)}
-                                                alt="Infin Digital"
+                                                alt={`Brand logo placeholder ${logo}`}
                                                 width={120}
                                                 height={48}
                                                 className="dark-mode-invert" loading="lazy" />

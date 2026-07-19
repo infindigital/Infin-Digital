@@ -29,28 +29,28 @@ const PLUS_ICON = (
 
 const JOURNEY_ITEMS = [
     {
-        date: "2014 — Founded in Mangalore",
+        date: "[Year]: Started in Mangalore",
         title: "Where Design Met Marketing",
         company: null,
-        desc: "Infin Digital began with one belief: that great design and smart marketing should work together. We set out to build websites that convert and brands that resonate.",
+        desc: "Infin Digital started with a simple observation: beautiful websites that nobody finds, and campaigns that send traffic to pages that cannot sell. We built one team to close that gap, so the design brief and the traffic plan are written together.",
     },
     {
-        date: "2017 — Expanding Capabilities",
-        title: "From Design Studio to Full-Service Agency",
+        date: "[Year]: A Repeatable Process",
+        title: "From Single Projects to a System",
         company: null,
-        desc: "As demand grew, so did our expertise. We expanded into web development, SEO, and digital strategy — building a team that delivers end-to-end solutions under one roof.",
+        desc: "Every engagement now follows the same spine: discovery, research, information architecture, design, build, launch checks, then optimisation. Documenting each stage means work does not depend on one person remembering it, and clients can see exactly where a project stands.",
     },
     {
-        date: "2020 — Trusted by Growing Brands",
-        title: "Building Long-Term Partnerships",
+        date: "[Year]: Search and Performance",
+        title: "Measurement Becomes the Default",
         company: null,
-        desc: "We began working with scaling businesses across India, focusing on long-term collaboration over one-off projects. Our process matured and our impact became measurable.",
+        desc: "Technical SEO, local SEO, and paid media joined the core offer. Analytics, conversion tracking, and Google Business Profile are configured before launch, not after, so the first month of data is usable rather than guesswork.",
     },
     {
-        date: "2024 — Designing for the Future",
-        title: "Innovation, Scale, and What's Next",
+        date: "[Year]: E-commerce and Scale",
+        title: "Building for Growth, Not Launch Day",
         company: null,
-        desc: "Today we keep evolving — adding e-commerce and performance marketing, smarter workflows, and future-ready design systems. Every project is still driven by clarity, craft, and results.",
+        desc: "Storefronts, product feeds, design systems, and content that keeps compounding. The work is judged on enquiries, orders, and qualified leads, and we keep testing pages, offers, and creative long after the site goes live.",
     },
 ];
 
@@ -74,8 +74,8 @@ export default function Section2() {
                             <RevealText>Our Journey</RevealText>
                         </h3>
                         <p className="text-white fz-font-lg">
-                            A timeline of ideas, growth, and meaningful impact. From a <br /> simple idea to shaping
-                            digital experiences that matter.
+                            How the agency took shape, and the standards we kept <br /> adding along the way as the
+                            work got more demanding.
                         </p>
                     </div>
                     <div className="col-lg-3 col-md-5 ms-auto d-flex justify-content-md-end">
@@ -85,13 +85,13 @@ export default function Section2() {
                             data-fade-from="bottom"
                             data-ease="bounce"
                         >
-                            <Link className="at-btn-circle bg-neutral-700" to="/pricing">
+                            <Link className="at-btn-circle bg-neutral-700" to="/contact">
                                 {ARROW_CIRCLE_SVG}
                             </Link>
-                            <Link className="at-btn z-index-1 bg-neutral-700" to="/pricing">
+                            <Link className="at-btn z-index-1 bg-neutral-700" to="/contact">
                                 Start a Project
                             </Link>
-                            <Link className="at-btn-circle bg-neutral-700" to="/pricing">
+                            <Link className="at-btn-circle bg-neutral-700" to="/contact">
                                 {ARROW_CIRCLE_SVG}
                             </Link>
                         </div>
@@ -101,32 +101,32 @@ export default function Section2() {
                 <div className="row g-4">
                     <div className="col-lg-4">
                         <div className="alt-portfolio-item mb-30 at-hover-item">
-                            <Link to="#" className="alt-portfolio-thumb mb-15 p-relative fix d-block">
+                            <Link to="/work" className="alt-portfolio-thumb mb-15 p-relative fix d-block">
                                 <img
                                     className="w-100 scale-img-from-to"
                                     data-value-1="1.5"
                                     data-value-2="1"
                                     src="/assets/imgs/pages/img-121.webp"
-                                    alt="Infin Digital"
+                                    alt="Infin Digital team at work on a client website in Mangalore"
                                     width={550}
                                     height={660} loading="lazy" />
                                 <div className="alt-portfolio-btn">
                                     <div className="content">
                                         <span className="bg-transparent text-uppercase border px-3 py-1 rounded-pill text-white fz-font-label">
-                                            Since 2014
+                                            Since [Year]
                                         </span>
                                         <h2 className="fw-400 fz-font-3xl text-white mb-0 mt-20">
                                             Design and digital marketing under one roof
                                         </h2>
                                         <p className="text-white fz-font-md mb-0 mt-10 text-truncate-2 des">
-                                            A Mangalore team partnering with businesses across India to build, grow, and perform.
+                                            Based in Kankanady, working with businesses across Dakshina Kannada and beyond.
                                         </p>
                                     </div>
                                 </div>
                             </Link>
                             <div className="alt-portfolio-content d-flex justify-content-between align-items-center bg-neutral-700">
                                 <h5 className="alt-portfolio-title mb-0">
-                                    <Link to="#" className="common-underline text-white">
+                                    <Link to="/work" className="common-underline text-white">
                                         Infin Digital<sup>®</sup>
                                     </Link>
                                 </h5>
@@ -148,7 +148,7 @@ export default function Section2() {
                                         </h6>
                                         <p className="journey-list__desc">{item.desc}</p>
                                     </div>
-                                    <Link to="#" className="journey-list__link" aria-label="View details">
+                                    <Link to="/work" className="journey-list__link" aria-label="View details">
                                         {ARROW_SVG}
                                     </Link>
                                 </li>
