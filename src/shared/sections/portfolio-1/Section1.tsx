@@ -11,9 +11,9 @@ type PortfolioItem = {
     tags: PortfolioCard1Tag[];
 };
 
-// NOTE: titles are deliberate bracketed placeholders. Do not replace them with
-// invented client or project names. Swap in a real name only once that project
-// is live and the client has approved being shown here.
+// NOTE: these titles describe the TYPE of work rather than naming a client, because
+// no client has approved being named here yet. They are safe to publish as they are.
+// Swap in a real project name only once that project is live and the client agrees.
 // NOTE: category values below map to the shared PortfolioFilterSort filter tabs.
 // FilterValue only allows "design" | "photography" | "marketing" (+ "all"),
 // so real categories are mapped as: Web Design -> "design", E-Commerce -> "photography",
@@ -24,7 +24,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "design",
         link: "/work",
         img: "/assets/imgs/pages/img-11.webp",
-        title: "[Restaurant site]",
+        title: "Restaurant Website",
         description: "Restaurant website & online ordering",
         tags: [
             { label: "web design", href: "#" },
@@ -38,7 +38,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "photography",
         link: "/work",
         img: "/assets/imgs/pages/img-12.webp",
-        title: "[Clothing store]",
+        title: "Fashion E-Commerce",
         description: "Clothing store with size guides",
         tags: [
             { label: "ecommerce", href: "#" },
@@ -52,7 +52,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "design",
         link: "/work",
         img: "/assets/imgs/pages/img-13.webp",
-        title: "[Property site]",
+        title: "Real Estate Portal",
         description: "Property listings & enquiry capture",
         tags: [
             { label: "web design", href: "#" },
@@ -66,7 +66,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "marketing",
         link: "/work",
         img: "/assets/imgs/pages/img-14.webp",
-        title: "[Wellness brand]",
+        title: "Brand Identity",
         description: "Identity, packaging & brand guidelines",
         tags: [
             { label: "brand identity", href: "#" },
@@ -80,7 +80,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "marketing",
         link: "/work",
         img: "/assets/imgs/pages/img-170.webp",
-        title: "[Fitness brand]",
+        title: "Paid Campaigns",
         description: "Paid campaigns & landing pages",
         tags: [
             { label: "performance marketing", href: "#" },
@@ -94,7 +94,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "marketing",
         link: "/work",
         img: "/assets/imgs/pages/img-171.webp",
-        title: "[B2B rebrand]",
+        title: "B2B Brand Refresh",
         description: "B2B brand refresh & website redesign",
         tags: [
             { label: "brand refresh", href: "#" },

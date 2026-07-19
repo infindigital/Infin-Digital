@@ -25,7 +25,7 @@ statistics on a real business website. That is why they are placeholders and not
 | 2 | **Awards sections are entirely placeholder** | `index-2/Section7.tsx` (home), `about-1/Section3.tsx` (about) | Five rows each of `[Award name]`. Either supply real recognitions or stop rendering these sections from `Home2Page.tsx` and `About1Page.tsx`. |
 | 3 | **Pricing shows `₹XX,XXX`** | `index-2/Section12Pricing.tsx` | The theme shipped invented USD figures. Replaced with placeholders rather than guessed rupee amounts. Supply the real rate card or remove the pricing block. |
 | 4 | **Client and partner logos are fictional** | `index-2/Section3.tsx`, `about-1/Section5.tsx` | The strip implies client relationships that do not exist. See the image guide. |
-| 5 | **Portfolio projects are `[Project name]`** | `portfolio-1/Section1.tsx`, `index-2/Section6.tsx` | Real project names, descriptions and screenshots needed. |
+| 5 | **Portfolio entries are described by work type, not named projects** | `portfolio-1/Section1.tsx`, `index-2/Section6.tsx` | Titles such as "Restaurant Website" describe the kind of work rather than naming a client, so they are safe to publish. Swap in real project names and screenshots once clients approve being shown. |
 | 6 | **Terms and Privacy Policy links go nowhere** | `about-1/Section4.tsx`, `contact-1/Section1.tsx` | `<Link to="#">` under the enquiry form. A form collecting personal data should link to a real privacy policy. |
 | 7 | **Domain is assumed to be `www.infindigital.in`** | `src/seo/siteConfig.ts` | Every canonical, `og:url`, sitemap entry and schema `@id` is built from `SITE_URL`. If you launch on a different domain, change that one constant and everything follows. |
 
@@ -42,8 +42,6 @@ statistics on a real business website. That is why they are placeholders and not
 | `[Award or recognition]`, `[Organisation]`, `[ Add date ]`, `[add-website.com]` | 5 each | `index-2/Section7.tsx` |
 | `[Award name]`, `[Organisation]`, `[ Add date ]`, `[add-website.com]` | 5 each | `about-1/Section3.tsx` |
 | `₹XX,XXX` price points | 6 | `index-2/Section12Pricing.tsx` |
-| `[Restaurant site]`, `[Clothing store]`, `[Property site]`, `[Wellness brand]`, `[Fitness brand]`, `[B2B rebrand]` | 6 | `portfolio-1/Section1.tsx` |
-| `[Project name 01]` to `[Project name 06]` | 6 | `index-2/Section6.tsx` |
 
 ### One thing to verify, not a placeholder
 

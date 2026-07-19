@@ -167,7 +167,7 @@ export default function Section6() {
                                 <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
                                     <h5 className="alt-portfolio-title mb-0">
                                         <Link to="/work" className="common-underline">
-                                            [Project name 01]
+                                            Restaurant Website
                                         </Link>
                                     </h5>
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
@@ -195,7 +195,7 @@ export default function Section6() {
                                     width={550}
                                     height={540}
                                 />
-                                <PortfolioItemContent title="[Project name 02]" />
+                                <PortfolioItemContent title="Fashion E-Commerce" />
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ export default function Section6() {
                                 <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
                                     <h5 className="alt-portfolio-title mb-0">
                                         <Link to="/work" className="common-underline">
-                                            [Project name 03]
+                                            Real Estate Portal
                                         </Link>
                                     </h5>
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
@@ -241,7 +241,7 @@ export default function Section6() {
                                     width={400}
                                     height={450}
                                 />
-                                <PortfolioItemContent title="[Project name 04]" />
+                                <PortfolioItemContent title="Brand Identity" />
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@ export default function Section6() {
                                 <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
                                     <h5 className="alt-portfolio-title mb-0">
                                         <Link to="/work" className="common-underline">
-                                            [Project name 05]
+                                            Paid Campaigns
                                         </Link>
                                     </h5>
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
@@ -281,7 +281,7 @@ export default function Section6() {
                                     width={550}
                                     height={400}
                                 />
-                                <PortfolioItemContent title="[Project name 06]" />
+                                <PortfolioItemContent title="B2B Brand Refresh" />
                             </div>
                         </div>
                     </div>
