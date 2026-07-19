@@ -15,8 +15,8 @@ const AVATARS = [
 
 const QUOTE_TEXT = (
     <>
-        &quot;[Add a real client quote here, about two lines long]&quot;
-        [Client name], [Role, Company, Mangalore]
+        &quot;[Add a real client quote here]&quot; [Client name],
+        [Role, Company, Mangalore]
     </>
 );
 

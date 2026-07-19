@@ -1,5 +1,5 @@
 /* =========================================================
-   Infin Digital — custom overrides
+   Infin Digital, custom overrides
    Font system:
      Primary  (headings / display) → Space Grotesk  (--at-ff-heading)
      Secondary (body / UI text)     → Sora           (--at-ff-body)
@@ -19,13 +19,65 @@ h1, h2, h3, h4, h5, h6,
   font-family: var(--at-ff-heading);
 }
 
-/* Hero (index-2) — enlarge the "In/fin" wordmark, responsive */
+/* Hero (index-2), enlarge the "In/fin" wordmark, responsive */
 .sec-1-home-2 h1.at-title-text {
   font-size: clamp(96px, 17vw, 300px);
   line-height: 0.95;
 }
 
-/* Hero "In/fin" — render the "/" in the secondary (gray) brand color */
+/* Hero "In/fin", render the "/" in the secondary (gray) brand color */
 .sec-1-home-2 h1.at-title-text .char[style*="--char:3"] {
   color: #9A9A9A;
+}
+
+/* =========================================================
+   Fluid display type
+   ---------------------------------------------------------
+   The theme steps display sizes at fixed breakpoints. Between
+   1441px and roughly 1650px it jumps .fz-ds-1 to 124px while the
+   column holding it is still only about 625px wide, and there is
+   no rule at all between 575px and 767px, so it falls back to
+   80px. Headings carrying `text-scale-anim` are split into
+   per-character inline-block spans by GSAP SplitText, and once a
+   word is wider than its column those characters wrap
+   individually, which is why "Development" was breaking into
+   "Developmen" and "t".
+
+   Sizing these fluidly removes the jumps, so a heading always
+   fits its column at every viewport width and never breaks
+   mid-word. At 1440px the computed size lands within a pixel of
+   the theme's original 80px, so the layouts already signed off on
+   are unchanged.
+   ========================================================= */
+
+.fz-ds-1 {
+  font-size: clamp(40px, 5.6vw, 110px) !important;
+  overflow-wrap: normal;
+}
+
+/* Services hero lockup ("Infin Digital"), theme sets 200px above 1441px. */
+.fz-200 {
+  font-size: clamp(56px, 10.5vw, 200px) !important;
+}
+
+/* Footer "Let's Connect", theme sets 220px above 1441px. */
+.footer-2-connect-title {
+  font-size: clamp(48px, 11.5vw, 220px);
+  line-height: 1;
+}
+
+/* Secondary display sizes used by section titles and stat rows. */
+.fz-150 { font-size: clamp(44px, 7.8vw, 150px); }
+.fz-170,
+.fz-180 { font-size: clamp(48px, 8.8vw, 170px); }
+.fz-120 { font-size: clamp(36px, 6.2vw, 120px); }
+
+/* Keep long single words from being split across lines by the
+   character-level split animations. */
+.at-title-text,
+.text-scale-anim,
+.text-scale-anim-2,
+.reveal-text {
+  overflow-wrap: normal;
+  word-break: keep-all;
 }
