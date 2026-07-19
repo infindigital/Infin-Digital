@@ -72,6 +72,31 @@ h1, h2, h3, h4, h5, h6,
 .fz-180 { font-size: clamp(48px, 8.8vw, 170px); }
 .fz-120 { font-size: clamp(36px, 6.2vw, 120px); }
 
+/* ---------------------------------------------------------
+   Home "Our Selected Work" heading
+   ---------------------------------------------------------
+   The portfolio grid is deliberately tucked up beside this
+   heading: .alt-portfolio-main-title-wrap carries
+   margin-bottom: -270px, and the first card sits in a column
+   offset by 4 of 12 while the heading occupies 5 of 12. The card
+   column therefore starts before the heading column ends, and at
+   1280px and above the heading text ran underneath the first
+   card, clipping the word "Selected".
+
+   Constrain the wrap rather than the font size. Capping the width
+   makes the heading wrap before that boundary at any font size,
+   which is safer than shrinking the type: a smaller font fits
+   more words per line and so actually reaches further right.
+
+   Below 1200px the theme switches the wrap to a positive margin,
+   the grid drops below the heading, and no adjustment is needed.
+   --------------------------------------------------------- */
+@media (min-width: 1200px) {
+  .alt-portfolio-main-title-wrap {
+    max-width: 78%;
+  }
+}
+
 /* Keep long single words from being split across lines by the
    character-level split animations. */
 .at-title-text,
