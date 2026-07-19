@@ -1,7 +1,7 @@
 const STEPS = [
-    { num: "01", title: "Research", desc: "Audience mapping, mood boards, and competitive landscape — anchoring the brand voice in cultural context.", delay: ".1" },
+    { num: "01", title: "Research", desc: "Audience mapping, mood boards, and competitive landscape, anchoring the brand voice in cultural context.", delay: ".1" },
     { num: "02", title: "Concept", desc: "Logotype experiments, palette exploration, and tone-of-voice principles that define how Nebula speaks.", delay: ".2" },
-    { num: "03", title: "Design", desc: "Lookbook layouts, packaging system, and a responsive digital toolkit — every touchpoint dressed for the brand.", delay: ".3" },
+    { num: "03", title: "Design", desc: "Lookbook layouts, packaging system, and a responsive digital toolkit, every touchpoint dressed for the brand.", delay: ".3" },
     { num: "04", title: "Delivery", desc: "Brand guidelines, asset library, and a clean hand-off to internal teams ready to scale the system.", delay: ".4" },
 ];
 

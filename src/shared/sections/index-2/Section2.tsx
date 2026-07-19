@@ -99,7 +99,7 @@ export default function Section2() {
                                 </h2>
                                 <p className="text-white mb-0">
                                     Infin Digital is a web design and digital marketing agency based in Mangalore, working with businesses across Dakshina Kannada and beyond.{" "}
-                                    <br className="d-xxl-block d-lg-none d-none" /> We start with the commercial question, who you want to reach and what you need them to do, and then build the website, the search visibility, and the ad campaigns that answer it. One team handles the design, the code, the copy, the tracking, and the reporting, so nothing falls through the gaps between vendors. Every decision is tied to a number you can check.
+                                    <br className="d-xxl-block d-lg-none d-none" /> We help brands grow online through considered design, sharp strategy, and measurable results.
                                 </p>
                             </div>
                         </div>

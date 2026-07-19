@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import ArticleCard2 from "@/shared/cards/ArticleCard2";
 
-// archive-4 section 1 – The Journal, filter by category, ArticleCard2 list, load more (same pattern as archive-2)
+// archive-4 section 1, The Journal, filter by category, ArticleCard2 list, load more (same pattern as archive-2)
 
 const INITIAL_VISIBLE = 4;
 const LOAD_MORE_STEP = 4;

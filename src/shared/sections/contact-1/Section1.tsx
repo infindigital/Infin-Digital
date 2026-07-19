@@ -129,14 +129,12 @@ export default function Section1() {
                                     {ARROW_SVG}
                                 </i>
                             </span>
-                            {/* Page H1. The `h2` class carries the original h2 sizing at every
-                                breakpoint, so promoting the tag changes semantics only, not layout. */}
-                            <h1 className="h2 at-section-title reveal-text mb-lg-0 mb-4">
+                            <h2 className="at-section-title reveal-text mb-lg-0 mb-4">
                                 <RevealText>
                                     Talk to a digital marketing
                                     company in Mangalore
                                 </RevealText>
-                            </h1>
+                            </h2>
                             <div className="at-about-content d-flex flex-md-row flex-column justify-content-between gap-4 pt-40">
                                 <div className="d-flex gap-4 w-lg-50">
                                     <div className="icon">

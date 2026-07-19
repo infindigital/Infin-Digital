@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import RevealText from "@/shared/effects/RevealText";
 
-{/* Home 7 Section 8 (Team — Dedicated Team + Staggered Portrait Grid) */}
+{/* Home 7 Section 8 (Team, Dedicated Team + Staggered Portrait Grid) */}
 
 const EYEBROW_ARROW_SVG = (
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
@@ -104,7 +104,7 @@ export default function Section8() {
                                         key={i}
                                         to="/team-details"
                                         className="sec-8-home-7__card"
-                                        aria-label={`${member.name} ${member.surname} — ${member.role}`}
+                                        aria-label={`${member.name} ${member.surname}, ${member.role}`}
                                     >
                                         <div className="sec-8-home-7__photo">
                                             <div className="fix anim-zoomin">
@@ -131,7 +131,7 @@ export default function Section8() {
                                         key={i}
                                         to="/team-details"
                                         className="sec-8-home-7__card"
-                                        aria-label={`${member.name} ${member.surname} — ${member.role}`}
+                                        aria-label={`${member.name} ${member.surname}, ${member.role}`}
                                     >
                                         <div className="sec-8-home-7__photo">
                                             <div className="fix anim-zoomin">

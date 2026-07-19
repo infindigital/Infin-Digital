@@ -19,14 +19,7 @@ const SOCIAL_ARROW = (
   </svg>
 );
 
-const FOOTER_SERVICES = [
-  "Web Development",
-  "E-Commerce",
-  "SEO",
-  "Digital Marketing",
-  "Performance Marketing",
-  "Branding",
-];
+const FOOTER_SERVICES = ["Web Development", "E-Commerce", "SEO", "Branding"];
 
 function FooterServiceTag({ label }: { label: string }) {
   return (
@@ -105,12 +98,6 @@ const Footer2 = forwardRef<HTMLElement, Record<string, never>>(function Footer2(
                     </li>
                     <li className="mb-15">
                       <Link to="/services">SEO</Link>
-                    </li>
-                    <li className="mb-15">
-                      <Link to="/services">Digital Marketing</Link>
-                    </li>
-                    <li className="mb-15">
-                      <Link to="/services">Performance Marketing</Link>
                     </li>
                     <li className="mb-15">
                       <Link to="/services">Branding</Link>

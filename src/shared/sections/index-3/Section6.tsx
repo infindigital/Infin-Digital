@@ -53,7 +53,7 @@ const CASE_STUDIES = [
         linkCase: "#",
         img: "/assets/imgs/pages/img-65.webp",
         category: "Conversion",
-        headline: "–38% Cost per acquisition",
+        headline: "-38% Cost per acquisition",
         description:
             "We restructured paid campaigns, refined audience targeting, and optimized creatives to drive higher returns while reducing wasted ad spend.",
         title: "Fintech Platform",

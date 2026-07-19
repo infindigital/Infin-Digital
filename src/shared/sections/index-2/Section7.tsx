@@ -37,8 +37,8 @@ const AWARDS = [
         img: "/assets/imgs/pages/img-40.webp",
         imgLg: "/assets/imgs/pages/img-40-lg.webp",
         title: "[Award or recognition]",
-        excellence: "[Awarding organisation]",
-        url: "[add link]",
+        excellence: "[Organisation]",
+        url: "[add-website.com]",
     },
     {
         href: "https://www.infindigital.in",
@@ -46,8 +46,8 @@ const AWARDS = [
         img: "/assets/imgs/pages/img-41.webp",
         imgLg: "/assets/imgs/pages/img-41-lg.webp",
         title: "[Award or recognition]",
-        excellence: "[Awarding organisation]",
-        url: "[add link]",
+        excellence: "[Organisation]",
+        url: "[add-website.com]",
     },
     {
         href: "https://www.infindigital.in",
@@ -55,8 +55,8 @@ const AWARDS = [
         img: "/assets/imgs/pages/img-42.webp",
         imgLg: "/assets/imgs/pages/img-42-lg.webp",
         title: "[Award or recognition]",
-        excellence: "[Awarding organisation]",
-        url: "[add link]",
+        excellence: "[Organisation]",
+        url: "[add-website.com]",
     },
     {
         href: "https://www.infindigital.in",
@@ -64,8 +64,8 @@ const AWARDS = [
         img: "/assets/imgs/pages/img-43.webp",
         imgLg: "/assets/imgs/pages/img-43-lg.webp",
         title: "[Award or recognition]",
-        excellence: "[Awarding organisation]",
-        url: "[add link]",
+        excellence: "[Organisation]",
+        url: "[add-website.com]",
     },
     {
         href: "https://www.infindigital.in",
@@ -73,8 +73,8 @@ const AWARDS = [
         img: "/assets/imgs/pages/img-44.webp",
         imgLg: "/assets/imgs/pages/img-44-lg.webp",
         title: "[Award or recognition]",
-        excellence: "[Awarding organisation]",
-        url: "[add link]",
+        excellence: "[Organisation]",
+        url: "[add-website.com]",
     },
 ];
 
@@ -84,7 +84,7 @@ export default function Section7() {
             <div className="container">
                 <div className="row g-4 align-items-end">
                     <div className="col-xxl-3 col-lg-6 col-md-6">
-                        <h2 className="fw-500 fz-ds-1 mb-0">Awards.</h2>
+                        <h1 className="fw-500 fz-ds-1 mb-0">Awards.</h1>
                     </div>
                     <div className="col-xxl-3 col-lg-4 col-md-4 ms-auto d-flex justify-content-lg-end">
                         <div

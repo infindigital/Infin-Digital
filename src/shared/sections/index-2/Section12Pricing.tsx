@@ -20,8 +20,8 @@ const FEATURE_ICON_SVG = (
 
 // PLACEHOLDER PRICING. The figures shipped with the theme were USD and invented.
 // Replace with the real INR rate card before launch, keeping the same string shape.
-const PERSONAL_PRICES = { starter: "₹[00,000]", growth: "₹[00,000]", scale: "₹[00,000]" };
-const BUSINESS_PRICES = { starter: "₹[00,000]", growth: "₹[00,000]", scale: "₹[00,000]" };
+const PERSONAL_PRICES = { starter: "₹XX,XXX", growth: "₹XX,XXX", scale: "₹XX,XXX" };
+const BUSINESS_PRICES = { starter: "₹XX,XXX", growth: "₹XX,XXX", scale: "₹XX,XXX" };
 
 const PLANS = [
     {

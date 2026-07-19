@@ -15,7 +15,7 @@ export default function Section6() {
                 </div>
                 <div className="row g-5 sec-6-portfolio-details-3__pair">
                     <div className="col-lg-6 sec-6-portfolio-details-3__col at_fade_anim" data-fade-from="left" data-delay=".1">
-                        <span className="d-block fz-font-label text-uppercase fw-600 neutral-500 mb-3">01 — The Solution</span>
+                        <span className="d-block fz-font-label text-uppercase fw-600 neutral-500 mb-3">01, The Solution</span>
                         <h3 className="fz-font-3xl fw-500 neutral-950 mb-30">A cohesive identity system</h3>
                         <p className="fz-font-md neutral-500 mb-30">The final identity features a clean logotype, balanced colour palette, and editorial typography. Each element works together to create a recognisable fashion brand, adaptable across packaging, lookbooks, retail, and digital platforms.</p>
                         <ul className="sec-6-portfolio-details-3__list ps-0 mb-0">
@@ -23,7 +23,7 @@ export default function Section6() {
                         </ul>
                     </div>
                     <div className="col-lg-6 sec-6-portfolio-details-3__col sec-6-portfolio-details-3__col--right at_fade_anim" data-fade-from="right" data-delay=".2">
-                        <span className="d-block fz-font-label text-uppercase fw-600 neutral-500 mb-3">02 — Outcome</span>
+                        <span className="d-block fz-font-label text-uppercase fw-600 neutral-500 mb-3">02, Outcome</span>
                         <h3 className="fz-font-3xl fw-500 neutral-950 mb-30">A confident debut, ready to scale</h3>
                         <p className="fz-font-md neutral-500 mb-30">Nebula emerged as a confident fashion brand with a timeless yet contemporary identity. The project demonstrates how thoughtful brand design elevates perception, strengthens recognition, and creates emotional connection within a competitive market.</p>
                         <ul className="sec-6-portfolio-details-3__list ps-0 mb-0">

@@ -95,11 +95,9 @@ export default function Section12({ className = "", showNoise = true }: Section1
                                                 <div>
                                                     <h6 className="fw-600">Need custom pricing?</h6>
                                                     <p className="fz-font-lg neutral-700">
-                                                        Most work is quoted after a short conversation, because
-                                                        a five page brochure site and a full store with payments
-                                                        are not the same job. Tell us your goal, your timeline,
-                                                        and the budget you have in mind, and we will send back a
-                                                        scope with fixed deliverables and no surprise line items.
+                                                        Tell us your goal, your timeline and your budget.
+                                                        We will send back a scope with fixed deliverables
+                                                        and no surprise line items.
                                                     </p>
                                                 </div>
                                             </div>

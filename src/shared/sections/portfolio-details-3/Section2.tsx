@@ -21,7 +21,7 @@ export default function Section2() {
                         <h3 className="sec-2-portfolio-details-3__headline fz-font-3xl fw-500 neutral-950 mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".1">A modern fashion identity, built to be felt.</h3>
                     </div>
                     <div className="col-lg-4">
-                        <p className="sec-2-portfolio-details-3__paragraph fz-font-md neutral-500 mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".2">Nebula is a comprehensive fashion brand identity project dedicated to sculpting a distinctive, modern, and highly expressive visual language. The system bridges avant-garde artistry with wearable design — a brand built not just to be seen, but to be felt.</p>
+                        <p className="sec-2-portfolio-details-3__paragraph fz-font-md neutral-500 mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".2">Nebula is a comprehensive fashion brand identity project dedicated to sculpting a distinctive, modern, and highly expressive visual language. The system bridges avant-garde artistry with wearable design, a brand built not just to be seen, but to be felt.</p>
                     </div>
                     <div className="col-lg-4">
                         <ul className="sec-2-portfolio-details-3__stats list-unstyled mb-0">

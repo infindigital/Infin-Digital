@@ -19,7 +19,7 @@ const SLIDER_IMAGES = [
 ];
 
 const NEBULA_INTRO =
-    "Nebula is a comprehensive fashion brand identity project dedicated to sculpting a distinctive, modern, and highly expressive visual language. While many brands settle for being seen, Nebula aims to be felt—bridging the gap between avant-garde artistry and wearable design.";
+    "Nebula is a comprehensive fashion brand identity project dedicated to sculpting a distinctive, modern, and highly expressive visual language. While many brands settle for being seen, Nebula aims to be felt-bridging the gap between avant-garde artistry and wearable design.";
 
 function InfoRow({ label, value }: { label: string; value: string }) {
     return (

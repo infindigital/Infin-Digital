@@ -95,7 +95,7 @@ export default function Section1() {
                             <RevealText>Coming Soon</RevealText>
                         </h1>
                         <p className="fw-400 fz-font-3xl neutral-900 mb-40 w-75 lh-sm">
-                            We&apos;re crafting something exciting — a special surprise just for our subscribers.
+                            We&apos;re crafting something exciting, a special surprise just for our subscribers.
                         </p>
                         <div className="d-flex flex-wrap align-items-center gap-5">
                             <a href="tel:+2125557398" className="fz-font-lg neutral-500 fw-500">

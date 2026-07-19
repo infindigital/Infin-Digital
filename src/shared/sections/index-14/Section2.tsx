@@ -22,7 +22,7 @@ export default function Section2() {
                 <div className="sec-2-home-14__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                     <span className="sec-2-home-14__eyebrow-dot" aria-hidden="true"></span>
                     <span className="sec-2-home-14__eyebrow-key">THE STUDIO</span>
-                    <span className="sec-2-home-14__eyebrow-meta">&mdash; EST. 2014 &middot; 3 STUDIOS &middot; 4 CONTINENTS</span>
+                    <span className="sec-2-home-14__eyebrow-meta">, EST. 2014 &middot; 3 STUDIOS &middot; 4 CONTINENTS</span>
                 </div>
 
                 <div className="sec-2-home-14__main">
@@ -30,7 +30,7 @@ export default function Section2() {
                         <figure className="sec-2-home-14__portrait anim-zoomin-wrap mb-0">
                             <img className="sec-2-home-14__portrait-img anim-zoomin" src="/assets/imgs/pages/home-14/sec-2-portrait.webp" alt="Infin Digital" loading="lazy" />
                             <figcaption className="sec-2-home-14__portrait-overlay">
-                                <p className="sec-2-home-14__portrait-tag mb-0">[ PORTRAIT &mdash; STUDIO 04F ]</p>
+                                <p className="sec-2-home-14__portrait-tag mb-0">[ PORTRAIT, STUDIO 04F ]</p>
                                 <div className="sec-2-home-14__portrait-caption">
                                     <p className="sec-2-home-14__portrait-name mb-0 text-white">Amelia Courtney &middot; Founding Photographer</p>
                                     <p className="sec-2-home-14__portrait-year mb-0 text-white">2024</p>
@@ -38,7 +38,7 @@ export default function Section2() {
                             </figcaption>
                         </figure>
                         <p className="sec-2-home-14__portrait-note mb-0">
-                            01 &mdash; In studio, between frames. Documenting the next series.
+                            01, In studio, between frames. Documenting the next series.
                         </p>
                     </div>
 
@@ -48,7 +48,7 @@ export default function Section2() {
                         </h2>
 
                         <div className="sec-2-home-14__body at_fade_anim" data-fade-from="bottom" data-delay=".2">
-                            <p>Twelve years inside the frame &mdash; editorial, fashion, documentary, and quiet portraits for people who would rather be doing something else. We don&rsquo;t chase trends; we build images that hold their light a long time after the cover comes off the press.</p>
+                            <p>Twelve years inside the frame, editorial, fashion, documentary, and quiet portraits for people who would rather be doing something else. We don&rsquo;t chase trends; we build images that hold their light a long time after the cover comes off the press.</p>
                             <p className="mb-0">Clients trust us to shape the entire arc: from concept and casting through post-production. Most projects begin with a long conversation. Many of them end up on magazine covers.</p>
                         </div>
 

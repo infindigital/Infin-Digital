@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import RevealText from "@/shared/effects/RevealText";
 
-{/* Home 7 Section 4 — Our mission / dual-tone reveal headline / locations */}
+{/* Home 7 Section 4, Our mission / dual-tone reveal headline / locations */}
 
 const EYEBROW_ARROW_SVG = (
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none" aria-hidden="true">

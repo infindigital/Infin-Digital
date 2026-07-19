@@ -7,7 +7,7 @@ const PROJECTS = [
         img: "sec-2-project-1.webp",
         num: "01",
         title: "Lumen Studio",
-        desc: "A complete brand refresh for an indie photography studio — visual system, web identity, and printed collateral built around bold contrast and quiet confidence.",
+        desc: "A complete brand refresh for an indie photography studio, visual system, web identity, and printed collateral built around bold contrast and quiet confidence.",
         tags: ["Brand Identity", "Web Design", "Product Design", "Interaction"],
         filledTagIndex: 0,
     },
@@ -25,7 +25,7 @@ const PROJECTS = [
         img: "sec-2-project-3.webp",
         num: "03",
         title: "North Reserve",
-        desc: "Heritage-forward identity work for a craft coffee roaster — packaging, signage, and a bilingual marketing site that holds up across markets.",
+        desc: "Heritage-forward identity work for a craft coffee roaster, packaging, signage, and a bilingual marketing site that holds up across markets.",
         tags: ["Packaging", "Identity", "Web Design"],
         filledTagIndex: -1,
     },
@@ -34,7 +34,7 @@ const PROJECTS = [
         img: "sec-2-project-4.webp",
         num: "04",
         title: "Cobalt Index",
-        desc: "Editorial site and content system for a monthly tech publication — flexible templates, custom typography, and a calm reading experience that scales.",
+        desc: "Editorial site and content system for a monthly tech publication, flexible templates, custom typography, and a calm reading experience that scales.",
         tags: ["Editorial", "CMS", "Typography"],
         filledTagIndex: -1,
     },
@@ -47,12 +47,12 @@ export default function Section2() {
                 <header className="sec-2-home-12__header">
                     <p className="sec-2-home-12__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".05">WORKS</p>
                     <h2 className="sec-2-home-12__title reveal-text mb-0"><RevealText>Selected Projects.</RevealText></h2>
-                    <p className="sec-2-home-12__sub mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".2">A handpicked set of recent work — each one shaped by clarity, intent, and craft.</p>
+                    <p className="sec-2-home-12__sub mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".2">A handpicked set of recent work, each one shaped by clarity, intent, and craft.</p>
                 </header>
 
                 <div className="sec-2-home-12__cards">
                     {PROJECTS.map((p) => (
-                        <Link key={p.num} className="card-home-12-project" to={p.link} aria-label={`${p.title} — view project`}>
+                        <Link key={p.num} className="card-home-12-project" to={p.link} aria-label={`${p.title}, view project`}>
                             <div className="card-home-12-project__image anim-zoomin-wrap">
                                 <img className="card-home-12-project__img anim-zoomin" src={`/assets/imgs/pages/home-12/${p.img}`} alt="Infin Digital" loading="lazy" />
                             </div>

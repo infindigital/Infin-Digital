@@ -1,4 +1,4 @@
-{/* Home 7 Section 9 (Marquee — carouselTicker + GSAP scroll-move) */}
+{/* Home 7 Section 9 (Marquee, carouselTicker + GSAP scroll-move) */}
 
 const MARQUEE_ITEMS = [
     "Marketing strategy",

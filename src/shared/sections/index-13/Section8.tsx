@@ -5,8 +5,8 @@ const ITEMS = [
     { num: "[ 01 ]", name: "Heritage-Driven Innovation", img: "sec-8-building-1.webp", lede: "We merge visionary concepts with seamless implementation, guaranteeing that every initiative, aesthetic, or framework transcends visual appeal.", active: true },
     { num: "[ 02 ]", name: "Motion graphics production", img: "sec-8-building-2.webp", lede: "From storyboard to final composite, we craft motion sequences that breathe life into static spaces and translate architecture into kinetic narrative." },
     { num: "[ 03 ]", name: "Technical Fidelity", img: "sec-8-building-3.webp", lede: "Drawings, models, and details rigorously coordinated. Every joint, tolerance, and material specification documented to construction-grade precision." },
-    { num: "[ 04 ]", name: "Minimalist Structural Logic", img: "sec-8-building-4.webp", lede: "A disciplined less-is-more approach where every column, slab, and span earns its purpose — structure becomes the architecture itself." },
-    { num: "[ 05 ]", name: "Sustainable Integrity", img: "sec-8-building-5.webp", lede: "Low-carbon materials, passive strategies, and lifecycle thinking woven into every decision — buildings designed to outlast their generation." },
+    { num: "[ 04 ]", name: "Minimalist Structural Logic", img: "sec-8-building-4.webp", lede: "A disciplined less-is-more approach where every column, slab, and span earns its purpose, structure becomes the architecture itself." },
+    { num: "[ 05 ]", name: "Sustainable Integrity", img: "sec-8-building-5.webp", lede: "Low-carbon materials, passive strategies, and lifecycle thinking woven into every decision, buildings designed to outlast their generation." },
 ];
 
 const ArrowSvg = (

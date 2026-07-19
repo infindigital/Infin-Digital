@@ -59,7 +59,7 @@ const ITEMS = [
     {
         icon: ICON_2,
         title: "User & Behavior",
-        description: "We study real user needs, behaviors, and motivations to ensure strategies are grounded in human insight—not assumptions.",
+        description: "We study real user needs, behaviors, and motivations to ensure strategies are grounded in human insight-not assumptions.",
     },
     {
         icon: ICON_3,
@@ -95,7 +95,7 @@ export default function Section3() {
                             </RevealText>
                         </h3>
                         <h6 className="fw-600 mb-0">
-                            We investigate business goals, users, data, and technology to define the right problems—before building solutions.
+                            We investigate business goals, users, data, and technology to define the right problems-before building solutions.
                         </h6>
                         <div className="section-title-pin" />
                     </div>

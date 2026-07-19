@@ -20,7 +20,7 @@ export default function Section8() {
                         <div className="sec-8-home-14__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <span className="sec-8-home-14__eyebrow-dot" aria-hidden="true"></span>
                             <span className="sec-8-home-14__eyebrow-key">RECOGNITION INDEX</span>
-                            <span className="sec-8-home-14__eyebrow-meta">&mdash; 2012 / 2025</span>
+                            <span className="sec-8-home-14__eyebrow-meta">, 2012 / 2025</span>
                         </div>
                         <h2 className="sec-8-home-14__title reveal-text mb-0"><RevealText>Press, prizes,<br />&amp; quiet proof.</RevealText></h2>
                     </div>
@@ -70,8 +70,7 @@ export default function Section8() {
 
                     <p className="sec-8-home-14__roster-foot at_fade_anim mb-0" data-fade-from="bottom" data-delay=".4">
                         <span className="sec-8-home-14__roster-foot-dot" aria-hidden="true"></span>
-                        Showing 6 of 24 entries &mdash;
-                        <a className="sec-8-home-14__roster-foot-link" href="#">view full archive &rarr;</a>
+                        Showing 6 of 24 entries, <a className="sec-8-home-14__roster-foot-link" href="#">view full archive &rarr;</a>
                     </p>
                 </div>
             </div>

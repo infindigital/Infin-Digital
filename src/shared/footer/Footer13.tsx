@@ -6,7 +6,7 @@ export default function Footer13() {
                 <div className="footer-13__meta-item footer-13__meta-item--lead at_fade_anim" data-fade-from="bottom" data-delay=".1">
                     <span className="footer-13__meta-dot" aria-hidden="true"></span>
                     <span className="footer-13__meta-key">STUDIO</span>
-                    <span className="footer-13__meta-val">Open &middot; 9:00 &mdash; 18:00</span>
+                    <span className="footer-13__meta-val">Open &middot; 9:00, 18:00</span>
                 </div>
                 <div className="footer-13__meta-item at_fade_anim" data-fade-from="bottom" data-delay=".2">
                     <span className="footer-13__meta-key">LOCAL</span>
@@ -33,7 +33,7 @@ export default function Footer13() {
                             We design buildings that age with grace, host human moments, and earn their place on the skyline. Studios in Oslo, New York, and Kyoto.
                         </p>
                         <form className="footer-13__form" action="#" method="post" noValidate>
-                            <p className="footer-13__form-label mb-0">FIELDNOTES &mdash; MONTHLY DISPATCH</p>
+                            <p className="footer-13__form-label mb-0">FIELDNOTES, MONTHLY DISPATCH</p>
                             <div className="footer-13__form-row">
                                 <label className="visually-hidden" htmlFor="footer-13-email">Email address</label>
                                 <input className="footer-13__form-input" id="footer-13-email" type="email" name="email" placeholder="your.email@example.com" autoComplete="email" required />

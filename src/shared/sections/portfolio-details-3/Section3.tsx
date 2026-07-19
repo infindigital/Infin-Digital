@@ -1,5 +1,5 @@
 const CELLS = [
-    { src: "img-178.webp", alt: "Editorial campaign — Nebula collection 01", size: "large" },
+    { src: "img-178.webp", alt: "Editorial campaign, Nebula collection 01", size: "large" },
     { src: "img-177.webp", alt: "Nebula studio session", size: "small" },
     { src: "img-179.webp", alt: "Nebula lookbook spread", size: "small" },
     { src: "img-180.webp", alt: "Nebula accessories", size: "small" },

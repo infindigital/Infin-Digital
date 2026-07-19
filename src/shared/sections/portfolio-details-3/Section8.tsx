@@ -6,8 +6,8 @@ const ArrowIcon = (
 );
 
 const RELATED = [
-    { link: "/portfolio-details-2", img: "img-185.webp", alt: "Nexora — campaign and content", tag: "Campaigns", name: "Nexora", desc: "Campaigns & focused content for a digital-first fashion brand.", delay: ".1" },
-    { link: "/portfolio-details-1", img: "img-186.webp", alt: "Lumen — UI/UX and product design", tag: "UI / Product", name: "Lumen", desc: "UI/UX & product design for digital platforms.", delay: ".25" },
+    { link: "/portfolio-details-2", img: "img-185.webp", alt: "Nexora, campaign and content", tag: "Campaigns", name: "Nexora", desc: "Campaigns & focused content for a digital-first fashion brand.", delay: ".1" },
+    { link: "/portfolio-details-1", img: "img-186.webp", alt: "Lumen, UI/UX and product design", tag: "UI / Product", name: "Lumen", desc: "UI/UX & product design for digital platforms.", delay: ".25" },
 ];
 
 export default function Section8() {

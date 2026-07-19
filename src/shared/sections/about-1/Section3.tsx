@@ -37,8 +37,8 @@ const AWARDS = [
         date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-40-lg.webp",
         img: "/assets/imgs/pages/img-40.webp",
-        title: "[Add award name]",
-        webExcellence: "[Add awarding organisation]",
+        title: "[Award name]",
+        webExcellence: "[Organisation]",
         url: "[add-website.com]",
         href: "#",
     },
@@ -46,8 +46,8 @@ const AWARDS = [
         date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-41-lg.webp",
         img: "/assets/imgs/pages/img-41.webp",
-        title: "[Add award name]",
-        webExcellence: "[Add awarding organisation]",
+        title: "[Award name]",
+        webExcellence: "[Organisation]",
         url: "[add-website.com]",
         href: "#",
     },
@@ -55,8 +55,8 @@ const AWARDS = [
         date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-42-lg.webp",
         img: "/assets/imgs/pages/img-42.webp",
-        title: "[Add award name]",
-        webExcellence: "[Add awarding organisation]",
+        title: "[Award name]",
+        webExcellence: "[Organisation]",
         url: "[add-website.com]",
         href: "#",
     },
@@ -64,8 +64,8 @@ const AWARDS = [
         date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-43-lg.webp",
         img: "/assets/imgs/pages/img-43.webp",
-        title: "[Add award name]",
-        webExcellence: "[Add awarding organisation]",
+        title: "[Award name]",
+        webExcellence: "[Organisation]",
         url: "[add-website.com]",
         href: "#",
     },
@@ -73,8 +73,8 @@ const AWARDS = [
         date: "[ Add date ]",
         imgAward: "/assets/imgs/pages/img-44-lg.webp",
         img: "/assets/imgs/pages/img-44.webp",
-        title: "[Add award name]",
-        webExcellence: "[Add awarding organisation]",
+        title: "[Award name]",
+        webExcellence: "[Organisation]",
         url: "[add-website.com]",
         href: "#",
     },
@@ -87,7 +87,7 @@ export default function Section3() {
                 <div className="container">
                     <div className="row align-items-end">
                         <div className="col-lg-3 col-md-6">
-                            <h2 className="fw-500 fz-ds-1 mb-0">Awards.</h2>
+                            <h1 className="fw-500 fz-ds-1 mb-0">Awards.</h1>
                         </div>
                         <div className="col-lg-3 col-md-4 ms-auto mb-lg-4 d-flex justify-content-lg-end">
                             <div

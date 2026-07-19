@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import ArticleCard4 from "@/shared/cards/ArticleCard4";
 import Pagination from "@/shared/elements/Pagination";
 
-// archive-3 section 1 – The Journal, filter by category, ArticleCard4 list, pagination
+// archive-3 section 1, The Journal, filter by category, ArticleCard4 list, pagination
 
 const ARROW_SVG = (
     <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">

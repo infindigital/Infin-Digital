@@ -25,7 +25,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         link: "/work",
         img: "/assets/imgs/pages/img-11.webp",
         title: "[Restaurant site]",
-        description: "Restaurant website work: menu, table booking and online ordering",
+        description: "Restaurant website & online ordering",
         tags: [
             { label: "web design", href: "#" },
             { label: "online ordering", href: "#" },
@@ -39,7 +39,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         link: "/work",
         img: "/assets/imgs/pages/img-12.webp",
         title: "[Clothing store]",
-        description: "Clothing e-commerce work: size guides, variants and a short checkout",
+        description: "Clothing store with size guides",
         tags: [
             { label: "ecommerce", href: "#" },
             { label: "online store", href: "#" },
@@ -53,7 +53,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         link: "/work",
         img: "/assets/imgs/pages/img-13.webp",
         title: "[Property site]",
-        description: "Property website work: listing pages, filters and enquiry capture",
+        description: "Property listings & enquiry capture",
         tags: [
             { label: "web design", href: "#" },
             { label: "lead generation", href: "#" },
@@ -67,7 +67,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         link: "/work",
         img: "/assets/imgs/pages/img-14.webp",
         title: "[Wellness brand]",
-        description: "Branding work: logo system, packaging artwork and usage guidelines",
+        description: "Identity, packaging & brand guidelines",
         tags: [
             { label: "brand identity", href: "#" },
             { label: "packaging", href: "#" },
@@ -81,11 +81,11 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         link: "/work",
         img: "/assets/imgs/pages/img-170.webp",
         title: "[Fitness brand]",
-        description: "Performance marketing work: paid campaigns, landing pages and tracking",
+        description: "Paid campaigns & landing pages",
         tags: [
             { label: "performance marketing", href: "#" },
             { label: "paid ads", href: "#" },
-            { label: "conversion tracking", href: "#" },
+            { label: "tracking", href: "#" },
             { label: "campaign", href: "#" },
         ],
     },
@@ -95,7 +95,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         link: "/work",
         img: "/assets/imgs/pages/img-171.webp",
         title: "[B2B rebrand]",
-        description: "B2B work: brand refresh, messaging and a rebuilt company website",
+        description: "B2B brand refresh & website redesign",
         tags: [
             { label: "brand refresh", href: "#" },
             { label: "b2b", href: "#" },
@@ -120,11 +120,11 @@ export default function Section1() {
             <div className="container pb-60">
                 <div className="row align-items-end">
                     <div className="col-xxl-8 col-lg-7">
-                        <h1 className="fz-ds-1 fw-500">Website Design Work</h1>
+                        <h1 className="fz-ds-1 fw-500">Website Work</h1>
                     </div>
                     <div className="col-xxl-3 col-lg-5 ms-lg-auto">
                         <p className="fz-font-lg neutral-900 text-lg-end">
-                            The kind of work we take on as a website designer in Mangalore: web builds, e-commerce, SEO, branding and paid campaigns.
+                            Web, e-commerce, branding and marketing work from a website designer in Mangalore.
                         </p>
                     </div>
                 </div>

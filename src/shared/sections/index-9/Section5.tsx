@@ -71,11 +71,11 @@ export default function Section5() {
                             <div className="at-marquee__track sec-5-home-9__marquee-track">
                                 <div className="at-marquee__group sec-5-home-9__marquee-group">
                                     <span className="sec-5-home-9__marquee-text">The future is digital. Let&rsquo;s make it yours</span>
-                                    <span className="sec-5-home-9__marquee-sep" aria-hidden="true">&nbsp;&mdash;&nbsp;</span>
+                                    <span className="sec-5-home-9__marquee-sep" aria-hidden="true">&nbsp;, &nbsp;</span>
                                 </div>
                                 <div className="at-marquee__group sec-5-home-9__marquee-group" aria-hidden="true">
                                     <span className="sec-5-home-9__marquee-text">The future is digital. Let&rsquo;s make it yours</span>
-                                    <span className="sec-5-home-9__marquee-sep" aria-hidden="true">&nbsp;&mdash;&nbsp;</span>
+                                    <span className="sec-5-home-9__marquee-sep" aria-hidden="true">&nbsp;, &nbsp;</span>
                                 </div>
                             </div>
                         </div>

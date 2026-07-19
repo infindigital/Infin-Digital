@@ -25,7 +25,7 @@ export default function useSlideshowScript(variant: SlideshowVariant) {
             // Always re-execute the slideshow IIFE so it runs against the
             // currently-mounted DOM. Variants that build slides once (e.g.
             // horizontal) cannot recover if a previous run targeted a detached
-            // node — dedup-and-skip would leave the new track empty.
+            // node, dedup-and-skip would leave the new track empty.
             document
                 .querySelectorAll<HTMLScriptElement>(`script[data-slideshow-src="${src}"]`)
                 .forEach((el) => el.remove());

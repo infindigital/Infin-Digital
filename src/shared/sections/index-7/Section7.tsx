@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import RevealText from "@/shared/effects/RevealText";
 
-{/* Home 7 Section 7 (CTA — Ready to Build the Future?) */}
+{/* Home 7 Section 7 (CTA, Ready to Build the Future?) */}
 
 const FEATURES = [
     { text: "Research insights summary", delay: "0.1" },

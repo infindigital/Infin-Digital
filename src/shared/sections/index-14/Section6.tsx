@@ -9,10 +9,10 @@ const ARROW = (
 
 const PHASES = [
     { num: "01", name: "Discovery", desc: "A long conversation. Mood, brief, references, expectations.", time: "1 WEEK", delay: ".1" },
-    { num: "02", name: "Mood Board", desc: "A visual contract — references, palette, casting direction.", time: "3—5 DAYS", delay: ".2" },
-    { num: "03", name: "Pre-production", desc: "Scout, casting, schedule, crew. The boring miracle of logistics.", time: "1—2 WEEKS", delay: ".3" },
-    { num: "04", name: "Shoot Day", desc: "On set. Quiet, intentional, generous. We aim for honest frames.", time: "1—3 DAYS", delay: ".4" },
-    { num: "05", name: "Post & Deliver", desc: "Edit, retouch, master files, prints. Hand-finished.", time: "2—3 WEEKS", delay: ".5" },
+    { num: "02", name: "Mood Board", desc: "A visual contract, references, palette, casting direction.", time: "3-5 DAYS", delay: ".2" },
+    { num: "03", name: "Pre-production", desc: "Scout, casting, schedule, crew. The boring miracle of logistics.", time: "1-2 WEEKS", delay: ".3" },
+    { num: "04", name: "Shoot Day", desc: "On set. Quiet, intentional, generous. We aim for honest frames.", time: "1-3 DAYS", delay: ".4" },
+    { num: "05", name: "Post & Deliver", desc: "Edit, retouch, master files, prints. Hand-finished.", time: "2-3 WEEKS", delay: ".5" },
 ];
 
 export default function Section6() {
@@ -24,7 +24,7 @@ export default function Section6() {
                         <div className="sec-6-home-14__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <span className="sec-6-home-14__eyebrow-dot" aria-hidden="true"></span>
                             <span className="sec-6-home-14__eyebrow-key">OUR PROCESS</span>
-                            <span className="sec-6-home-14__eyebrow-meta">&mdash; 5 PHASES &middot; 4&mdash;8 WEEKS PER PROJECT</span>
+                            <span className="sec-6-home-14__eyebrow-meta">, 5 PHASES &middot; 4, 8 WEEKS PER PROJECT</span>
                         </div>
                         <h2 className="sec-6-home-14__title reveal-text mb-0"><RevealText>From idea to<br />final frame.</RevealText></h2>
                     </div>

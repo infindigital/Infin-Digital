@@ -32,25 +32,25 @@ const JOURNEY_ITEMS = [
         date: "[Year]: Started in Mangalore",
         title: "Where Design Met Marketing",
         company: null,
-        desc: "Infin Digital started with a simple observation: beautiful websites that nobody finds, and campaigns that send traffic to pages that cannot sell. We built one team to close that gap, so the design brief and the traffic plan are written together.",
+        desc: "Infin Digital started with one observation: sites nobody finds, and campaigns pointed at pages that cannot sell. We built a team to close that gap for local businesses.",
     },
     {
         date: "[Year]: A Repeatable Process",
         title: "From Single Projects to a System",
         company: null,
-        desc: "Every engagement now follows the same spine: discovery, research, information architecture, design, build, launch checks, then optimisation. Documenting each stage means work does not depend on one person remembering it, and clients can see exactly where a project stands.",
+        desc: "Every engagement follows one spine: discovery, research, architecture, design, build, launch checks, then optimisation. Documenting it keeps the quality consistent.",
     },
     {
         date: "[Year]: Search and Performance",
         title: "Measurement Becomes the Default",
         company: null,
-        desc: "Technical SEO, local SEO, and paid media joined the core offer. Analytics, conversion tracking, and Google Business Profile are configured before launch, not after, so the first month of data is usable rather than guesswork.",
+        desc: "Technical SEO, local SEO and paid media joined the core offer. Analytics, conversion tracking and Google Business Profile are set up before launch, not afterwards.",
     },
     {
         date: "[Year]: E-commerce and Scale",
         title: "Building for Growth, Not Launch Day",
         company: null,
-        desc: "Storefronts, product feeds, design systems, and content that keeps compounding. The work is judged on enquiries, orders, and qualified leads, and we keep testing pages, offers, and creative long after the site goes live.",
+        desc: "Storefronts, product feeds, design systems and content that compounds. Work is judged on enquiries, orders and qualified leads, and we keep testing after go live.",
     },
 ];
 

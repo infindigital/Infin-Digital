@@ -74,7 +74,7 @@ export default function Section1() {
                         <p className="fz-font-2xl fw-400 neutral-900 mt-40">
                             Nebula is a comprehensive fashion brand identity project dedicated to sculpting a
                             distinctive, modern, and highly expressive visual language. While many brands settle for
-                            being seen, Nebula aims to be felt—bridging the gap between avant-garde artistry and
+                            being seen, Nebula aims to be felt-bridging the gap between avant-garde artistry and
                             wearable design.
                         </p>
                     </div>
@@ -115,14 +115,14 @@ export default function Section1() {
                     </div>
                     <div className="col-lg-7">
                         <p className="fz-font-xl neutral-900 mt-40">
-                            The challenge was to create a brand identity that feels refined yet bold—balancing
+                            The challenge was to create a brand identity that feels refined yet bold-balancing
                             elegance with individuality. The approach centered on defining a clear brand personality,
                             developing a cohesive visual system, and ensuring flexibility across both physical and
                             digital fashion touchpoints.
                         </p>
                         <p className="fz-font-xl neutral-900 mt-40">
                             We had to ensure that Nebula didn&apos;t feel like &quot;just another luxury
-                            label&quot;—it needed to resonate with a sense of mystery and power without losing the
+                            label&quot;-it needed to resonate with a sense of mystery and power without losing the
                             accessibility required for contemporary commercial success.
                         </p>
                         <ul className="ps-4">

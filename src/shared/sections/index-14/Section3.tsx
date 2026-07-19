@@ -23,7 +23,7 @@ export default function Section3() {
                         <div className="sec-3-home-14__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <span className="sec-3-home-14__eyebrow-dot" aria-hidden="true"></span>
                             <span className="sec-3-home-14__eyebrow-key">SELECTED SERIES</span>
-                            <span className="sec-3-home-14__eyebrow-meta">&mdash; 24 SERIES &middot; 2014&mdash;2026</span>
+                            <span className="sec-3-home-14__eyebrow-meta">, 24 SERIES &middot; 2014, 2026</span>
                         </div>
                         <h2 className="sec-3-home-14__title reveal-text mb-0">
                             <RevealText>A few quiet stories<br />worth lingering on.</RevealText>
@@ -31,7 +31,7 @@ export default function Section3() {
                     </div>
                     <div className="sec-3-home-14__head-right at_fade_anim" data-fade-from="bottom" data-delay=".2">
                         <p className="sec-3-home-14__head-copy mb-0">
-                            Pulled from twelve years of fieldwork &mdash; selected<br />
+                            Pulled from twelve years of fieldwork, selected<br />
                             as representative of what the studio does best.
                         </p>
                         <div className="at-btn-group at_fade_anim" data-delay=".4" data-fade-from="bottom" data-ease="bounce">
@@ -67,7 +67,7 @@ export default function Section3() {
                             </div>
                         </Link>
                         <p className="sec-3-home-14__featured-desc mb-0">
-                            A study of nightfall across Hanoi&rsquo;s old quarter &mdash; neon, fog, and the people who treat the streets as their living room. Shot on Sony A1 and a borrowed Hasselblad 500CM.
+                            A study of nightfall across Hanoi&rsquo;s old quarter, neon, fog, and the people who treat the streets as their living room. Shot on Sony A1 and a borrowed Hasselblad 500CM.
                         </p>
                     </article>
 

@@ -149,9 +149,9 @@ export default function Section4({ classList = "" }: { classList?: string }) {
                                 {ARROW_SVG}
                             </i>
                         </span>
-                        <h2 className="alt-section-title fz-ds-1 lh-1 fw-500 mb-30 reveal-text mb-0">
+                        <h1 className="alt-section-title fz-ds-1 lh-1 fw-500 mb-30 reveal-text mb-0">
                             <RevealText>Get in touch</RevealText>
-                        </h2>
+                        </h1>
                     </div>
                     <div className="col-xxl-4 col-lg-6 col-md-8 ms-lg-auto text-lg-end">
                         <div className="scroll-rotate d-lg-inline-block d-none">{SCROLL_ROTATE_SVG}</div>

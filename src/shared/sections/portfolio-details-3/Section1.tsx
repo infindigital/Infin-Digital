@@ -11,7 +11,7 @@ export default function Section1() {
             <div className="container">
                 <div className="row align-items-center g-4 g-lg-5 sec-1-portfolio-details-3__row">
                     <div className="col-lg-7">
-                        <span className="sec-1-portfolio-details-3__eyebrow d-block fz-font-label text-uppercase fw-600 neutral-500 mb-30 at_fade_anim" data-fade-from="left" data-delay=".05">Project N°03 — Case study</span>
+                        <span className="sec-1-portfolio-details-3__eyebrow d-block fz-font-label text-uppercase fw-600 neutral-500 mb-30 at_fade_anim" data-fade-from="left" data-delay=".05">Project N°03, Case study</span>
                         <h1 className="sec-1-portfolio-details-3__title fz-ds-1 lh-1 fw-500 d-flex mb-30 at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             Nebula<sup className="fz-80 fw-400 top-0">®</sup>
                         </h1>

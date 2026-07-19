@@ -8,7 +8,7 @@ export default function Section4() {
                 <div className="sec-4-home-13__bar">
                     <div className="sec-4-home-13__bar-left">
                         <span className="sec-4-home-13__bar-dot" aria-hidden="true"></span>
-                        <span>AVAILABLE Q3 &mdash; Q4 / 2026</span>
+                        <span>AVAILABLE Q3, Q4 / 2026</span>
                     </div>
                     <div className="sec-4-home-13__bar-center text-scramble">40&deg;43&prime;N &middot; 74&deg;00&prime;W</div>
                     <div className="sec-4-home-13__bar-right">ORS_CTA_v04.dwg</div>
@@ -29,7 +29,7 @@ export default function Section4() {
                     <div className="sec-4-home-13__copy">
                         <p className="sec-4-home-13__lede mb-0">
                             Tell us about your site, your brief, your aspirations.<br />
-                            We respond personally within 24 hours &mdash; no chatbots, no forms in disguise.
+                            We respond personally within 24 hours, no chatbots, no forms in disguise.
                         </p>
                         <ul className="sec-4-home-13__chips list-unstyled mb-0">
                             <li><Link className="sec-4-home-13__chip at_fade_anim text-white" data-fade-from="left" data-delay=".1" to="/contact-1"><span aria-hidden="true">&rarr;</span> New project</Link></li>

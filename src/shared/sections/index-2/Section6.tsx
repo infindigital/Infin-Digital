@@ -149,13 +149,13 @@ export default function Section6() {
                     <div className="row">
                         <div className="col-xxl-5 col-xl-5 col-md-8">
                             <div className="alt-portfolio-main-title-wrap portfolio-text">
-                                <h2 className="alt-portfolio-main-title reveal-text fz-ds-1 fw-500">
+                                <h1 className="alt-portfolio-main-title reveal-text fz-ds-1 fw-500">
                                     Our
                                     {STAR_SVG_LG}
                                     Selected
                                     <br /> Work
                                     {ARROW_SVG_104}
-                                </h2>
+                                </h1>
                             </div>
                         </div>
                     </div>

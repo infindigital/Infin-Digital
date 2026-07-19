@@ -90,7 +90,7 @@ export default function Section1() {
                                 <div className="icon mb-30">{DIAMOND_ICON}</div>
                                 <h4>I&apos;m Infin Digital</h4>
                                 <p className="fz-lg neutral-900 fw-600">
-                                    I design, train, and deploy AI models that turn data into real-world decisions — from
+                                    I design, train, and deploy AI models that turn data into real-world decisions, from
                                     computer vision to large-scale machine learning systems.
                                 </p>
                                 <div

@@ -83,7 +83,7 @@ export default function Section13() {
                                         {ARROW_SVG}
                                     </i>
                                 </span>
-                                <h2 className="fz-ds-1 mb-0">Inside</h2>
+                                <h1 className="fz-ds-1 mb-0">Inside</h1>
                             </div>
                             <div>
                                 <Link className="at-btn px-5" to="/services">

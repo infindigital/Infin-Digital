@@ -32,28 +32,28 @@ const CARD_ICON_SVG = (
 
 const AWARD_CARDS = [
     {
-        year: "2021 — Expanding Capabilities",
+        year: "2021, Expanding Capabilities",
         title: "From Design Studio to Digital Agency",
         desc: "We evolved from a design-focused studio into a full-service digital agency, combining creative excellence with strategic development and ongoing support.",
         img: "/assets/imgs/pages/img-126.webp",
         alt: "2021 Expanding Capabilities",
     },
     {
-        year: "2022 — Trusted by Growing Brands",
+        year: "2022, Trusted by Growing Brands",
         title: "Building Long-Term Partnerships",
         desc: "We focused on deepening client relationships and delivering measurable results that drive growth and brand recognition across industries.",
         img: "/assets/imgs/pages/img-127.webp",
         alt: "2022 Trusted by Growing Brands",
     },
     {
-        year: "2023 — Innovation & Scale",
+        year: "2023, Innovation & Scale",
         title: "Pushing Boundaries in Digital",
         desc: "We invested in new technologies and methodologies to scale our impact while maintaining the craft and attention to detail that define our work.",
         img: "/assets/imgs/pages/img-128.webp",
         alt: "2023 Innovation & Scale",
     },
     {
-        year: "2024 — Leading the Way",
+        year: "2024, Leading the Way",
         title: "Award-Winning Excellence",
         desc: "Our work has been recognized by industry leaders and we continue to set the standard for creativity, strategy, and delivery in digital experiences.",
         img: "/assets/imgs/pages/img-129.webp",

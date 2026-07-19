@@ -25,7 +25,7 @@ export default function Section1() {
                 <div className="sec-1-home-14__sub">
                     <p className="sec-1-home-14__copy mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".2">
                         Selected portraiture, editorial campaigns, and the<br />
-                        quiet moments in between &mdash; 240+ shoots, 18 magazines.
+                        quiet moments in between, 240+ shoots, 18 magazines.
                     </p>
                     <div className="sec-1-home-14__cta at_fade_anim" data-fade-from="bottom" data-delay=".3">
                         <Link className="sec-1-home-14__btn-link" to="/contact-1">
@@ -41,7 +41,7 @@ export default function Section1() {
                     <img className="sec-1-home-14__hero-img anim-zoomin" data-speed=".8" src="/assets/imgs/pages/home-14/sec-1-hero.webp" alt="Infin Digital" loading="lazy" />
                     <div className="sec-1-home-14__hero-overlay">
                         <div className="sec-1-home-14__hero-top">
-                            <p className="sec-1-home-14__hero-caption mb-0 text-white">[ FRAME 01 &mdash; URBAN SOUL ]</p>
+                            <p className="sec-1-home-14__hero-caption mb-0 text-white">[ FRAME 01, URBAN SOUL ]</p>
                             <p className="sec-1-home-14__hero-credit mb-0 text-white">Photograph by Studio Infin Digital &middot; &middot; 2025</p>
                         </div>
                         <div className="sec-1-home-14__hero-bottom">

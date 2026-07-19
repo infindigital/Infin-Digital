@@ -9,7 +9,7 @@ export default function Header14() {
                     <div className="header-14__meta-inner">
                         <div className="header-14__meta-group">
                             <span className="header-14__meta-key">NOW SHOOTING &middot; Winter Editorial 2026</span>
-                            <span className="header-14__meta-val">STUDIO 09:00 &mdash; 18:00</span>
+                            <span className="header-14__meta-val">STUDIO 09:00, 18:00</span>
                         </div>
                         <div className="header-14__meta-group">
                             <span className="header-14__meta-val">LOCAL 14:32 GMT+7</span>

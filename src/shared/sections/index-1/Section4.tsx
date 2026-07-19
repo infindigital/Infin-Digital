@@ -76,7 +76,7 @@ export default function Section4() {
                                             <span className="number">[{s.num}]</span>
                                         </div>
                                         <div className="content">
-                                            <h3 className="title">{s.title}</h3>
+                                            <h1 className="title">{s.title}</h1>
                                             <p className="text">{s.text}</p>
                                         </div>
                                         <div className="thumb anim-zoomin">

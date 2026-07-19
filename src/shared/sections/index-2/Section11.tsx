@@ -47,7 +47,7 @@ export default function Section11() {
                                 <img className="postbox-scroll-zoom-img img-cover" src="/assets/imgs/pages/bg-img-2.webp" alt="Large outdoor screen glowing with fire at dusk" loading="lazy" />
                             </a>
                             <div className="postbox-play-btn postbox-scroll-zoom-play z-index-1 d-flex align-items-center justify-content-center gap-3">
-                                <h2 className="h1 text-white d-none d-md-flex">Play</h2>
+                                <h1 className="text-white d-none d-md-flex">Play</h1>
                                 <a
                                     className="popup-video"
                                     href="https://www.youtube.com/watch?v=VCPGMjCW0is"
@@ -56,7 +56,7 @@ export default function Section11() {
                                 >
                                     <span className="text-white">{PLAY_SVG}</span>
                                 </a>
-                                <h2 className="h1 text-white d-none d-md-flex">showreel</h2>
+                                <h1 className="text-white d-none d-md-flex">showreel</h1>
                             </div>
                         </div>
                     </div>

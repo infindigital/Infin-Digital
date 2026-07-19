@@ -75,9 +75,9 @@ export default function Section9() {
                             </span>
                         </div>
                         <div className="col-lg-5 h-100">
-                            <h2 className="section-title fw-500 fz-ds-1 lh-1 reveal-text">
+                            <h1 className="section-title fw-500 fz-ds-1 lh-1 reveal-text">
                                 <RevealText>The People Behind It</RevealText>
-                            </h2>
+                            </h1>
                         </div>
                         <div className="col-lg-5 ms-auto">
                             <p className="fz-font-3xl mb-4">

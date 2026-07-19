@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useRef } from "react";
 import ArticleCard1 from "@/shared/cards/ArticleCard1";
 import Sidebar from "@/shared/elements/Sidebar";
 
-// archive-2 section 1 – The Journal with filter, blog grid (ArticleCard1), load more, sidebar
+// archive-2 section 1, The Journal with filter, blog grid (ArticleCard1), load more, sidebar
 // GSAP ScrollTrigger: sticky pin for .sidebar_right when viewport >= 992px
 
 const ARROW_SVG = (

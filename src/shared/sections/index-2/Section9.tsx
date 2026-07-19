@@ -42,7 +42,7 @@ export default function Section9() {
                             key={index}
                             className="col-lg-4 col-md-6 col-6 text-center"
                         >
-                            <h2 className="fz-ds-1 fw-500 mb-0 text-nowrap">
+                            <h1 className="fz-ds-1 fw-500 mb-0 text-nowrap">
                                 {stat.prefix}
                                 <span
                                     className="odometer"
@@ -51,7 +51,7 @@ export default function Section9() {
                                     <OdometerCounter count={stat.count} />
                                 </span>
                                 {stat.suffix}
-                            </h2>
+                            </h1>
                             <h6 className="fw-500">{stat.label}</h6>
                         </div>
                     ))}

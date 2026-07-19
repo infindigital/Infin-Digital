@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import ArticleCard1 from "@/shared/cards/ArticleCard1";
 import Pagination from "@/shared/elements/Pagination";
 
-// archive-1 section 2 – Latest News with category filter and pagination (8 per page)
+// archive-1 section 2, Latest News with category filter and pagination (8 per page)
 
 const ARROW_SVG = (
     <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">

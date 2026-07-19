@@ -79,7 +79,7 @@ export default function Section4() {
                         <div className="sec-4-home-14__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <span className="sec-4-home-14__eyebrow-dot" aria-hidden="true"></span>
                             <span className="sec-4-home-14__eyebrow-key">GALLERY</span>
-                            <span className="sec-4-home-14__eyebrow-meta">&mdash; 600+ FRAMES PUBLISHED</span>
+                            <span className="sec-4-home-14__eyebrow-meta">, 600+ FRAMES PUBLISHED</span>
                         </div>
                         <h2 className="sec-4-home-14__title reveal-text mb-0">
                             <RevealText>Wander the<br />archive.</RevealText>
@@ -88,7 +88,7 @@ export default function Section4() {
                     <div className="sec-4-home-14__head-right at_fade_anim" data-fade-from="bottom" data-delay=".2">
                         <p className="sec-4-home-14__head-copy mb-0">
                             Filter the archive by genre. Each image links to its<br />
-                            series page &mdash; the full set, the story behind it,<br />
+                            series page, the full set, the story behind it,<br />
                             and notes from the shoot.
                         </p>
                         <div className="at-btn-group at_fade_anim" data-delay=".4" data-fade-from="bottom" data-ease="bounce">

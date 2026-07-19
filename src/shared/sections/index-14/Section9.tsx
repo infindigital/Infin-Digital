@@ -51,7 +51,7 @@ export default function Section9() {
                         <div className="sec-9-home-14__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <span className="sec-9-home-14__eyebrow-dot" aria-hidden="true"></span>
                             <span className="sec-9-home-14__eyebrow-key">LATEST FRAMES</span>
-                            <span className="sec-9-home-14__eyebrow-meta">&mdash; @INFIN DIGITAL.STUDIO &middot; 18.4K FOLLOWERS</span>
+                            <span className="sec-9-home-14__eyebrow-meta">, @INFIN DIGITAL.STUDIO &middot; 18.4K FOLLOWERS</span>
                         </div>
                         <h2 className="sec-9-home-14__title reveal-text mb-0"><RevealText>From the<br />feed.</RevealText></h2>
                     </div>

@@ -23,27 +23,27 @@ const ARROW_CIRCLE_SVG = (
 
 const JOURNEY_ITEMS = [
     {
-        date: "Jan 2022 — Present",
+        date: "Jan 2022, Present",
         title: "Senior AI Engineer [ Neural Dynamics ]",
         desc: "Architecting distributed training systems and leading the deployment of production-grade LLM pipelines.",
     },
     {
-        date: "June 2019 — Dec 2021",
+        date: "June 2019, Dec 2021",
         title: "ML Infrastructure Engineer [ DataScale Labs ]",
         desc: "Optimized large-scale data ingestion and automated MLOps workflows for high-frequency trading models.",
     },
     {
-        date: "Jan 2017 — May 2019",
+        date: "Jan 2017, May 2019",
         title: "Computer Vision Researcher [ Visionary Tech ]",
         desc: "Developed state-of-the-art object detection algorithms for autonomous drone navigation and edge computing.",
     },
     {
-        date: "Jan 2015 — Dec 2016",
+        date: "Jan 2015, Dec 2016",
         title: "Junior Data Scientist [ Insight Corp ]",
         desc: "Built predictive analytics dashboards and performed feature engineering on multi-terabyte datasets.",
     },
     {
-        date: "June 2012 — Dec 2014",
+        date: "June 2012, Dec 2014",
         title: "Data Analyst Intern [ Quantum Analytics ]",
         desc: "Assisted in statistical modeling and data cleaning for large-scale consumer behavior studies.",
     },
@@ -69,8 +69,7 @@ export default function Section1() {
                             <RevealText>About me</RevealText>
                         </h1>
                         <p className="mb-0 fz-font-lg fw-600 neutral-900">
-                            I design, train, and deploy AI models that turn data into real-world decisions <br /> —
-                            from computer vision to large-scale machine learning systems.
+                            I design, train, and deploy AI models that turn data into real-world decisions <br />, from computer vision to large-scale machine learning systems.
                         </p>
                     </div>
                     <div className="col-lg-5 ms-auto">
@@ -133,7 +132,7 @@ export default function Section1() {
                         <h3 className="mb-0">Experience</h3>
                         <h6 className="fz-font-lg reveal-text">
                             <RevealText>
-                                Building the backbone of modern AI—delivering production-grade systems with
+                                Building the backbone of modern AI-delivering production-grade systems with
                                 mathematical rigor and operational excellence
                             </RevealText>
                         </h6>

@@ -138,7 +138,7 @@ const FAQ_SECTIONS: FaqSection[] = [
                 id: "collapseFaq3-3",
                 num: "3",
                 question: "How long does a typical project take?",
-                answer: "Timelines vary based on scope, but most projects take 4–12 weeks.",
+                answer: "Timelines vary based on scope, but most projects take 4-12 weeks.",
                 open: false,
             },
             {

@@ -176,7 +176,7 @@ export default function Section1() {
                                 <RevealText>Amelia Courtney</RevealText>
                             </h3>
                             <p className="fw-500 fz-font-lg neutral-900 mb-40">
-                                <span className="fw-700">Amelia Courtney</span> is a results-driven Project Manager with a strong background in leading complex digital and AI-driven projects. She bridges the gap between strategy, technology, and execution—ensuring every project is delivered on time, within scope, and with measurable impact.
+                                <span className="fw-700">Amelia Courtney</span> is a results-driven Project Manager with a strong background in leading complex digital and AI-driven projects. She bridges the gap between strategy, technology, and execution-ensuring every project is delivered on time, within scope, and with measurable impact.
                             </p>
                             <p className="fw-500 fz-font-lg neutral-900 mb-60">
                                 With a sharp eye for detail and a calm, structured approach, Amelia keeps cross-functional teams aligned, motivated, and focused on what matters most: delivering real value to clients.
@@ -192,7 +192,7 @@ export default function Section1() {
                             <div className="block-content mb-50">
                                 <h6 className="fw-600 mb-25">Working Style</h6>
                                 <p className="mb-0 fz-font-md neutral-900">
-                                    Structured, proactive, and detail-oriented. Henry focuses on clarity, accountability, and momentum—keeping projects moving forward without compromising creative quality.
+                                    Structured, proactive, and detail-oriented. Henry focuses on clarity, accountability, and momentum-keeping projects moving forward without compromising creative quality.
                                 </p>
                             </div>
                             <div className="block-content mb-50">

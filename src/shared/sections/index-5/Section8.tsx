@@ -144,7 +144,7 @@ export default function Section8() {
                                             <Link to={post.authorHref} className="blog-card__author">
                                                 {post.author}
                                             </Link>
-                                            <span className="blog-card__meta-text"> – {post.date}</span>
+                                            <span className="blog-card__meta-text"> to {post.date}</span>
                                         </p>
                                     </div>
                                 </div>

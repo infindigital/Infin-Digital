@@ -13,9 +13,9 @@ const SERVICES = [
     {
         title: "Branding",
         description:
-            "A name, a logo, a colour system, and a way of speaking that stays consistent everywhere your business shows up.",
+            "A logo, colour system, and tone of voice that stay consistent across every customer touchpoint.",
         listLeft: ["Brand Research & Positioning", "Logo & Identity Design", "Colour & Type Systems"],
-        listRight: ["Packaging & Print", "Brand Guidelines"],
+        listRight: ["Packaging & Print", "Brand Guidelines", "Brand Messaging"],
         image: "/assets/imgs/pages/img-30.webp",
         imageAlt: "Smooth white sculptural object beside a slim ceramic vase",
         itemClass: "pb-40",
@@ -23,7 +23,7 @@ const SERVICES = [
     {
         title: "Web Design & Development",
         description:
-            "Fast, mobile friendly business websites built to load quickly, rank well, and turn visitors into enquiries.",
+            "Fast, mobile friendly websites built to load quickly and convert visitors.",
         listLeft: ["UX Research & User Journeys", "Responsive Interface Design", "WordPress & Custom Builds"],
         listRight: ["E-Commerce Development", "Speed & Core Web Vitals"],
         image: "/assets/imgs/pages/img-31.webp",
@@ -33,7 +33,7 @@ const SERVICES = [
     {
         title: "Digital Marketing",
         description:
-            "Social content, campaigns, and always on activity that keep your brand in front of the people who buy from you.",
+            "Social, content, and always on campaigns that reach the people who buy from you.",
         listLeft: ["Social Media Marketing", "Content & Creative Production", "Email & WhatsApp Campaigns"],
         listRight: ["Performance Marketing", "Reporting & Analytics"],
         image: "/assets/imgs/pages/img-32.webp",
@@ -43,7 +43,7 @@ const SERVICES = [
     {
         title: "SEO",
         description:
-            "Technical, local, and content SEO that gets your business found when people in Mangalore search for what you sell.",
+            "Technical, local, and content SEO that gets your business found in Mangalore searches.",
         listLeft: ["Technical SEO Audits", "Local SEO & Google Business", "Keyword & Content Strategy"],
         listRight: ["On-Page Optimisation", "Conversion Rate Optimisation"],
         image: "/assets/imgs/pages/img-33.webp",
@@ -91,9 +91,9 @@ export default function Section4({ className }: Section4Props) {
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-12">
                                             <div className="d-flex flex-column justify-content-between h-100 py-4 px-2">
-                                                <h2 className="fz-ds-1 fw-500 text-scale-anim-2 pb-xxl-5 pb-4">
+                                                <h1 className="fz-ds-1 fw-500 text-scale-anim-2 pb-xxl-5 pb-4">
                                                     {service.title}
-                                                </h2>
+                                                </h1>
                                                 <div className="d-xxl-flex align-items-end">
                                                     <p className="fz-font-2xl neutral-950 reveal-text pe-xxl-5 mb-3">
                                                         <RevealText>{service.description}</RevealText>

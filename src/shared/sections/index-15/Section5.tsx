@@ -9,10 +9,10 @@ const ARROW = (
 
 const PHASES = [
     { num: "01", title: "[ Discovery ]", desc: "A long conversation. Mood, brief, references, expectations.", duration: "1 week", img: "sec-5-phase-1.webp", delay: ".1" },
-    { num: "02", title: "[ Mood Board ]", desc: "A visual contract — references, palette, casting direction.", duration: "3—5 days", img: "sec-5-phase-2.webp", delay: ".15" },
-    { num: "03", title: "[ Pre-production ]", desc: "Scout, casting, schedule, crew. The boring miracle of logistics.", duration: "1—2 weeks", img: "sec-5-phase-3.webp", delay: ".2" },
-    { num: "04", title: "[ Shoot Day ]", desc: "On set. Quiet, intentional, generous. We aim for honest frames.", duration: "1—3 days", img: "sec-5-phase-4.webp", delay: ".25" },
-    { num: "05", title: "[ Post & Deliver ]", desc: "Edit, retouch, master files, prints.\nHand-finished.", duration: "2—3 weeks", img: "sec-5-phase-5.webp", delay: ".3" },
+    { num: "02", title: "[ Mood Board ]", desc: "A visual contract, references, palette, casting direction.", duration: "3-5 days", img: "sec-5-phase-2.webp", delay: ".15" },
+    { num: "03", title: "[ Pre-production ]", desc: "Scout, casting, schedule, crew. The boring miracle of logistics.", duration: "1-2 weeks", img: "sec-5-phase-3.webp", delay: ".2" },
+    { num: "04", title: "[ Shoot Day ]", desc: "On set. Quiet, intentional, generous. We aim for honest frames.", duration: "1-3 days", img: "sec-5-phase-4.webp", delay: ".25" },
+    { num: "05", title: "[ Post & Deliver ]", desc: "Edit, retouch, master files, prints.\nHand-finished.", duration: "2-3 weeks", img: "sec-5-phase-5.webp", delay: ".3" },
 ];
 
 export default function Section5() {
@@ -24,7 +24,7 @@ export default function Section5() {
                         <span className="sec-5-home-15__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <span className="sec-5-home-15__eyebrow-dot" aria-hidden="true"></span>
                             <span className="sec-5-home-15__eyebrow-key">Our process</span>
-                            <span className="sec-5-home-15__eyebrow-meta">&mdash; 5 phases &middot; 4&mdash;8 weeks per project</span>
+                            <span className="sec-5-home-15__eyebrow-meta">, 5 phases &middot; 4, 8 weeks per project</span>
                         </span>
                         <h2 className="sec-5-home-15__heading reveal-text"><RevealText>From idea to<br />final project.</RevealText></h2>
                     </div>

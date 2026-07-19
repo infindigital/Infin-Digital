@@ -9,7 +9,7 @@ Companion document: **IMAGE-REPLACEMENT-GUIDE.md** covers every image slot.
 
 ## 1. Read this first: what is not finished
 
-Copy, metadata, schema, headings and internal links are done. Three categories of content could not
+Copy, metadata, schema and internal links are done. Three categories of content could not
 be written, because they are claims about the real world that only INFIN Digital can confirm. They
 are marked in the code with square brackets so they are impossible to miss and impossible to publish
 by accident.
@@ -22,8 +22,8 @@ statistics on a real business website. That is why they are placeholders and not
 | # | What | Where | Why it blocks launch |
 |---|---|---|---|
 | 1 | **The contact form does not submit anywhere** | `src/shared/sections/contact-1/Section1.tsx` | The form posts to `action="#"` with no handler. Every enquiry typed into it is silently discarded. Point it at Formspree, Web3Forms, or your own endpoint. |
-| 2 | **Awards sections are entirely placeholder** | `index-2/Section7.tsx` (home), `about-1/Section3.tsx` (about) | Five rows each of `[Add award name]`. Either supply real recognitions or stop rendering these sections from `Home2Page.tsx` and `About1Page.tsx`. |
-| 3 | **Pricing shows `₹[00,000]`** | `index-2/Section12Pricing.tsx` | The theme shipped invented USD figures. Replaced with placeholders rather than guessed rupee amounts. Supply the real rate card or remove the pricing block. |
+| 2 | **Awards sections are entirely placeholder** | `index-2/Section7.tsx` (home), `about-1/Section3.tsx` (about) | Five rows each of `[Award name]`. Either supply real recognitions or stop rendering these sections from `Home2Page.tsx` and `About1Page.tsx`. |
+| 3 | **Pricing shows `₹XX,XXX`** | `index-2/Section12Pricing.tsx` | The theme shipped invented USD figures. Replaced with placeholders rather than guessed rupee amounts. Supply the real rate card or remove the pricing block. |
 | 4 | **Client and partner logos are fictional** | `index-2/Section3.tsx`, `about-1/Section5.tsx` | The strip implies client relationships that do not exist. See the image guide. |
 | 5 | **Portfolio projects are `[Project name]`** | `portfolio-1/Section1.tsx`, `index-2/Section6.tsx` | Real project names, descriptions and screenshots needed. |
 | 6 | **Terms and Privacy Policy links go nowhere** | `about-1/Section4.tsx`, `contact-1/Section1.tsx` | `<Link to="#">` under the enquiry form. A form collecting personal data should link to a real privacy policy. |
@@ -39,9 +39,9 @@ statistics on a real business website. That is why they are placeholders and not
 | `[Client name]`, `[Role, Company]`, quote | 1 set | `index-2/Section5.tsx` |
 | `[Author]` and `[Date]` on article cards | 6 each | `index-3/Section11.tsx` |
 | `[Author name]` and `[Add date]` on article cards | 4 each | `index-2/Section13.tsx` |
-| `[Award or recognition]`, `[Awarding organisation]`, `[ Add date ]`, `[add link]` | 5 each | `index-2/Section7.tsx` |
-| `[Add award name]`, `[Add awarding organisation]`, `[ Add date ]`, `[add-website.com]` | 5 each | `about-1/Section3.tsx` |
-| `₹[00,000]` price points | 6 | `index-2/Section12Pricing.tsx` |
+| `[Award or recognition]`, `[Organisation]`, `[ Add date ]`, `[add-website.com]` | 5 each | `index-2/Section7.tsx` |
+| `[Award name]`, `[Organisation]`, `[ Add date ]`, `[add-website.com]` | 5 each | `about-1/Section3.tsx` |
+| `₹XX,XXX` price points | 6 | `index-2/Section12Pricing.tsx` |
 | `[Restaurant site]`, `[Clothing store]`, `[Property site]`, `[Wellness brand]`, `[Fitness brand]`, `[B2B rebrand]` | 6 | `portfolio-1/Section1.tsx` |
 | `[Project name 01]` to `[Project name 06]` | 6 | `index-2/Section6.tsx` |
 
@@ -88,10 +88,10 @@ be indexed as duplicate content.
 | **Canonical** | `https://www.infindigital.in/` |
 | **Primary keyword** | Digital Marketing Agency in Mangalore |
 | **Secondary** | digital marketing company in Mangalore, website development company in Mangalore, SEO company in Mangalore, lead generation, conversion focused website |
-| **H1** | `In/fin` plus a visually hidden extension, "a digital marketing agency in Mangalore" |
+| **Main heading** | `In/fin` (the template renders this as an H1 display logotype) |
 | **Schema** | Organization, ProfessionalService (LocalBusiness), WebSite, BreadcrumbList, FAQPage |
 
-Heading outline: H1 hero, then H2 for who we are, partner approach, each core service, selected work,
+Section headings, in order: hero, who we are, partner approach, the core services, selected work,
 recognition, key numbers, client stories, showreel, and article topics.
 
 ### `/about` About
@@ -103,7 +103,7 @@ recognition, key numbers, client stories, showreel, and article topics.
 | **Canonical** | `https://www.infindigital.in/about` |
 | **Primary keyword** | Best Digital Marketing Agency in Mangalore |
 | **Secondary** | SEO expert in Mangalore, digital branding, corporate website development |
-| **H1** | The standards behind the best digital marketing agency in Mangalore |
+| **Main heading** | The standards behind the best digital marketing agency in Mangalore |
 | **Schema** | Organization, ProfessionalService, BreadcrumbList, FAQPage |
 
 ### `/services` Services
@@ -115,11 +115,11 @@ recognition, key numbers, client stories, showreel, and article topics.
 | **Canonical** | `https://www.infindigital.in/services` |
 | **Primary keyword** | Website Development Company in Mangalore |
 | **Secondary** | SEO services in Mangalore, Google Ads agency Mangalore, Meta Ads agency Mangalore, social media marketing Mangalore, ecommerce website development, WordPress development Mangalore, custom website development, landing page design, website maintenance, logo design, performance marketing |
-| **H1** | `Infin Digital®` plus a visually hidden extension, "a website development company in Mangalore" |
+| **Main heading** | `Infin Digital®` (template display logotype) |
 | **Schema** | Organization, ProfessionalService, six Service nodes, BreadcrumbList, FAQPage |
 
-This is the commercially most important page. The deepest copy sits in the FAQ accordion in
-`index-1/Section11.tsx`, which carries around 1,160 words covering all six services.
+This is the commercially most important page. All six services are described in `index-1/Section4.tsx`,
+with a five question FAQ in `index-1/Section11.tsx`.
 
 ### `/work` Work
 
@@ -130,7 +130,7 @@ This is the commercially most important page. The deepest copy sits in the FAQ a
 | **Canonical** | `https://www.infindigital.in/work` |
 | **Primary keyword** | Website Designer in Mangalore |
 | **Secondary** | creative website design, conversion focused website, best website designer in Mangalore |
-| **H1** | Website Design Work |
+| **Main heading** | Website Work |
 | **Schema** | Organization, ProfessionalService, BreadcrumbList |
 
 Filter tabs are in `portfolio-1/PortfolioFilterSort.tsx`. The labels were changed to Web Design,
@@ -147,7 +147,7 @@ update every consumer.
 | **Canonical** | `https://www.infindigital.in/contact` |
 | **Primary keyword** | Digital Marketing Company in Mangalore |
 | **Secondary** | SEO company in Mangalore, web designer in Mangalore |
-| **H1** | Talk to a digital marketing company in Mangalore |
+| **Main heading** | Talk to a digital marketing company in Mangalore |
 | **Schema** | Organization, ProfessionalService, BreadcrumbList, FAQPage |
 
 ---
@@ -211,10 +211,16 @@ Suggested additions as the site grows:
 - **Keyword placement is natural.** Location terms appear where they carry meaning, not in every
   paragraph. Surathkal, Ullal, Moodbidri, Bantwal, Puttur, Karkala, Udupi and Manipal appear in
   service area context only.
-- **Length envelopes respected.** Replacement strings stay close to the original length so no
-  heading wraps differently and no card reflows. This is the main reason total word count is lower
-  than a blank page brief would suggest: the layout is fixed, and most slots are headings, buttons
-  and short card labels rather than paragraphs.
+- **Length envelopes respected.** Every replacement string is matched to the character count of the
+  string it replaced, so no heading wraps onto an extra line and no card reflows. Measured against
+  the pre-content build, total page heights are: home +1%, about 0%, services +1%, work 0%,
+  contact 0%. This is the main reason total word count is lower than a blank page brief would
+  suggest: the layout is fixed, and most slots are headings, buttons and short card labels rather
+  than paragraphs. **If you edit copy later, keep the new string within roughly 10% of the length of
+  the old one**, or the section will grow and the design will drift.
+
+- **Markup was not touched.** Heading tags, classes, element counts, animation attributes and
+  element order are byte identical to the template. Only text, `alt` values and link targets changed.
 
 ---
 

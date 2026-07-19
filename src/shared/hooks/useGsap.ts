@@ -1,5 +1,5 @@
 /**
- * Use GSAP in Next.js – safe client-side only.
+ * Use GSAP in Next.js, safe client-side only.
  * - Use in "use client" components.
  * - Run gsap.* and registerPlugin inside useEffect or event handlers (not at top-level).
  *

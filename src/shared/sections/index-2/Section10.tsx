@@ -75,11 +75,11 @@ export default function Section10() {
                                             {ARROW_SVG}
                                         </i>
                                     </span>
-                                    <h2 className="section-title fw-500 fz-ds-1 lh-1 mb-30 reveal-text">
+                                    <h1 className="section-title fw-500 fz-ds-1 lh-1 mb-30 reveal-text">
                                         <RevealText>
                                             What our <br />clients are <br />saying
                                         </RevealText>
-                                    </h2>
+                                    </h1>
                                     <div
                                         className="at-btn-group at_fade_anim"
                                         data-delay=".4"

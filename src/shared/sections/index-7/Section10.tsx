@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import RevealText from "@/shared/effects/RevealText";
 
-{/* Home 7 Section 10 (Insights for Founders — blog grid) */}
+{/* Home 7 Section 10 (Insights for Founders, blog grid) */}
 
 const EYEBROW_ARROW_SVG = (
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
@@ -92,7 +92,7 @@ export default function Section10() {
                                     <p className="blog-card__meta">
                                         <span className="blog-card__meta-text">By </span>
                                         <Link to="/team-details" className="blog-card__author">{insight.author}</Link>
-                                        <span className="blog-card__meta-text"> – {insight.date}</span>
+                                        <span className="blog-card__meta-text"> to {insight.date}</span>
                                     </p>
                                 </div>
                             </div>

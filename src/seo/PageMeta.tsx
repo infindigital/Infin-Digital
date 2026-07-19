@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BUSINESS, SITE_URL } from "@/seo/siteConfig";
 
 type Props = {
@@ -32,6 +33,20 @@ export default function PageMeta({
   schema,
   noIndex = false,
 }: Props) {
+  // React 19 hoists title/meta/link into <head>, but not inline scripts. Rendering
+  // the JSON-LD in JSX would drop a <script> node into the page layout, so it is
+  // injected into <head> directly and removed on unmount.
+  useEffect(() => {
+    if (!schema) return;
+    const el = document.createElement("script");
+    el.type = "application/ld+json";
+    el.textContent = schema;
+    document.head.appendChild(el);
+    return () => {
+      document.head.removeChild(el);
+    };
+  }, [schema]);
+
   const canonical = path ? `${SITE_URL}${path === "/" ? "/" : path}` : undefined;
   const socialImage = image
     ? image.startsWith("http")
@@ -61,10 +76,6 @@ export default function PageMeta({
       <meta name="twitter:title" content={title} />
       {description ? <meta name="twitter:description" content={description} /> : null}
       <meta name="twitter:image" content={socialImage} />
-
-      {schema ? (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />
-      ) : null}
     </>
   );
 }

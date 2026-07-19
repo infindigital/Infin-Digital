@@ -72,7 +72,7 @@ const SCROLL_ITEMS = [
     },
     {
         icon: ICON_3,
-        title: "Optimization – Turning high-intent traffic into loyal",
+        title: "Optimization to Turning high-intent traffic into loyal",
         bullets: ["Funnel analysis & user behavior tracking", "Landing page optimization", "A/B testing & experimentation", "UX & messaging refinement", "Conversion tracking setup"],
         img: "/assets/imgs/pages/img-60.webp",
     },

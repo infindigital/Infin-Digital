@@ -82,7 +82,7 @@ export default function Section10() {
                                 <p className="blog-card__meta">
                                     <span className="blog-card__meta-text">By </span>
                                     <Link to="/team-details" className="blog-card__author">Olivia</Link>
-                                    <span className="blog-card__meta-text"> &ndash; July 3, 2026</span>
+                                    <span className="blog-card__meta-text"> to July 3, 2026</span>
                                 </p>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ export default function Section10() {
                                 <p className="blog-card__meta">
                                     <span className="blog-card__meta-text">By </span>
                                     <Link to="/team-details" className="blog-card__author">Lucas</Link>
-                                    <span className="blog-card__meta-text"> &ndash; July 17, 2026</span>
+                                    <span className="blog-card__meta-text"> to July 17, 2026</span>
                                 </p>
                             </div>
                         </div>

@@ -12,7 +12,7 @@ export default function Section1() {
                         <h1 className="sec-1-portfolio-details-4__title fz-ds-1 lh-1 fw-500 d-flex mb-30 at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             Nebula<sup className="fz-80 fw-400 top-0">®</sup>
                         </h1>
-                        <p className="sec-1-portfolio-details-4__tagline fz-font-2xl fw-400 neutral-500 mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".2">Fashion Brand Identity Design — built to be felt, not just seen.</p>
+                        <p className="sec-1-portfolio-details-4__tagline fz-font-2xl fw-400 neutral-500 mb-0 at_fade_anim" data-fade-from="bottom" data-delay=".2">Fashion Brand Identity Design, built to be felt, not just seen.</p>
                     </div>
                 </div>
                 <div className="row align-items-center sec-1-portfolio-details-4__bottom">

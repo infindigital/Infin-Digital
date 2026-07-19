@@ -65,7 +65,7 @@ export default function Section2() {
                                 <span className="sec-2-home-15__media-1-badge-dot" aria-hidden="true"></span>
                                 <span className="sec-2-home-15__media-1-badge-text">
                                     <span className="sec-2-home-15__media-1-badge-title">Available for projects</span>
-                                    <span className="sec-2-home-15__media-1-badge-meta">Now booking &mdash; Q3 2026</span>
+                                    <span className="sec-2-home-15__media-1-badge-meta">Now booking, Q3 2026</span>
                                 </span>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export default function Section2() {
                     <div className="col-xxl-7 col-xl-6 col-lg-6 position-relative">
                         <div className="sec-2-home-15__content">
                             <p className="sec-2-home-15__body at_fade_anim mb-0 mt-4" data-fade-from="bottom" data-delay=".2">
-                                Infin Digital&trade; goes beyond aesthetics&mdash;bringing clarity through motion, flexible structure, and practical tools that help you move faster without defining your identity.
+                                Infin Digital&trade; goes beyond aesthetics, bringing clarity through motion, flexible structure, and practical tools that help you move faster without defining your identity.
                             </p>
                             <ul className="sec-2-home-15__features list-unstyled mb-0">
                                 {FEATURES.map((f) => (

@@ -51,7 +51,7 @@ export default function Section12() {
                             </span>
                             <h2>Stay ahead</h2>
                             <p className="fz-font-xl mb-0">
-                                Get practical insights, trends, and strategies we use <br />to help brands grow—delivered
+                                Get practical insights, trends, and strategies we use <br />to help brands grow-delivered
                                 monthly, no spam.
                             </p>
                         </div>

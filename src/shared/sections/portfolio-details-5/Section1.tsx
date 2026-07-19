@@ -37,7 +37,7 @@ export default function Section1() {
                 <div className="swiper-wrapper">
                     {SLIDES.map((n) => (
                         <div key={n} className="swiper-slide sec-1-portfolio-details-5__slide">
-                            <img src={`/assets/imgs/pages/slideshow/img-${n}.webp`} alt={`Nebula campaign — slide 0${n}`} loading="lazy" />
+                            <img src={`/assets/imgs/pages/slideshow/img-${n}.webp`} alt={`Nebula campaign, slide 0${n}`} loading="lazy" />
                         </div>
                     ))}
                 </div>
@@ -50,7 +50,7 @@ export default function Section1() {
                 <div className="container">
                     <div className="row justify-content-center text-center">
                         <div className="col-lg-10">
-                            <span className="sec-1-portfolio-details-5__eyebrow fz-font-label text-uppercase fw-600 d-block mb-30 at_fade_anim" data-fade-from="bottom" data-delay=".05">Project N°05 — Case study</span>
+                            <span className="sec-1-portfolio-details-5__eyebrow fz-font-label text-uppercase fw-600 d-block mb-30 at_fade_anim" data-fade-from="bottom" data-delay=".05">Project N°05, Case study</span>
                             <h1 className="sec-1-portfolio-details-5__title fz-ds-1 lh-1 fw-500 mb-30 at_fade_anim" data-fade-from="bottom" data-delay=".15">
                                 Nebula<sup className="fz-80 fw-400 top-0">®</sup>
                             </h1>

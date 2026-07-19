@@ -126,7 +126,7 @@ export default function Section7() {
                                 <div className="col-lg-7 col-md-8 col-12">
                                     <h6 className="reveal-text neutral-800 mb-60">
                                         <RevealText>
-                                            Infin Digital™ goes beyond aesthetics—bringing clarity through motion, flexible
+                                            Infin Digital™ goes beyond aesthetics-bringing clarity through motion, flexible
                                             structure, and practical tools that help you move faster without defining
                                             your identity.
                                         </RevealText>

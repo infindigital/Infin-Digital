@@ -4,7 +4,7 @@ export default function Footer14() {
             <div className="footer-14__meta">
                 <div className="footer-14__meta-item at_fade_anim" data-fade-from="bottom" data-delay=".1">
                     <span className="footer-14__meta-key">STUDIO</span>
-                    <span className="footer-14__meta-val">Open &middot; 9:00 &mdash; 18:00</span>
+                    <span className="footer-14__meta-val">Open &middot; 9:00, 18:00</span>
                 </div>
                 <div className="footer-14__meta-item at_fade_anim" data-fade-from="bottom" data-delay=".2">
                     <span className="footer-14__meta-key">LOCAL</span>

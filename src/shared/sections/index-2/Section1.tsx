@@ -40,8 +40,8 @@ export default function Section1({ classList }: { classList?: string }) {
                                     <li>{LOGO_SVG}</li>
                                     <li>
                                         <span className="fz-font-md fw-500 common-black">
-                                            A digital marketing agency in Mangalore building websites, brands,
-                                            and campaigns that bring in real customers.
+                                            A Mangalore agency building websites, brands, and
+                                            campaigns that bring in real customers.
                                         </span>
                                     </li>
                                 </ul>
@@ -50,7 +50,7 @@ export default function Section1({ classList }: { classList?: string }) {
                         <div className="col-xxl-8 col-12 ps-xxl-5">
                             <div className="at-title-anim overflow-hidden">
                                 <h1 className="fz-160 fw-600 mb-0 at-title-text">
-                                    In/fin<span className="visually-hidden">, a digital marketing agency in Mangalore</span>
+                                    In/fin
                                 </h1>
                             </div>
                             <div className="d-flex flex-wrap align-items-center justify-content-between gap-2">

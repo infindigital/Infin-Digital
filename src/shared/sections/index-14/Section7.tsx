@@ -5,9 +5,9 @@ import { Navigation } from "swiper/modules";
 import RevealText from "@/shared/effects/RevealText";
 
 const TESTIMONIALS = [
-    { img: "sec-7-portrait-1.webp", tag: "PORTRAIT · 01", stars: "4 / 5 stars", name: "Henrietta Lowe", role: "Editor-in-Chief · Aperture Mag", quote: "We brought Infin Digital on for a single cover and stayed for the next four years. They make the kind of pictures that hold their own next to the writing — quietly intelligent, never showy, always exactly the frame the story needed.", project: "Project: The Editors Issue · 2024", sub: "Editorial · 24 frames · Cover + 6-spread feature", link: "/portfolio-details-1", whiteMeta: true },
-    { img: "sec-7-portrait-2.webp", tag: "PORTRAIT · 02", stars: "4 / 5 stars", name: "Bjørn Aalvik", role: "Founder · Studio Halden", quote: "Working with Infin Digital felt less like a commission and more like a conversation with someone who already understood the brief. They returned with images that felt inevitable — like they had always been there, waiting to be found.", project: "Project: Halden — Brand Refresh · 2024", sub: "Commercial · 18 frames · 4-page brand book", link: "/portfolio-details-2", whiteMeta: false },
-    { img: "sec-7-portrait-3.webp", tag: "PORTRAIT · 03", stars: "5 / 5 stars", name: "Margot Linden", role: "Curator · Manifest Gallery", quote: "Infin Digital's frames carry a stillness that is rare in commercial photography. Our visitors stand longer in front of their prints than anywhere else in the gallery — and that, to me, is the highest compliment a photograph can earn.", project: "Project: Quiet Lights — Solo Show · 2024", sub: "Exhibition · 12 prints · Hand-bound catalogue", link: "/portfolio-details-3", whiteMeta: false },
+    { img: "sec-7-portrait-1.webp", tag: "PORTRAIT · 01", stars: "4 / 5 stars", name: "Henrietta Lowe", role: "Editor-in-Chief · Aperture Mag", quote: "We brought Infin Digital on for a single cover and stayed for the next four years. They make the kind of pictures that hold their own next to the writing, quietly intelligent, never showy, always exactly the frame the story needed.", project: "Project: The Editors Issue · 2024", sub: "Editorial · 24 frames · Cover + 6-spread feature", link: "/portfolio-details-1", whiteMeta: true },
+    { img: "sec-7-portrait-2.webp", tag: "PORTRAIT · 02", stars: "4 / 5 stars", name: "Bjørn Aalvik", role: "Founder · Studio Halden", quote: "Working with Infin Digital felt less like a commission and more like a conversation with someone who already understood the brief. They returned with images that felt inevitable, like they had always been there, waiting to be found.", project: "Project: Halden, Brand Refresh · 2024", sub: "Commercial · 18 frames · 4-page brand book", link: "/portfolio-details-2", whiteMeta: false },
+    { img: "sec-7-portrait-3.webp", tag: "PORTRAIT · 03", stars: "5 / 5 stars", name: "Margot Linden", role: "Curator · Manifest Gallery", quote: "Infin Digital's frames carry a stillness that is rare in commercial photography. Our visitors stand longer in front of their prints than anywhere else in the gallery, and that, to me, is the highest compliment a photograph can earn.", project: "Project: Quiet Lights, Solo Show · 2024", sub: "Exhibition · 12 prints · Hand-bound catalogue", link: "/portfolio-details-3", whiteMeta: false },
 ];
 
 export default function Section7() {
@@ -41,13 +41,13 @@ export default function Section7() {
                         <div className="sec-7-home-14__eyebrow at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <span className="sec-7-home-14__eyebrow-dot" aria-hidden="true"></span>
                             <span className="sec-7-home-14__eyebrow-key">CLIENT STORIES</span>
-                            <span className="sec-7-home-14__eyebrow-meta">&mdash; FROM PUBLISHERS, BRANDS, &amp; ARTISTS</span>
+                            <span className="sec-7-home-14__eyebrow-meta">, FROM PUBLISHERS, BRANDS, &amp; ARTISTS</span>
                         </div>
                         <h2 className="sec-7-home-14__title reveal-text mb-0"><RevealText>What our clients<br />say, unprompted.</RevealText></h2>
                     </div>
                     <div className="sec-7-home-14__head-right at_fade_anim" data-fade-from="bottom" data-delay=".2">
                         <div className="sec-7-home-14__nav">
-                            <span className="sec-7-home-14__nav-count"><span className="sec-7-home-14__nav-count-current">01</span> &mdash; 03</span>
+                            <span className="sec-7-home-14__nav-count"><span className="sec-7-home-14__nav-count-current">01</span>, 03</span>
                             <button ref={prevRef} type="button" className="sec-7-home-14__nav-btn sec-7-home-14__nav-btn--prev swiper-btn-prev" aria-label="Previous testimonial">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </button>

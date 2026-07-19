@@ -82,8 +82,8 @@ export default function Footer12() {
                         </div>
 
                         <div className="footer-12__col footer-12__col--hours">
-                            <p className="footer-12__col-title">Mo &ndash; Sa</p>
-                            <p className="footer-12__hours-value mb-0">9am &ndash; 5pm</p>
+                            <p className="footer-12__col-title">Mo to Sa</p>
+                            <p className="footer-12__hours-value mb-0">9am to 5pm</p>
                         </div>
                     </div>
 

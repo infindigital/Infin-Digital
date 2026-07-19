@@ -6,13 +6,8 @@ export default function Section1() {
             <div className="container">
                 <div className="row align-items-center mb-20">
                     <div className="col-lg-9">
-                        {/* The visible logotype is the design. The hidden span extends the H1 so
-                            the page heading states what the page is about, with no visual change. */}
                         <h1 className="section-title d-flex fw-600 fz-200 reveal-text mb-0">
                             Infin Digital<sup>®</sup>
-                            <span className="visually-hidden">
-                                , a website development company in Mangalore
-                            </span>
                         </h1>
                     </div>
                     <div className="col-lg-3 ms-auto text-lg-end">

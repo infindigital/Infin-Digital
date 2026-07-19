@@ -29,31 +29,31 @@ const PLUS_ICON = (
 
 const JOURNEY_ITEMS = [
     {
-        date: "Jan 2022 – Present",
+        date: "Jan 2022 to Present",
         title: "Senior AI Engineer",
         company: "[Neural Dynamics]",
         desc: "Architecting distributed training systems and leading the deployment of production-grade LLM pipelines.",
     },
     {
-        date: "June 2019 – Dec 2021",
+        date: "June 2019 to Dec 2021",
         title: "ML Infrastructure Engineer",
         company: "[DataScale Labs]",
         desc: "Optimized large-scale data ingestion and automated MLOps workflows for high-frequency trading models.",
     },
     {
-        date: "Jan 2017 – May 2019",
+        date: "Jan 2017 to May 2019",
         title: "Computer Vision Researcher",
         company: "[Visionary Tech]",
         desc: "Developed state-of-the-art object detection algorithms for autonomous drone navigation and edge computing.",
     },
     {
-        date: "Jan 2015 – Dec 2016",
+        date: "Jan 2015 to Dec 2016",
         title: "Junior Data Scientist",
         company: "[Insight Corp]",
         desc: "Built predictive analytics dashboards and performed feature engineering on multi-terabyte datasets.",
     },
     {
-        date: "June 2012 – Dec 2014",
+        date: "June 2012 to Dec 2014",
         title: "Data Analyst Intern",
         company: "[Quantum Analytics]",
         desc: "Assisted in statistical modeling and data cleaning for large-scale consumer behavior studies.",

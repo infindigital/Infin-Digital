@@ -45,13 +45,11 @@ export default function Section1() {
                         </span>
                     </div>
                     <div className="col-lg-7 h-100">
-                        {/* Page H1. The `h2` class carries the original h2 sizing at every
-                            breakpoint, so promoting the tag changes semantics only, not layout. */}
-                        <h1 className="h2 section-title fw-600 lh-1 reveal-text">
+                        <h2 className="section-title fw-600 lh-1 reveal-text">
                             <RevealText>
                                 The standards behind the best digital marketing agency in Mangalore
                             </RevealText>
-                        </h1>
+                        </h2>
                     </div>
                     <div className="col-lg-5 ms-auto">
                         <h6 className="mb-4 fw-600">

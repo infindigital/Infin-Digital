@@ -118,8 +118,7 @@ export default function Section8() {
                               {post.author}
                             </Link>
                             <span className="blog-card-2__meta-text">
-                              {" "}
-                              &ndash; {post.date}
+                              {" "} to {post.date}
                             </span>
                           </p>
                         </div>
