@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+
+<rect x="0" y="0" width="64" height="64" rx="14" fill="#14130F"></rect>
+<text x="32" y="43" text-anchor="middle" font-size="32" font-weight="600" letter-spacing="-1.6"><tspan fill="#F4F3F0">in</tspan><tspan fill="#6B655B" font-weight="400">/</tspan></text>
+</svg>

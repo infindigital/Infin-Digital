@@ -1,0 +1,31 @@
+/* =========================================================
+   Infin Digital — custom overrides
+   Font system:
+     Primary  (headings / display) → Space Grotesk  (--at-ff-heading)
+     Secondary (body / UI text)     → Sora           (--at-ff-body)
+   The base theme inherits the body font onto headings, so we
+   explicitly route headings + display text to the heading font.
+   ========================================================= */
+
+h1, h2, h3, h4, h5, h6,
+.at-title-text,
+.at-section-title,
+.at-offcanvas-title,
+.footer-2-connect-title,
+[class*="fz-ds-"],
+[class*="fz-160"],
+[class*="fz-120"],
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+  font-family: var(--at-ff-heading);
+}
+
+/* Hero (index-2) — enlarge the "In/fin" wordmark, responsive */
+.sec-1-home-2 h1.at-title-text {
+  font-size: clamp(96px, 17vw, 300px);
+  line-height: 0.95;
+}
+
+/* Hero "In/fin" — render the "/" in the secondary (gray) brand color */
+.sec-1-home-2 h1.at-title-text .char[style*="--char:3"] {
+  color: #9A9A9A;
+}
