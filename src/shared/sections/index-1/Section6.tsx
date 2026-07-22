@@ -18,7 +18,7 @@ const TESTIMONIAL_SOURCES = [
     {
         starColor: "#585959",
         img: "/assets/imgs/template/avatar/avatar-7.webp",
-        logo: "/assets/imgs/icons/brand-8.webp",
+        logo: "/assets/imgs/icons/brand-1.webp",
         logoWidth: 101,
         logoHeight: 25,
         name: "Lucas Moreno",
@@ -30,7 +30,7 @@ const TESTIMONIAL_SOURCES = [
     {
         starColor: "#FFB618",
         img: "/assets/imgs/template/avatar/avatar-8.webp",
-        logo: "/assets/imgs/icons/brand-9.webp",
+        logo: "/assets/imgs/icons/brand-2.webp",
         logoWidth: 119,
         logoHeight: 25,
         name: "Hannah Lee",
@@ -117,8 +117,6 @@ export default function Section6() {
                                         key={`testimonial-${idx}`}
                                         img={item.img}
                                         logo={item.logo}
-                                        logoWidth={item.logoWidth}
-                                        logoHeight={item.logoHeight}
                                         name={item.name}
                                         position={item.position}
                                         company={item.company}
