@@ -143,7 +143,7 @@ export default function Section1() {
                                     </div>
                                     <PortfolioThumb
                                         href={DETAIL_LINK}
-                                        src="/assets/imgs/pages/img-34.webp"
+                                        src="/assets/imgs/pages/img-34.png"
                                         alt="Noirform"
                                         tag="Creative"
                                         title="Brand art direction & visual identity"
@@ -158,7 +158,7 @@ export default function Section1() {
                                 <div className="alt-portfolio-item mb-30 alt-portfolio-item-2 at-hover-item">
                                     <PortfolioThumb
                                         href={DETAIL_LINK}
-                                        src="/assets/imgs/pages/img-35.webp"
+                                        src="/assets/imgs/pages/img-35.png"
                                         alt="Nebula"
                                         tag="ui design"
                                         title="UI/UX & product design for digital platforms"
@@ -185,7 +185,7 @@ export default function Section1() {
                                     </div>
                                     <PortfolioThumb
                                         href={DETAIL_LINK}
-                                        src="/assets/imgs/pages/img-36.webp"
+                                        src="/assets/imgs/pages/img-36.png"
                                         alt="Nexora"
                                         tag="e-commerce"
                                         title="Campaigns & focused content"

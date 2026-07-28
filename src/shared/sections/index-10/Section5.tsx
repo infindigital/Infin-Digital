@@ -5,12 +5,12 @@ import RevealText from "@/shared/effects/RevealText";
 type Brand = { src: string; width: number; height: number };
 
 const BRAND_SOURCES: Brand[] = [
-    { src: "brand-1.webp", width: 147, height: 40 },
-    { src: "brand-2.webp", width: 173, height: 43 },
-    { src: "brand-3.webp", width: 162, height: 47 },
-    { src: "brand-4.webp", width: 167, height: 35 },
-    { src: "brand-5.webp", width: 105, height: 24 },
-    { src: "brand-6.webp", width: 170, height: 48 },
+    { src: "brand-1.png", width: 147, height: 40 },
+    { src: "brand-2.png", width: 173, height: 43 },
+    { src: "brand-3.png", width: 162, height: 47 },
+    { src: "brand-4.png", width: 167, height: 35 },
+    { src: "brand-5.png", width: 105, height: 24 },
+    { src: "brand-6.png", width: 170, height: 48 },
 ];
 
 const BRANDS: Brand[] = [...BRAND_SOURCES, ...BRAND_SOURCES, ...BRAND_SOURCES];

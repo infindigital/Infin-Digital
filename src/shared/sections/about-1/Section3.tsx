@@ -35,8 +35,8 @@ const DIAMOND_ICON = (
 const AWARDS = [
     {
         date: "Meta Verified",
-        imgAward: "/assets/imgs/pages/img-40-lg.webp",
-        img: "/assets/imgs/pages/img-40.webp",
+        imgAward: "/assets/imgs/pages/img-40-lg.png",
+        img: "/assets/imgs/pages/img-40.png",
         title: "Facebook Agency Partner",
         webExcellence: "Meta Business Partners",
         url: "facebook.com",
@@ -44,8 +44,8 @@ const AWARDS = [
     },
     {
         date: "Google Verified",
-        imgAward: "/assets/imgs/pages/img-41-lg.webp",
-        img: "/assets/imgs/pages/img-41.webp",
+        imgAward: "/assets/imgs/pages/img-41-lg.png",
+        img: "/assets/imgs/pages/img-41.png",
         title: "Google Certified Partner",
         webExcellence: "Google Partners",
         url: "google.com/partners",
@@ -53,8 +53,8 @@ const AWARDS = [
     },
     {
         date: "Rated 4.9 / 5",
-        imgAward: "/assets/imgs/pages/img-42-lg.webp",
-        img: "/assets/imgs/pages/img-42.webp",
+        imgAward: "/assets/imgs/pages/img-42-lg.png",
+        img: "/assets/imgs/pages/img-42.png",
         title: "Excellent on Trustpilot",
         webExcellence: "Trustpilot Reviews",
         url: "trustpilot.com",
@@ -62,8 +62,8 @@ const AWARDS = [
     },
     {
         date: "5.0 Rating",
-        imgAward: "/assets/imgs/pages/img-43-lg.webp",
-        img: "/assets/imgs/pages/img-43.webp",
+        imgAward: "/assets/imgs/pages/img-43-lg.png",
+        img: "/assets/imgs/pages/img-43.png",
         title: "Google 5 Star Rated",
         webExcellence: "Google Reviews",
         url: "google.com",

@@ -173,7 +173,7 @@ export default function Section6() {
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
                                 </div>
                                 <PortfolioThumb
-                                    src="/assets/imgs/pages/img-34.webp"
+                                    src="/assets/imgs/pages/img-34.png"
                                     alt="Hand holding a small cream and black cosmetics box"
                                     tag="Web"
                                     title="Restaurant website with online ordering"
@@ -187,7 +187,7 @@ export default function Section6() {
                         <div className="col-xxl-4 col-xl-4 offset-xl-7 col-lg-4 col-md-6">
                             <div className="alt-portfolio-item mb-30 alt-portfolio-item-2 at-hover-item">
                                 <PortfolioThumb
-                                    src="/assets/imgs/pages/img-35.webp"
+                                    src="/assets/imgs/pages/img-35.png"
                                     alt="Fashion portrait of a model in a translucent iridescent jacket"
                                     tag="E-Commerce"
                                     title="Online store for a clothing label"
@@ -213,7 +213,7 @@ export default function Section6() {
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
                                 </div>
                                 <PortfolioThumb
-                                    src="/assets/imgs/pages/img-36.webp"
+                                    src="/assets/imgs/pages/img-36.png"
                                     alt="Portrait of a person in a dark fur coat against an open sky"
                                     tag="Web"
                                     title="Property portal built to convert"

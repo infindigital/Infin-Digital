@@ -34,8 +34,8 @@ const AWARDS = [
     {
         href: "https://www.facebook.com/business/partner-directory",
         date: "Meta Verified",
-        img: "/assets/imgs/pages/img-40.webp",
-        imgLg: "/assets/imgs/pages/img-40-lg.webp",
+        img: "/assets/imgs/pages/img-40.png",
+        imgLg: "/assets/imgs/pages/img-40-lg.png",
         title: "Facebook Agency Partner",
         excellence: "Meta Business Partners",
         url: "facebook.com",
@@ -43,8 +43,8 @@ const AWARDS = [
     {
         href: "https://www.google.com/partners",
         date: "Google Verified",
-        img: "/assets/imgs/pages/img-41.webp",
-        imgLg: "/assets/imgs/pages/img-41-lg.webp",
+        img: "/assets/imgs/pages/img-41.png",
+        imgLg: "/assets/imgs/pages/img-41-lg.png",
         title: "Google Certified Partner",
         excellence: "Google Partners",
         url: "google.com/partners",
@@ -52,8 +52,8 @@ const AWARDS = [
     {
         href: "https://www.trustpilot.com",
         date: "Rated 4.9 / 5",
-        img: "/assets/imgs/pages/img-42.webp",
-        imgLg: "/assets/imgs/pages/img-42-lg.webp",
+        img: "/assets/imgs/pages/img-42.png",
+        imgLg: "/assets/imgs/pages/img-42-lg.png",
         title: "Excellent on Trustpilot",
         excellence: "Trustpilot Reviews",
         url: "trustpilot.com",
@@ -61,8 +61,8 @@ const AWARDS = [
     {
         href: "https://www.google.com",
         date: "5.0 Rating",
-        img: "/assets/imgs/pages/img-43.webp",
-        imgLg: "/assets/imgs/pages/img-43-lg.webp",
+        img: "/assets/imgs/pages/img-43.png",
+        imgLg: "/assets/imgs/pages/img-43-lg.png",
         title: "Google 5 Star Rated",
         excellence: "Google Reviews",
         url: "google.com",

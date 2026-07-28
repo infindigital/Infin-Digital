@@ -7,12 +7,12 @@ type Brand = {
 };
 
 const BRAND_SOURCES: Brand[] = [
-    { src: "/assets/imgs/icons/brand-1.webp", alt: "logo-brand", width: 147, height: 40 },
-    { src: "/assets/imgs/icons/brand-2.webp", alt: "logo-brand", width: 173, height: 43 },
-    { src: "/assets/imgs/icons/brand-3.webp", alt: "logo-brand", width: 162, height: 47 },
-    { src: "/assets/imgs/icons/brand-4.webp", alt: "logo-brand", width: 167, height: 35 },
-    { src: "/assets/imgs/icons/brand-5.webp", alt: "logo-brand", width: 105, height: 24 },
-    { src: "/assets/imgs/icons/brand-6.webp", alt: "logo-brand", width: 170, height: 48 },
+    { src: "/assets/imgs/icons/brand-1.png", alt: "logo-brand", width: 147, height: 40 },
+    { src: "/assets/imgs/icons/brand-2.png", alt: "logo-brand", width: 173, height: 43 },
+    { src: "/assets/imgs/icons/brand-3.png", alt: "logo-brand", width: 162, height: 47 },
+    { src: "/assets/imgs/icons/brand-4.png", alt: "logo-brand", width: 167, height: 35 },
+    { src: "/assets/imgs/icons/brand-5.png", alt: "logo-brand", width: 105, height: 24 },
+    { src: "/assets/imgs/icons/brand-6.png", alt: "logo-brand", width: 170, height: 48 },
 ];
 
 const BRANDS: Brand[] = [...BRAND_SOURCES, ...BRAND_SOURCES, ...BRAND_SOURCES];

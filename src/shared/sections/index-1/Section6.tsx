@@ -6,7 +6,7 @@ const TESTIMONIAL_SOURCES = [
     {
         starColor: "#FFB618",
         img: "/assets/imgs/template/avatar/avatar-6.webp",
-        logo: "/assets/imgs/icons/brand-7.webp",
+        logo: "/assets/imgs/icons/brand-7.png",
         logoWidth: 86,
         logoHeight: 25,
         name: "Amelia Wright",
@@ -18,7 +18,7 @@ const TESTIMONIAL_SOURCES = [
     {
         starColor: "#585959",
         img: "/assets/imgs/template/avatar/avatar-7.webp",
-        logo: "/assets/imgs/icons/brand-1.webp",
+        logo: "/assets/imgs/icons/brand-1.png",
         logoWidth: 101,
         logoHeight: 25,
         name: "Lucas Moreno",
@@ -30,7 +30,7 @@ const TESTIMONIAL_SOURCES = [
     {
         starColor: "#FFB618",
         img: "/assets/imgs/template/avatar/avatar-8.webp",
-        logo: "/assets/imgs/icons/brand-2.webp",
+        logo: "/assets/imgs/icons/brand-2.png",
         logoWidth: 119,
         logoHeight: 25,
         name: "Hannah Lee",

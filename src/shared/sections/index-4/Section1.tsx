@@ -20,7 +20,7 @@ const TAG_ARROW_SVG = (
 );
 
 const CARDS_IMGS = [
-    "/assets/imgs/pages/img-43-lg.webp",
+    "/assets/imgs/pages/img-43-lg.png",
     "/assets/imgs/pages/img-74.webp",
     "/assets/imgs/pages/img-75.webp",
 ];

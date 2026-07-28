@@ -99,12 +99,12 @@ const awards = [
 ];
 
 const brandLogos = [
-  "/assets/imgs/icons/brand-1.webp",
-  "/assets/imgs/icons/brand-2.webp",
-  "/assets/imgs/icons/brand-3.webp",
-  "/assets/imgs/icons/brand-4.webp",
-  "/assets/imgs/icons/brand-5.webp",
-  "/assets/imgs/icons/brand-6.webp",
+  "/assets/imgs/icons/brand-1.png",
+  "/assets/imgs/icons/brand-2.png",
+  "/assets/imgs/icons/brand-3.png",
+  "/assets/imgs/icons/brand-4.png",
+  "/assets/imgs/icons/brand-5.png",
+  "/assets/imgs/icons/brand-6.png",
 ];
 
 export default function Section7() {
