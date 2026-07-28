@@ -34,49 +34,40 @@ const DIAMOND_ICON = (
 
 const AWARDS = [
     {
-        date: "[ Add date ]",
+        date: "Meta Verified",
         imgAward: "/assets/imgs/pages/img-40-lg.webp",
         img: "/assets/imgs/pages/img-40.webp",
-        title: "[Award name]",
-        webExcellence: "[Organisation]",
-        url: "[add-website.com]",
-        href: "#",
+        title: "Facebook Agency Partner",
+        webExcellence: "Meta Business Partners",
+        url: "facebook.com",
+        href: "https://www.facebook.com/business/partner-directory",
     },
     {
-        date: "[ Add date ]",
+        date: "Google Verified",
         imgAward: "/assets/imgs/pages/img-41-lg.webp",
         img: "/assets/imgs/pages/img-41.webp",
-        title: "[Award name]",
-        webExcellence: "[Organisation]",
-        url: "[add-website.com]",
-        href: "#",
+        title: "Google Certified Partner",
+        webExcellence: "Google Partners",
+        url: "google.com/partners",
+        href: "https://www.google.com/partners",
     },
     {
-        date: "[ Add date ]",
+        date: "Rated 4.9 / 5",
         imgAward: "/assets/imgs/pages/img-42-lg.webp",
         img: "/assets/imgs/pages/img-42.webp",
-        title: "[Award name]",
-        webExcellence: "[Organisation]",
-        url: "[add-website.com]",
-        href: "#",
+        title: "Excellent on Trustpilot",
+        webExcellence: "Trustpilot Reviews",
+        url: "trustpilot.com",
+        href: "https://www.trustpilot.com",
     },
     {
-        date: "[ Add date ]",
+        date: "5.0 Rating",
         imgAward: "/assets/imgs/pages/img-43-lg.webp",
         img: "/assets/imgs/pages/img-43.webp",
-        title: "[Award name]",
-        webExcellence: "[Organisation]",
-        url: "[add-website.com]",
-        href: "#",
-    },
-    {
-        date: "[ Add date ]",
-        imgAward: "/assets/imgs/pages/img-44-lg.webp",
-        img: "/assets/imgs/pages/img-44.webp",
-        title: "[Award name]",
-        webExcellence: "[Organisation]",
-        url: "[add-website.com]",
-        href: "#",
+        title: "Google 5 Star Rated",
+        webExcellence: "Google Reviews",
+        url: "google.com",
+        href: "https://www.google.com",
     },
 ];
 
@@ -128,7 +119,7 @@ export default function Section3() {
                                             <div className="card-award-image">
                                                 <img
                                                     src={award.img}
-                                                    alt="Placeholder award badge, replace with a real recognition"
+                                                    alt={`${award.title} badge`}
                                                     width={120}
                                                     height={90}
                                                     className="w-100 h-100"

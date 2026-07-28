@@ -32,49 +32,40 @@ const DIAMOND_SVG = (
 
 const AWARDS = [
     {
-        href: "https://www.infindigital.in",
-        date: "[ Add date ]",
+        href: "https://www.facebook.com/business/partner-directory",
+        date: "Meta Verified",
         img: "/assets/imgs/pages/img-40.webp",
         imgLg: "/assets/imgs/pages/img-40-lg.webp",
-        title: "[Award or recognition]",
-        excellence: "[Organisation]",
-        url: "[add-website.com]",
+        title: "Facebook Agency Partner",
+        excellence: "Meta Business Partners",
+        url: "facebook.com",
     },
     {
-        href: "https://www.infindigital.in",
-        date: "[ Add date ]",
+        href: "https://www.google.com/partners",
+        date: "Google Verified",
         img: "/assets/imgs/pages/img-41.webp",
         imgLg: "/assets/imgs/pages/img-41-lg.webp",
-        title: "[Award or recognition]",
-        excellence: "[Organisation]",
-        url: "[add-website.com]",
+        title: "Google Certified Partner",
+        excellence: "Google Partners",
+        url: "google.com/partners",
     },
     {
-        href: "https://www.infindigital.in",
-        date: "[ Add date ]",
+        href: "https://www.trustpilot.com",
+        date: "Rated 4.9 / 5",
         img: "/assets/imgs/pages/img-42.webp",
         imgLg: "/assets/imgs/pages/img-42-lg.webp",
-        title: "[Award or recognition]",
-        excellence: "[Organisation]",
-        url: "[add-website.com]",
+        title: "Excellent on Trustpilot",
+        excellence: "Trustpilot Reviews",
+        url: "trustpilot.com",
     },
     {
-        href: "https://www.infindigital.in",
-        date: "[ Add date ]",
+        href: "https://www.google.com",
+        date: "5.0 Rating",
         img: "/assets/imgs/pages/img-43.webp",
         imgLg: "/assets/imgs/pages/img-43-lg.webp",
-        title: "[Award or recognition]",
-        excellence: "[Organisation]",
-        url: "[add-website.com]",
-    },
-    {
-        href: "https://www.infindigital.in",
-        date: "[ Add date ]",
-        img: "/assets/imgs/pages/img-44.webp",
-        imgLg: "/assets/imgs/pages/img-44-lg.webp",
-        title: "[Award or recognition]",
-        excellence: "[Organisation]",
-        url: "[add-website.com]",
+        title: "Google 5 Star Rated",
+        excellence: "Google Reviews",
+        url: "google.com",
     },
 ];
 
@@ -125,7 +116,7 @@ export default function Section7() {
                                         <div className="card-award-image">
                                             <img
                                                 src={award.img}
-                                                alt="Placeholder thumbnail for a recognition listing"
+                                                alt={`${award.title} badge`}
                                                 width={120}
                                                 height={80}
                                                 className="w-100 h-100" loading="lazy" />

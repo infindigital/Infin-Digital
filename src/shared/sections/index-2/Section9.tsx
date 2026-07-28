@@ -1,9 +1,9 @@
 import OdometerCounter from "@/shared/elements/OdometerCounter";
 const STATS = [
     {
-        prefix: "[",
-        count: 0,
-        suffix: "0]+",
+        prefix: "",
+        count: 525,
+        suffix: "+",
         label: (
             <>
                 Projects delivered <br /> for growing brands
@@ -11,9 +11,9 @@ const STATS = [
         ),
     },
     {
-        prefix: "[",
-        count: 0,
-        suffix: "0]+",
+        prefix: "",
+        count: 11,
+        suffix: "+",
         label: (
             <>
                 Years of experience <br /> in digital growth
@@ -21,9 +21,9 @@ const STATS = [
         ),
     },
     {
-        prefix: "[",
-        count: 0,
-        suffix: "0]%",
+        prefix: "",
+        count: 99,
+        suffix: "%",
         label: (
             <>
                 Client retention <br /> across retainers
