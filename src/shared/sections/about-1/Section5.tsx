@@ -1,25 +1,24 @@
 import Marquee from "react-fast-marquee";
 
-// About 1 Section 5 - Brand scroll (carousel ticker)
+// About 1 Section 5 - Brand scroll (partner logos, matching the home page)
 
-const BRAND_ROWS: string[][] = [
-    ["01", "02", "03"],
-    ["05", "06", "07"],
-    ["03", "04", "05"],
-    ["04", "05", "06"],
-    ["06", "07", "08"],
-    ["07", "08", "09"],
-    ["08", "09", "10"],
-    ["02", "03", "04"],
-    ["07", "09", "08"],
-    ["09", "08", "10"],
-    ["06", "08", "07"],
-    ["08", "09", "07"],
+type Brand = {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+};
+
+const BRAND_SOURCES: Brand[] = [
+    { src: "/assets/imgs/icons/brand-1.png", alt: "Partner brand logo placeholder", width: 147, height: 40 },
+    { src: "/assets/imgs/icons/brand-2.png", alt: "Partner brand logo placeholder", width: 173, height: 43 },
+    { src: "/assets/imgs/icons/brand-3.png", alt: "Partner brand logo placeholder", width: 162, height: 47 },
+    { src: "/assets/imgs/icons/brand-4.png", alt: "Partner brand logo placeholder", width: 167, height: 35 },
+    { src: "/assets/imgs/icons/brand-5.png", alt: "Partner brand logo placeholder", width: 105, height: 24 },
+    { src: "/assets/imgs/icons/brand-6.png", alt: "Partner brand logo placeholder", width: 170, height: 48 },
 ];
 
-function logoSrc(num: string) {
-    return `/assets/imgs/template/logo/logo-brand-${num}.webp`;
-}
+const BRANDS: Brand[] = [...BRAND_SOURCES, ...BRAND_SOURCES, ...BRAND_SOURCES];
 
 export default function Section5() {
     return (
@@ -40,26 +39,18 @@ export default function Section5() {
                             margin: 0,
                             padding: 0,
                             overflow: "visible",
-                            gap: "0 0.5rem",
+                            gap: "0 2rem",
                         }}
                     >
-                        {BRAND_ROWS.map((logos, i) => (
-                            <li key={i} className="at-brand-item" style={{ margin: "0", float: "none" }}>
-                                <div className="brand">
-                                    {logos.map((logo) => (
-                                        <span
-                                            key={logo}
-                                            className="brand-logo-slide"
-                                            data-logo={logo}
-                                        >
-                                            <img
-                                                src={logoSrc(logo)}
-                                                alt={`Brand logo placeholder ${logo}`}
-                                                width={120}
-                                                height={48}
-                                                className="dark-mode-invert" loading="lazy" />
-                                        </span>
-                                    ))}
+                        {BRANDS.map((brand, i) => (
+                            <li key={i} className="at-brand-item" style={{ margin: "0 1.5rem", float: "none" }}>
+                                <div className="brand-item dark-mode-invert">
+                                    <img
+                                        src={brand.src}
+                                        alt={brand.alt}
+                                        width={brand.width}
+                                        height={brand.height}
+                                        style={{ height: 35, width: "auto" }} loading="lazy" />
                                 </div>
                             </li>
                         ))}
