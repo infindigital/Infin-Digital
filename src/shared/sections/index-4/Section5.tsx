@@ -74,7 +74,7 @@ export default function Section5() {
             <section className="sec-5-home-4">
                 <div
                     className="bg-linear-opacity pt-100 pb-100 rounded-5 mx-lg-3 mx-2 bg-cover"
-                    data-background="/assets/imgs/pages/bg-img-5.webp"
+                    data-background="/assets/imgs/pages/bg-img-5.png"
                 >
                     <div className="container">
                         <div className="row g-4 align-items-end">

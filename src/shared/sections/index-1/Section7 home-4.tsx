@@ -35,8 +35,8 @@ const QUOTE_ICON_SVG = (
     </svg>
 );
 
-const BG_IMG_6 = "/assets/imgs/pages/bg-img-6.webp";
-const BG_IMG_7 = "/assets/imgs/pages/bg-img-7.webp";
+const BG_IMG_6 = "/assets/imgs/pages/bg-img-6.png";
+const BG_IMG_7 = "/assets/imgs/pages/bg-img-7.png";
 
 export default function Section7() {
     return (

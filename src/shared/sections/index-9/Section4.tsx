@@ -70,7 +70,7 @@ const col2Cards = [
         badge: "",
     },
     {
-        img: "/assets/imgs/pages/home-9/sec-4-img-5.webp",
+        img: "/assets/imgs/pages/home-9/sec-4-img-5.png",
         category: "design",
         tag: "Brand",
         metric: "+41% conversion rate",
@@ -79,7 +79,7 @@ const col2Cards = [
         badge: "",
     },
     {
-        img: "/assets/imgs/pages/home-9/sec-4-img-6.webp",
+        img: "/assets/imgs/pages/home-9/sec-4-img-6.png",
         category: "marketing",
         tag: "Performance",
         metric: "$1.4M revenue in 6 months",

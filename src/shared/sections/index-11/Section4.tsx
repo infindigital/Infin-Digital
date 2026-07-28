@@ -14,7 +14,7 @@ const PORTFOLIO_ITEMS = [
     {
         category: "title-sequence",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/pages/home-11/img-5.webp",
+        img: "/assets/imgs/pages/home-11/img-5.png",
         thumbTitle: "Northwind Pictures",
         title: "Volta -- Opening Title",
         description: "Award-winning main title sequence for a Netflix series",
@@ -23,7 +23,7 @@ const PORTFOLIO_ITEMS = [
     {
         category: "interactive",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/pages/home-11/img-6.webp",
+        img: "/assets/imgs/pages/home-11/img-6.png",
         thumbTitle: "Tenkai Interactive",
         title: "Kodo -- Interactive Reel",
         description: "Cursor-driven interactive showreel for a game studio",
@@ -32,7 +32,7 @@ const PORTFOLIO_ITEMS = [
     {
         category: "documentary",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/pages/home-11/img-7.webp",
+        img: "/assets/imgs/pages/home-11/img-7.png",
         thumbTitle: "Helios Grid",
         title: "Strata -- Documentary Short",
         description: "Aerial cinematography and motion infographics for an energy brand",

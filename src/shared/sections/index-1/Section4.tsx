@@ -8,21 +8,21 @@ const ARROW_SVG = (
 );
 
 const SERVICE_IMAGES = [
-    { src: "/assets/imgs/pages/img-5.webp", alt: "Matte black control unit with dials on a marble ledge" },
-    { src: "/assets/imgs/pages/img-6.webp", alt: "Product photography styling used in an online store catalogue" },
-    { src: "/assets/imgs/pages/img-7.webp", alt: "Clean editorial layout used as a search visibility reference" },
-    { src: "/assets/imgs/pages/img-8.webp", alt: "Campaign visual reference for a social media content plan" },
-    { src: "/assets/imgs/pages/img-9.webp", alt: "Studio still used as a paid advertising creative reference" },
-    { src: "/assets/imgs/pages/img-10.webp", alt: "Brand identity mock up showing colour and material choices" },
+    { src: "/assets/imgs/pages/img-5.png", alt: "Matte black control unit with dials on a marble ledge" },
+    { src: "/assets/imgs/pages/img-6.png", alt: "Product photography styling used in an online store catalogue" },
+    { src: "/assets/imgs/pages/img-7.png", alt: "Clean editorial layout used as a search visibility reference" },
+    { src: "/assets/imgs/pages/img-8.png", alt: "Campaign visual reference for a social media content plan" },
+    { src: "/assets/imgs/pages/img-9.png", alt: "Studio still used as a paid advertising creative reference" },
+    { src: "/assets/imgs/pages/img-10.png", alt: "Brand identity mock up showing colour and material choices" },
 ];
 
 const SERVICES = [
-    { num: "01", title: "Web Design & Development", text: "Custom, responsive websites built on clean code, fast page loads and clear conversion paths.", thumb: "/assets/imgs/pages/img-5-sm.webp", alt: "Web design and development work in progress on screen" },
-    { num: "02", title: "E-Commerce Development", text: "Online stores with tidy catalogues, trusted payment options and a checkout built to convert.", thumb: "/assets/imgs/pages/img-6-sm.webp", alt: "Product shot of the kind used across an ecommerce store" },
-    { num: "03", title: "SEO", text: "Technical fixes, keyword mapping and local SEO that earn durable organic search visibility.", thumb: "/assets/imgs/pages/img-7-sm.webp", alt: "Reference image for organic search and content planning" },
-    { num: "04", title: "Digital Marketing", text: "Social media, content and email working together to build demand and steady enquiries.", thumb: "/assets/imgs/pages/img-8-sm.webp", alt: "Visual reference for a social media marketing campaign" },
-    { num: "05", title: "Performance Marketing", text: "Google Ads and Meta Ads campaigns measured on tracked leads, not vanity metrics.", thumb: "/assets/imgs/pages/img-9-sm.webp", alt: "Creative reference for a paid advertising campaign" },
-    { num: "06", title: "Branding", text: "Logo design, colour, type and brand guidelines that keep every touchpoint consistent.", thumb: "/assets/imgs/pages/img-10-sm.webp", alt: "Brand identity materials arranged for a logo design project" },
+    { num: "01", title: "Web Design & Development", text: "Custom, responsive websites built on clean code, fast page loads and clear conversion paths.", thumb: "/assets/imgs/pages/img-5-sm.png", alt: "Web design and development work in progress on screen" },
+    { num: "02", title: "E-Commerce Development", text: "Online stores with tidy catalogues, trusted payment options and a checkout built to convert.", thumb: "/assets/imgs/pages/img-6-sm.png", alt: "Product shot of the kind used across an ecommerce store" },
+    { num: "03", title: "SEO", text: "Technical fixes, keyword mapping and local SEO that earn durable organic search visibility.", thumb: "/assets/imgs/pages/img-7-sm.png", alt: "Reference image for organic search and content planning" },
+    { num: "04", title: "Digital Marketing", text: "Social media, content and email working together to build demand and steady enquiries.", thumb: "/assets/imgs/pages/img-8-sm.png", alt: "Visual reference for a social media marketing campaign" },
+    { num: "05", title: "Performance Marketing", text: "Google Ads and Meta Ads campaigns measured on tracked leads, not vanity metrics.", thumb: "/assets/imgs/pages/img-9-sm.png", alt: "Creative reference for a paid advertising campaign" },
+    { num: "06", title: "Branding", text: "Logo design, colour, type and brand guidelines that keep every touchpoint consistent.", thumb: "/assets/imgs/pages/img-10-sm.png", alt: "Brand identity materials arranged for a logo design project" },
 ];
 
 export default function Section4() {

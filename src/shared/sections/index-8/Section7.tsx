@@ -16,14 +16,14 @@ const rail1Images = [
 
 const rail2Images = [
     "/assets/imgs/pages/home-8/sec7-img-4.webp",
-    "/assets/imgs/pages/home-8/sec7-img-5.webp",
-    "/assets/imgs/pages/home-8/sec7-img-6.webp",
+    "/assets/imgs/pages/home-8/sec7-img-5.png",
+    "/assets/imgs/pages/home-8/sec7-img-6.png",
     "/assets/imgs/pages/home-8/sec7-img-4.webp",
-    "/assets/imgs/pages/home-8/sec7-img-5.webp",
-    "/assets/imgs/pages/home-8/sec7-img-6.webp",
+    "/assets/imgs/pages/home-8/sec7-img-5.png",
+    "/assets/imgs/pages/home-8/sec7-img-6.png",
     "/assets/imgs/pages/home-8/sec7-img-4.webp",
-    "/assets/imgs/pages/home-8/sec7-img-5.webp",
-    "/assets/imgs/pages/home-8/sec7-img-6.webp",
+    "/assets/imgs/pages/home-8/sec7-img-5.png",
+    "/assets/imgs/pages/home-8/sec7-img-6.png",
 ];
 
 function ArrowIcon() {

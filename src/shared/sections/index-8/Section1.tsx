@@ -69,10 +69,10 @@ export default function Section1() {
                                 <img className="anim-zoomin" src="/assets/imgs/pages/home-8/hero8-img-4.webp" alt="Infin Digital" width={500} height={600} loading="lazy" />
                             </div>
                             <div className="h8-photo-box anim-zoomin-wrap" scroll-parallax-range="24" data-h8-parallax-ease="none">
-                                <img className="anim-zoomin" src="/assets/imgs/pages/home-8/hero8-img-5.webp" alt="Infin Digital" width={500} height={600} loading="lazy" />
+                                <img className="anim-zoomin" src="/assets/imgs/pages/home-8/hero8-img-5.png" alt="Infin Digital" width={500} height={600} loading="lazy" />
                             </div>
                             <div className="h8-photo-box h8-photo-down anim-zoomin-wrap" scroll-parallax-range="125" data-h8-parallax-ease="power2.inOut">
-                                <img className="anim-zoomin" src="/assets/imgs/pages/home-8/hero8-img-6.webp" alt="Infin Digital" width={500} height={600} loading="lazy" />
+                                <img className="anim-zoomin" src="/assets/imgs/pages/home-8/hero8-img-6.png" alt="Infin Digital" width={500} height={600} loading="lazy" />
                             </div>
                         </div>
                     </div>

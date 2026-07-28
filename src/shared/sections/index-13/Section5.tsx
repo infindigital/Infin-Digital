@@ -5,7 +5,7 @@ const EXPERTISE = [
     { img: "sec-5-img-2.webp", title: "02. Interior Architecture", tag: "[ SPATIAL_FLOW ]", text: "Defining the soul of internal spaces through custom material selection, precision lighting, and ergonomic flow." },
     { img: "sec-5-img-3.webp", title: "03. Urban Planning", tag: "[ MACRO_SYSTEMS ]", text: "Designing sustainable master plans that harmonize high-density urban requirements with green, livable environments." },
     { img: "sec-5-img-4.webp", title: "04. 3D Visualization & VR", tag: "[ IMMERSIVE_MODELING ]", text: "Utilizing high-fidelity real-time rendering to allow clients to walk through their future spaces before the first stone is laid." },
-    { img: "sec-5-img-5.webp", title: "05. Sustainable Consulting", tag: "[ ECO_INTEGRITY ]", text: "Integrating eco-conscious materials and energy-efficient systems into modern architectural frameworks." },
+    { img: "sec-5-img-5.png", title: "05. Sustainable Consulting", tag: "[ ECO_INTEGRITY ]", text: "Integrating eco-conscious materials and energy-efficient systems into modern architectural frameworks." },
 ];
 
 export default function Section5() {

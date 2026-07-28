@@ -33,7 +33,7 @@ export default function Section8() {
                         &nbsp; moves &nbsp; people &nbsp;
                         <span className="sec-8-home-11__img-pill">
                             <img
-                                src="/assets/imgs/pages/home-11/img-7.webp"
+                                src="/assets/imgs/pages/home-11/img-7.png"
                                 alt=""
                                 width={400}
                                 height={267}
@@ -49,7 +49,7 @@ export default function Section8() {
                         --&nbsp; Motion &nbsp;
                         <span className="sec-8-home-11__img-pill">
                             <img
-                                src="/assets/imgs/pages/home-11/img-5.webp"
+                                src="/assets/imgs/pages/home-11/img-5.png"
                                 alt=""
                                 width={400}
                                 height={267}
@@ -60,7 +60,7 @@ export default function Section8() {
                         &nbsp; design &nbsp; with &nbsp;
                         <span className="sec-8-home-11__img-pill">
                             <img
-                                src="/assets/imgs/pages/home-11/img-9.webp"
+                                src="/assets/imgs/pages/home-11/img-9.png"
                                 alt=""
                                 width={400}
                                 height={267}

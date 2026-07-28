@@ -29,7 +29,7 @@ const COLUMNS = [
             { src: "/assets/imgs/pages/img-126.webp", alt: "Stacked pale stone sculptures in a sunlit gallery space" },
             { src: "/assets/imgs/pages/img-146.webp", alt: "Cluster of frosted glass blocks casting soft shadows" },
             { src: "/assets/imgs/pages/img-147.webp", alt: "Precision machine tip lit by small coloured status lights" },
-            { src: "/assets/imgs/pages/img-5.webp", alt: "Matte black control unit with four dials on a marble ledge" },
+            { src: "/assets/imgs/pages/img-5.png", alt: "Matte black control unit with four dials on a marble ledge" },
             { src: "/assets/imgs/pages/img-142.webp", alt: "Round white speaker photographed against a neutral backdrop" },
             { src: "/assets/imgs/pages/img-151.webp", alt: "Abstract study of a breaking teal and white ocean wave" },
         ],

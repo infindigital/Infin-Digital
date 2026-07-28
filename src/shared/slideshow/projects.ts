@@ -41,7 +41,7 @@ export const SLIDESHOW_PROJECTS: Project[] = [
         title: "Unie Denim",
         category: "Visual Research",
         year: "2024",
-        image: "/assets/imgs/pages/slideshow/img-5.webp",
+        image: "/assets/imgs/pages/slideshow/img-5.png",
         link: "/portfolio-1",
         description:
             "A speculative figure rendered five times in shifting blue. Visual research on chromatic continuity across iterative form and rest.",
