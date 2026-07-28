@@ -34,40 +34,40 @@ const DIAMOND_ICON = (
 
 const AWARDS = [
     {
-        date: "Meta Verified",
+        date: "5.0 Rating",
         imgAward: "/assets/imgs/pages/img-40-lg.png",
         img: "/assets/imgs/pages/img-40.png",
-        title: "Facebook Agency Partner",
-        webExcellence: "Meta Business Partners",
-        url: "facebook.com",
-        href: "https://www.facebook.com/business/partner-directory",
-    },
-    {
-        date: "Google Verified",
-        imgAward: "/assets/imgs/pages/img-41-lg.png",
-        img: "/assets/imgs/pages/img-41.png",
-        title: "Google Certified Partner",
-        webExcellence: "Google Partners",
-        url: "google.com/partners",
-        href: "https://www.google.com/partners",
+        title: "Google 5 Star Rated",
+        webExcellence: "Google Reviews",
+        url: "google.com",
+        href: "https://www.google.com",
     },
     {
         date: "Rated 4.9 / 5",
-        imgAward: "/assets/imgs/pages/img-42-lg.png",
-        img: "/assets/imgs/pages/img-42.png",
+        imgAward: "/assets/imgs/pages/img-41-lg.png",
+        img: "/assets/imgs/pages/img-41.png",
         title: "Excellent on Trustpilot",
         webExcellence: "Trustpilot Reviews",
         url: "trustpilot.com",
         href: "https://www.trustpilot.com",
     },
     {
-        date: "5.0 Rating",
+        date: "Google Verified",
+        imgAward: "/assets/imgs/pages/img-42-lg.png",
+        img: "/assets/imgs/pages/img-42.png",
+        title: "Google Certified Partner",
+        webExcellence: "Google Partners",
+        url: "google.com/partners",
+        href: "https://www.google.com/partners",
+    },
+    {
+        date: "Meta Verified",
         imgAward: "/assets/imgs/pages/img-43-lg.png",
         img: "/assets/imgs/pages/img-43.png",
-        title: "Google 5 Star Rated",
-        webExcellence: "Google Reviews",
-        url: "google.com",
-        href: "https://www.google.com",
+        title: "Facebook Agency Partner",
+        webExcellence: "Meta Business Partners",
+        url: "facebook.com",
+        href: "https://www.facebook.com/business/partner-directory",
     },
 ];
 
@@ -78,7 +78,7 @@ export default function Section3() {
                 <div className="container">
                     <div className="row align-items-end">
                         <div className="col-lg-3 col-md-6">
-                            <h1 className="fw-500 fz-ds-1 mb-0">Awards.</h1>
+                            <h1 className="fw-500 fz-ds-1 mb-0">Trusted &amp; Certified.</h1>
                         </div>
                         <div className="col-lg-3 col-md-4 ms-auto mb-lg-4 d-flex justify-content-lg-end">
                             <div
@@ -91,7 +91,7 @@ export default function Section3() {
                                     {ARROW_CIRCLE_SVG}
                                 </Link>
                                 <Link className="at-btn z-index-1" to="/work">
-                                    View All Awards
+                                    View Our Work
                                 </Link>
                                 <Link className="at-btn-circle" to="/work">
                                     {ARROW_CIRCLE_SVG}

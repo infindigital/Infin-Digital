@@ -32,40 +32,40 @@ const DIAMOND_SVG = (
 
 const AWARDS = [
     {
-        href: "https://www.facebook.com/business/partner-directory",
-        date: "Meta Verified",
+        href: "https://www.google.com",
+        date: "5.0 Rating",
         img: "/assets/imgs/pages/img-40.png",
         imgLg: "/assets/imgs/pages/img-40-lg.png",
-        title: "Facebook Agency Partner",
-        excellence: "Meta Business Partners",
-        url: "facebook.com",
-    },
-    {
-        href: "https://www.google.com/partners",
-        date: "Google Verified",
-        img: "/assets/imgs/pages/img-41.png",
-        imgLg: "/assets/imgs/pages/img-41-lg.png",
-        title: "Google Certified Partner",
-        excellence: "Google Partners",
-        url: "google.com/partners",
+        title: "Google 5 Star Rated",
+        excellence: "Google Reviews",
+        url: "google.com",
     },
     {
         href: "https://www.trustpilot.com",
         date: "Rated 4.9 / 5",
-        img: "/assets/imgs/pages/img-42.png",
-        imgLg: "/assets/imgs/pages/img-42-lg.png",
+        img: "/assets/imgs/pages/img-41.png",
+        imgLg: "/assets/imgs/pages/img-41-lg.png",
         title: "Excellent on Trustpilot",
         excellence: "Trustpilot Reviews",
         url: "trustpilot.com",
     },
     {
-        href: "https://www.google.com",
-        date: "5.0 Rating",
+        href: "https://www.google.com/partners",
+        date: "Google Verified",
+        img: "/assets/imgs/pages/img-42.png",
+        imgLg: "/assets/imgs/pages/img-42-lg.png",
+        title: "Google Certified Partner",
+        excellence: "Google Partners",
+        url: "google.com/partners",
+    },
+    {
+        href: "https://www.facebook.com/business/partner-directory",
+        date: "Meta Verified",
         img: "/assets/imgs/pages/img-43.png",
         imgLg: "/assets/imgs/pages/img-43-lg.png",
-        title: "Google 5 Star Rated",
-        excellence: "Google Reviews",
-        url: "google.com",
+        title: "Facebook Agency Partner",
+        excellence: "Meta Business Partners",
+        url: "facebook.com",
     },
 ];
 
@@ -75,7 +75,7 @@ export default function Section7() {
             <div className="container">
                 <div className="row g-4 align-items-end">
                     <div className="col-xxl-3 col-lg-6 col-md-6">
-                        <h1 className="fw-500 fz-ds-1 mb-0">Awards.</h1>
+                        <h1 className="fw-500 fz-ds-1 mb-0">Trusted &amp; Certified.</h1>
                     </div>
                     <div className="col-xxl-3 col-lg-4 col-md-4 ms-auto d-flex justify-content-lg-end">
                         <div
