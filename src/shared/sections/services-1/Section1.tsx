@@ -28,7 +28,7 @@ export default function Section1() {
                 <img
                     className="img-cover scale-up"
                     data-speed=".4"
-                    src="/assets/imgs/pages/img-153.webp"
+                    src="/assets/imgs/pages/img-153.png"
                     alt="Four colleagues talking around a laptop at a bright studio table"
                     width={1920}
                     height={800} loading="lazy" />

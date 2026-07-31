@@ -39,13 +39,13 @@ const tag = (n: number, label: string, iconClass?: string) => ({
 
 const SKILL_CARDS = [
     {
-        thumb: "/assets/imgs/pages/img-148.webp",
+        thumb: "/assets/imgs/pages/img-148.png",
         title: "Languages",
         tags: [tag(1, "Python"), tag(2, "C++"), tag(3, "JavaScript")],
         score: 98,
     },
     {
-        thumb: "/assets/imgs/pages/img-149.webp",
+        thumb: "/assets/imgs/pages/img-149.png",
         title: "Frameworks",
         tags: [tag(4, "PyTorch"), tag(5, "TensorFlow"), tag(6, "Scikit-learn")],
         score: 96,
@@ -57,7 +57,7 @@ const SKILL_CARDS = [
         score: 99,
     },
     {
-        thumb: "/assets/imgs/pages/img-151.webp",
+        thumb: "/assets/imgs/pages/img-151.png",
         title: "MLOps",
         tags: [
             tag(10, "Docker", "dark-mode-invert"),

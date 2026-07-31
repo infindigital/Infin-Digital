@@ -23,7 +23,7 @@ const PLUS_ICON = (
 
 const PROCESS_ITEMS = [
     {
-        img: "/assets/imgs/pages/img-138.webp",
+        img: "/assets/imgs/pages/img-138.png",
         alt: "System Audit & Discovery",
         title: "01. System Audit & Discovery",
         metaText: "2-3 Weeks",
@@ -31,7 +31,7 @@ const PROCESS_ITEMS = [
         desc: "I begin with an in-depth audit of your data landscape, current infrastructure, and core business objectives. This foundational phase identifies technical constraints and sets the architectural direction for the project.",
     },
     {
-        img: "/assets/imgs/pages/img-139.webp",
+        img: "/assets/imgs/pages/img-139.png",
         alt: "Architectural Strategy",
         title: "02. Architectural Strategy",
         metaText: "3-4 Weeks",
@@ -39,7 +39,7 @@ const PROCESS_ITEMS = [
         desc: "Together, we develop a comprehensive technical roadmap. I design the neural architecture and data flow, establishing clear performance benchmarks-such as latency thresholds and accuracy targets-required for success.",
     },
     {
-        img: "/assets/imgs/pages/img-140.webp",
+        img: "/assets/imgs/pages/img-140.png",
         alt: "Engineering & Deployment",
         title: "03. Engineering & Deployment",
         metaText: "8-12 Weeks",

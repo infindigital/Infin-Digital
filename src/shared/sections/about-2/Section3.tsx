@@ -35,7 +35,7 @@ const AWARD_CARDS = [
         year: "2021, Expanding Capabilities",
         title: "From Design Studio to Digital Agency",
         desc: "We evolved from a design-focused studio into a full-service digital agency, combining creative excellence with strategic development and ongoing support.",
-        img: "/assets/imgs/pages/img-126.webp",
+        img: "/assets/imgs/pages/img-126.png",
         alt: "2021 Expanding Capabilities",
     },
     {
