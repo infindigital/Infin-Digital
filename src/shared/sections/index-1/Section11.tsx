@@ -60,7 +60,7 @@ export default function Section11({ classList = "" }: { classList?: string }) {
                         <div className="alt-faq-title-wrap mb-40">
                             <div className="rounded-4 overflow-hidden anim-zoomin">
                                 <img
-                                    src="/assets/imgs/pages/img-21.webp"
+                                    src="/assets/imgs/pages/img-21.png"
                                     width={600}
                                     height={700}
                                     className="w-100"

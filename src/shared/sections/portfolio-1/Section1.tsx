@@ -37,7 +37,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         classList: "col-xxl-6 col-lg-7",
         category: "photography",
         link: "/work",
-        img: "/assets/imgs/pages/img-12.webp",
+        img: "/assets/imgs/pages/img-12.png",
         title: "Fashion E-Commerce",
         description: "Clothing store with size guides",
         tags: [
@@ -51,7 +51,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         classList: "col-xxl-6 col-lg-7",
         category: "design",
         link: "/work",
-        img: "/assets/imgs/pages/img-13.webp",
+        img: "/assets/imgs/pages/img-13.png",
         title: "Real Estate Portal",
         description: "Property listings & enquiry capture",
         tags: [
@@ -65,7 +65,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         classList: "col-xxl-6 col-lg-7",
         category: "marketing",
         link: "/work",
-        img: "/assets/imgs/pages/img-14.webp",
+        img: "/assets/imgs/pages/img-14.png",
         title: "Brand Identity",
         description: "Identity, packaging & brand guidelines",
         tags: [
@@ -79,7 +79,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         classList: "col-xxl-6 col-lg-7",
         category: "marketing",
         link: "/work",
-        img: "/assets/imgs/pages/img-170.webp",
+        img: "/assets/imgs/pages/img-170.png",
         title: "Paid Campaigns",
         description: "Paid campaigns & landing pages",
         tags: [
@@ -93,7 +93,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         classList: "col-xxl-6 col-lg-7",
         category: "marketing",
         link: "/work",
-        img: "/assets/imgs/pages/img-171.webp",
+        img: "/assets/imgs/pages/img-171.png",
         title: "B2B Brand Refresh",
         description: "B2B brand refresh & website redesign",
         tags: [

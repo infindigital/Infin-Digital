@@ -33,7 +33,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/pages/img-12.webp",
+        img: "/assets/imgs/pages/img-12.png",
         title: "Nebula",
         description: "UI/UX & product design for digital platforms",
         tags: [
@@ -45,7 +45,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/pages/img-13.webp",
+        img: "/assets/imgs/pages/img-13.png",
         title: "Voidline",
         description: "3D animation & motion branding",
         tags: [
@@ -57,7 +57,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/pages/img-14.webp",
+        img: "/assets/imgs/pages/img-14.png",
         title: "Lumen",
         description: "Branding system for modern startups",
         tags: [

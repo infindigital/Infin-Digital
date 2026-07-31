@@ -17,12 +17,12 @@ const SERVICE_IMAGES = [
 ];
 
 const SERVICES = [
-    { num: "01", title: "Web Design & Development", text: "Custom, responsive websites built on clean code, fast page loads and clear conversion paths.", thumb: "/assets/imgs/pages/img-5-sm.png", alt: "Web design and development work in progress on screen" },
-    { num: "02", title: "E-Commerce Development", text: "Online stores with tidy catalogues, trusted payment options and a checkout built to convert.", thumb: "/assets/imgs/pages/img-6-sm.png", alt: "Product shot of the kind used across an ecommerce store" },
-    { num: "03", title: "SEO", text: "Technical fixes, keyword mapping and local SEO that earn durable organic search visibility.", thumb: "/assets/imgs/pages/img-7-sm.png", alt: "Reference image for organic search and content planning" },
-    { num: "04", title: "Digital Marketing", text: "Social media, content and email working together to build demand and steady enquiries.", thumb: "/assets/imgs/pages/img-8-sm.png", alt: "Visual reference for a social media marketing campaign" },
-    { num: "05", title: "Performance Marketing", text: "Google Ads and Meta Ads campaigns measured on tracked leads, not vanity metrics.", thumb: "/assets/imgs/pages/img-9-sm.png", alt: "Creative reference for a paid advertising campaign" },
-    { num: "06", title: "Branding", text: "Logo design, colour, type and brand guidelines that keep every touchpoint consistent.", thumb: "/assets/imgs/pages/img-10-sm.png", alt: "Brand identity materials arranged for a logo design project" },
+    { num: "01", title: "Web Design & Development", text: "Custom, responsive websites built on clean code, fast page loads and clear conversion paths.", thumb: "/assets/imgs/pages/img-5.png", alt: "Web design and development work in progress on screen" },
+    { num: "02", title: "E-Commerce Development", text: "Online stores with tidy catalogues, trusted payment options and a checkout built to convert.", thumb: "/assets/imgs/pages/img-6.png", alt: "Product shot of the kind used across an ecommerce store" },
+    { num: "03", title: "SEO", text: "Technical fixes, keyword mapping and local SEO that earn durable organic search visibility.", thumb: "/assets/imgs/pages/img-7.png", alt: "Reference image for organic search and content planning" },
+    { num: "04", title: "Digital Marketing", text: "Social media, content and email working together to build demand and steady enquiries.", thumb: "/assets/imgs/pages/img-8.png", alt: "Visual reference for a social media marketing campaign" },
+    { num: "05", title: "Performance Marketing", text: "Google Ads and Meta Ads campaigns measured on tracked leads, not vanity metrics.", thumb: "/assets/imgs/pages/img-9.png", alt: "Creative reference for a paid advertising campaign" },
+    { num: "06", title: "Branding", text: "Logo design, colour, type and brand guidelines that keep every touchpoint consistent.", thumb: "/assets/imgs/pages/img-10.png", alt: "Brand identity materials arranged for a logo design project" },
 ];
 
 export default function Section4() {
@@ -80,7 +80,7 @@ export default function Section4() {
                                             <p className="text">{s.text}</p>
                                         </div>
                                         <div className="thumb anim-zoomin">
-                                            <img src={s.thumb} alt={s.alt} width={200} height={200} loading="lazy" />
+                                            <img src={s.thumb} alt={s.alt} width={537} height={410} loading="lazy" />
                                         </div>
                                     </div>
                                 </Link>
