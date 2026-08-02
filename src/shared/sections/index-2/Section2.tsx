@@ -113,7 +113,7 @@ export default function Section2() {
                                 <div className="card-item__bg">
                                     <img
                                         src="/assets/imgs/pages/img-29.png"
-                                        alt="Snow covered mountain peak rising through cloud"
+                                        alt="Monochrome illustration of a laptop, phone and browser window surrounded by a megaphone, target and rising growth chart"
                                         className="home-2-card-item__bg-img img-cover"
                                         width={400}
                                         height={400} loading="lazy" />
