@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
 const PLUS_SVG = (
     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
@@ -77,10 +78,45 @@ const LOGO_SVG = (
     </svg>
 );
 
+/** Live client sites. redCamel has no public URL yet, so that card points at the work page. */
+const PROJECTS = {
+    localSouq: "https://thelocalsouq.com/",
+    earthy: "https://earthybyellenza.com/",
+    medEdge: "https://mededgemea.com/",
+    redCamel: "/work",
+    nknMedia: "https://falconsofmajlis.com/",
+    arvento: "https://arventoevents.com/",
+};
+
 const PORTFOLIO_DESC =
     "A selection of the work we take on: business websites, online stores, brand identities, and campaigns. Each one starts with a commercial goal and ends with something the client can measure, from enquiry volume to average order value.";
 
+/** Live project sites open in a new tab; anything without a URL yet falls back to /work. */
+function ProjectLink({
+    href,
+    className,
+    children,
+}: {
+    href: string;
+    className?: string;
+    children: ReactNode;
+}) {
+    if (href.startsWith("http")) {
+        return (
+            <a href={href} className={className} target="_blank" rel="noopener noreferrer">
+                {children}
+            </a>
+        );
+    }
+    return (
+        <Link to={href} className={className}>
+            {children}
+        </Link>
+    );
+}
+
 function PortfolioThumb({
+    href,
     src,
     alt,
     tag,
@@ -91,6 +127,7 @@ function PortfolioThumb({
     width,
     height,
 }: {
+    href: string;
     src: string;
     alt: string;
     tag: string;
@@ -103,8 +140,8 @@ function PortfolioThumb({
     height: number;
 }) {
     return (
-        <Link
-            to="/work"
+        <ProjectLink
+            href={href}
             className={`alt-portfolio-thumb p-relative fix d-block ${thumbBelowContent ? "" : "mb-15"}`.trim()}
         >
             <span className="w-100 d-block scale-img-from-to" data-value-1="1.5" data-value-2="1">
@@ -124,17 +161,17 @@ function PortfolioThumb({
                     <p className="text-white fz-font-md mb-0 mt-10 text-truncate-2 des">{description}</p>
                 </div>
             </div>
-        </Link>
+        </ProjectLink>
     );
 }
 
-function PortfolioItemContent({ title }: { title: string }) {
+function PortfolioItemContent({ href, title, className = "" }: { href: string; title: string; className?: string }) {
     return (
-        <div className="alt-portfolio-content d-flex justify-content-between align-items-center">
+        <div className={`alt-portfolio-content d-flex justify-content-between align-items-center ${className}`.trim()}>
             <h5 className="alt-portfolio-title mb-0">
-                <Link to="/work" className="common-underline">
+                <ProjectLink href={href} className="common-underline">
                     {title}
-                </Link>
+                </ProjectLink>
             </h5>
             <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
         </div>
@@ -160,24 +197,22 @@ export default function Section6() {
                         </div>
                     </div>
 
-                    {/* Row 1: Noirform, Nebula */}
+                    {/* Row 1: The Local Souq, Earthy by Ellenza */}
                     <div className="row justify-content-xl-start justify-content-center">
                         <div className="col-xxl-3 col-xl-4 col-lg-5 col-md-6 offset-xxl-4 offset-xl-4">
                             <div className="alt-portfolio-item at-hover-item mb-30">
-                                <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
-                                    <h5 className="alt-portfolio-title mb-0">
-                                        <Link to="/work" className="common-underline">
-                                            Restaurant Website
-                                        </Link>
-                                    </h5>
-                                    <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
-                                </div>
+                                <PortfolioItemContent
+                                    href={PROJECTS.localSouq}
+                                    title="Social Media and Marketing"
+                                    className="mb-15"
+                                />
                                 <PortfolioThumb
+                                    href={PROJECTS.localSouq}
                                     src="/assets/imgs/pages/img-34.png"
-                                    alt="Hand holding a small cream and black cosmetics box"
-                                    tag="Web"
-                                    title="Restaurant website with online ordering"
-                                    description="Digital menu, table reservations, and online ordering built into one website."
+                                    alt="The Local Souq marketplace homepage on a laptop next to an Instagram campaign post on a phone"
+                                    tag="Marketing"
+                                    title="Social media and marketing for The Local Souq"
+                                    description="Content, creative and always-on social for a UAE marketplace that connects shoppers with nearby stores."
                                     thumbBelowContent
                                     width={400}
                                     height={500}
@@ -187,37 +222,36 @@ export default function Section6() {
                         <div className="col-xxl-4 col-xl-4 offset-xl-7 col-lg-4 col-md-6">
                             <div className="alt-portfolio-item mb-30 alt-portfolio-item-2 at-hover-item">
                                 <PortfolioThumb
+                                    href={PROJECTS.earthy}
                                     src="/assets/imgs/pages/img-35.png"
-                                    alt="Fashion portrait of a model in a translucent iridescent jacket"
+                                    alt="Earthy by Ellenza skincare store shown on a laptop, tablet and phone"
                                     tag="E-Commerce"
-                                    title="Online store for a clothing label"
-                                    description="Catalogue, payments, and shipping set up so the team can run it themselves."
+                                    title="Online skincare store for Earthy by Ellenza"
+                                    description="Shop by skin concern, full product catalogue and checkout, set up so the team can run it themselves."
                                     width={550}
                                     height={540}
                                 />
-                                <PortfolioItemContent title="Fashion E-Commerce" />
+                                <PortfolioItemContent href={PROJECTS.earthy} title="Skincare E-Commerce" />
                             </div>
                         </div>
                     </div>
 
-                    {/* Row 2: Nexora, move-up + Veltrix */}
+                    {/* Row 2: MedEdge MEA, signage manufacturer */}
                     <div className="row justify-content-xl-start justify-content-center">
                         <div className="col-xxl-3 col-lg-4 col-md-6">
                             <div className="alt-portfolio-item alt-portfolio-item-3 mb-30 at-hover-item">
-                                <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
-                                    <h5 className="alt-portfolio-title mb-0">
-                                        <Link to="/work" className="common-underline">
-                                            Real Estate Portal
-                                        </Link>
-                                    </h5>
-                                    <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
-                                </div>
+                                <PortfolioItemContent
+                                    href={PROJECTS.medEdge}
+                                    title="Healthcare Magazine"
+                                    className="mb-15"
+                                />
                                 <PortfolioThumb
+                                    href={PROJECTS.medEdge}
                                     src="/assets/imgs/pages/img-36.png"
-                                    alt="Portrait of a person in a dark fur coat against an open sky"
+                                    alt="MedEdge healthcare magazine homepage shown on a laptop and a phone"
                                     tag="Web"
-                                    title="Property portal built to convert"
-                                    description="Property listings, filters, and enquiry forms designed around how buyers search."
+                                    title="Healthcare magazine for MedEdge MEA"
+                                    description="News, interviews and cover stories, with a publishing workflow the newsroom runs day to day."
                                     thumbBelowContent
                                     width={400}
                                     height={550}
@@ -232,38 +266,37 @@ export default function Section6() {
                             </div>
                             <div className="alt-portfolio-item alt-portfolio-item-4 mb-30 at-hover-item">
                                 <PortfolioThumb
+                                    href={PROJECTS.redCamel}
                                     src="/assets/imgs/pages/img-37.png"
-                                    alt="Shopfront with a painted signboard and orange awnings at dusk"
-                                    tag="Branding"
-                                    title="Identity and packaging system"
-                                    description="Logo, packaging, signage, and a guideline set the client can hand to any printer."
+                                    alt="Signage manufacturer website homepage displayed on a laptop on a wooden desk"
+                                    tag="Web"
+                                    title="Website for a signage manufacturer"
+                                    description="Fabrication capability, product ranges and client roster laid out for commercial buyers."
                                     overlayClass="end-0 me-3"
                                     width={400}
                                     height={450}
                                 />
-                                <PortfolioItemContent title="Brand Identity" />
+                                <PortfolioItemContent href={PROJECTS.redCamel} title="Signage Manufacturer" />
                             </div>
                         </div>
                     </div>
 
-                    {/* Row 3: Solace, Ardent */}
+                    {/* Row 3: NKN Media, Arvento Events */}
                     <div className="row justify-content-xl-start justify-content-center">
                         <div className="col-xl-4 offset-xl-2 col-xxl-3 offset-xxl-2 col-lg-5 col-md-6">
                             <div className="alt-portfolio-item alt-portfolio-item-5 mb-30 at-hover-item">
-                                <div className="alt-portfolio-content d-flex justify-content-between align-items-center mb-15">
-                                    <h5 className="alt-portfolio-title mb-0">
-                                        <Link to="/work" className="common-underline">
-                                            Paid Campaigns
-                                        </Link>
-                                    </h5>
-                                    <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
-                                </div>
+                                <PortfolioItemContent
+                                    href={PROJECTS.nknMedia}
+                                    title="Paid Campaigns"
+                                    className="mb-15"
+                                />
                                 <PortfolioThumb
+                                    href={PROJECTS.nknMedia}
                                     src="/assets/imgs/pages/img-38.png"
-                                    alt="Person waiting on a platform as a train blurs past"
+                                    alt="Falcons of Majlis startup funding show landing page displayed on a laptop"
                                     tag="Marketing"
-                                    title="Performance marketing campaign"
-                                    description="Google and Meta ads run against a cost per enquiry target, reviewed every week."
+                                    title="Paid campaigns for NKN Media"
+                                    description="Google and Meta ads for a startup funding show, run against a cost per application target."
                                     thumbBelowContent
                                     width={400}
                                     height={550}
@@ -273,15 +306,16 @@ export default function Section6() {
                         <div className="col-xl-4 offset-xxl-8 offset-xl-8 col-lg-5 col-md-6">
                             <div className="alt-portfolio-item alt-portfolio-item-6 mb-30 at-hover-item">
                                 <PortfolioThumb
+                                    href={PROJECTS.arvento}
                                     src="/assets/imgs/pages/img-39.png"
-                                    alt="Close portrait of a person looking up in warm sunlight"
+                                    alt="Arvento Edge event management website homepage displayed on a laptop"
                                     tag="Branding"
-                                    title="Brand refresh and website redesign"
-                                    description="A clearer identity and a rebuilt site for a services firm selling to businesses."
+                                    title="Brand and website for Arvento Events"
+                                    description="Identity, art direction and a rebuilt site for an event management and content production team."
                                     width={550}
                                     height={400}
                                 />
-                                <PortfolioItemContent title="B2B Brand Refresh" />
+                                <PortfolioItemContent href={PROJECTS.arvento} title="Event Branding" />
                             </div>
                         </div>
                     </div>
