@@ -232,7 +232,7 @@ export default function Section6() {
                             </div>
                             <div className="alt-portfolio-item alt-portfolio-item-4 mb-30 at-hover-item">
                                 <PortfolioThumb
-                                    src="/assets/imgs/pages/img-37.webp"
+                                    src="/assets/imgs/pages/img-37.png"
                                     alt="Shopfront with a painted signboard and orange awnings at dusk"
                                     tag="Branding"
                                     title="Identity and packaging system"
@@ -259,7 +259,7 @@ export default function Section6() {
                                     <span className="alt-portfolio-plus neutral-950">{PLUS_SVG}</span>
                                 </div>
                                 <PortfolioThumb
-                                    src="/assets/imgs/pages/img-38.webp"
+                                    src="/assets/imgs/pages/img-38.png"
                                     alt="Person waiting on a platform as a train blurs past"
                                     tag="Marketing"
                                     title="Performance marketing campaign"
@@ -273,7 +273,7 @@ export default function Section6() {
                         <div className="col-xl-4 offset-xxl-8 offset-xl-8 col-lg-5 col-md-6">
                             <div className="alt-portfolio-item alt-portfolio-item-6 mb-30 at-hover-item">
                                 <PortfolioThumb
-                                    src="/assets/imgs/pages/img-39.webp"
+                                    src="/assets/imgs/pages/img-39.png"
                                     alt="Close portrait of a person looking up in warm sunlight"
                                     tag="Branding"
                                     title="Brand refresh and website redesign"

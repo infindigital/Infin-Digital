@@ -205,7 +205,7 @@ export default function Section1() {
                                 <div className="alt-portfolio-item alt-portfolio-item-4 mb-30 at-hover-item">
                                     <PortfolioThumb
                                         href={DETAIL_LINK}
-                                        src="/assets/imgs/pages/img-37.webp"
+                                        src="/assets/imgs/pages/img-37.png"
                                         alt="Veltrix"
                                         tag="web development"
                                         title="High-performance website development"
@@ -233,7 +233,7 @@ export default function Section1() {
                                     </div>
                                     <PortfolioThumb
                                         href={DETAIL_LINK}
-                                        src="/assets/imgs/pages/img-38.webp"
+                                        src="/assets/imgs/pages/img-38.png"
                                         alt="Solace"
                                         tag="motion design"
                                         title="Animated brand storytelling"
@@ -248,7 +248,7 @@ export default function Section1() {
                                 <div className="alt-portfolio-item alt-portfolio-item-6 mb-30 at-hover-item">
                                     <PortfolioThumb
                                         href={DETAIL_LINK}
-                                        src="/assets/imgs/pages/img-39.webp"
+                                        src="/assets/imgs/pages/img-39.png"
                                         alt="Ardent"
                                         tag="creative"
                                         title="Visual storytelling & brand experience"
