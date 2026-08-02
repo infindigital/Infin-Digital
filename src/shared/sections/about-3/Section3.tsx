@@ -91,14 +91,14 @@ const TESTIMONIALS = [
         company: "California, USA",
     },
     {
-        avatar: "/assets/imgs/template/avatar/avatar-8.webp",
+        avatar: "/assets/imgs/template/avatar/avatar-8.png",
         text: "A rare combination of technical expertise and artistic vision. The final result felt premium and purposeful.",
         name: "Hannah Lee",
         position: "Creative Director",
         company: "Studio Kinetic",
     },
     {
-        avatar: "/assets/imgs/template/avatar/avatar-8.webp",
+        avatar: "/assets/imgs/template/avatar/avatar-8.png",
         text: "They delivered not just a design, but a complete brand experience. Strategic, creative, and incredibly detail-oriented.",
         name: "Amelia Wright",
         position: "Head of Marketing",

@@ -29,7 +29,7 @@ const TESTIMONIAL_SOURCES = [
     },
     {
         starColor: "#FFB618",
-        img: "/assets/imgs/template/avatar/avatar-8.webp",
+        img: "/assets/imgs/template/avatar/avatar-8.png",
         logo: "/assets/imgs/icons/brand-2.png",
         logoWidth: 119,
         logoHeight: 25,

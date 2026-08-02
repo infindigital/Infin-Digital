@@ -112,7 +112,7 @@ export default function Section2() {
                             >
                                 <div className="card-item__bg">
                                     <img
-                                        src="/assets/imgs/pages/img-29.webp"
+                                        src="/assets/imgs/pages/img-29.png"
                                         alt="Snow covered mountain peak rising through cloud"
                                         className="home-2-card-item__bg-img img-cover"
                                         width={400}

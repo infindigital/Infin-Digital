@@ -97,7 +97,7 @@ export default function Section5() {
                                 <div>
                                     <div className="testimonial-left-img size-50 rounded-3 overflow-hidden">
                                         <img
-                                            src="/assets/imgs/template/avatar/avatar-8.webp"
+                                            src="/assets/imgs/template/avatar/avatar-8.png"
                                             alt="Infin Digital"
                                             width={50}
                                             height={50} loading="lazy" />

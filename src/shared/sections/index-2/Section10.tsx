@@ -49,7 +49,7 @@ const TESTIMONIALS = [
     {
         quote:
             '"The quality of service and communication with the team was excellent. Everything was done on time and with quality, and their advice helped my business scale."',
-        img: "/assets/imgs/template/avatar/avatar-8.webp",
+        img: "/assets/imgs/template/avatar/avatar-8.png",
         name: "Hussain Yusuf",
         position: "CEO",
         company: "Midwest Identity",

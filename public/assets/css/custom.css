@@ -106,3 +106,60 @@ h1, h2, h3, h4, h5, h6,
   overflow-wrap: normal;
   word-break: keep-all;
 }
+
+/* =========================================================
+   Portfolio card overlays, legibility
+   ---------------------------------------------------------
+   The Selected Work cards now carry client site screenshots
+   instead of the dark stock photography they shipped with.
+   The theme scrim (.alt-portfolio-thumb::before) only covers
+   the bottom 50% and is fully transparent until 11.93% into
+   that band, reaching 0.76 opacity only at the very bottom
+   edge. White copy sat almost entirely outside the dark part,
+   so the tag, title and description washed out against pale
+   mockups: beach sand, a cream desk, a white marketplace UI.
+
+   Deepen the scrim, raise it to cover the copy, and add a soft
+   shadow so the text holds up over whatever the screenshot
+   happens to show. Scoped to .alt-portfolio-area, which is the
+   Selected Work grid and the matching portfolio-5 grid, so
+   other cards on the site keep the lighter treatment.
+   ========================================================= */
+.alt-portfolio-area .alt-portfolio-thumb::before {
+  height: 85%;
+  background: linear-gradient(
+    180deg,
+    rgba(18, 18, 18, 0) 0%,
+    rgba(18, 18, 18, 0.28) 32%,
+    rgba(18, 18, 18, 0.62) 58%,
+    rgba(18, 18, 18, 0.85) 82%,
+    rgba(18, 18, 18, 0.93) 100%
+  );
+}
+
+.alt-portfolio-area .alt-portfolio-btn .content > * {
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* The pill outline reads as grey against a light photo. */
+.alt-portfolio-area .alt-portfolio-btn .content > span {
+  border-color: rgba(255, 255, 255, 0.65) !important;
+  background-color: rgba(18, 18, 18, 0.35) !important;
+  backdrop-filter: blur(2px);
+}
+
+/* ---------------------------------------------------------
+   Touch devices never fire :hover, so the theme leaves the
+   overlay translated 40% down (clipped by the thumb's
+   overflow: hidden) with the description permanently
+   invisible. Show the resting state in full instead.
+   --------------------------------------------------------- */
+@media (hover: none) {
+  .alt-portfolio-area .alt-portfolio-btn {
+    transform: translateY(0);
+  }
+  .alt-portfolio-area .alt-portfolio-btn .des {
+    opacity: 1;
+    visibility: visible;
+  }
+}
