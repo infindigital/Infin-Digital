@@ -197,7 +197,7 @@ export default function Section2() {
                                                 </div>
                                             ))}
                                         </div>
-                                        <span className="neutral-500 small d-block mt-60 pb-145">[Since 2012]</span>
+                                        <span className="neutral-500 small d-block mt-60 pb-145">[Since 2014]</span>
                                         <div className="sec-2-home-5__product-img-wrap p-absolute bottom-0 end-0">
                                             <img
                                                 src="/assets/imgs/pages/img-104.webp"

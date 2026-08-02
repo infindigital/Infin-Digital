@@ -34,7 +34,7 @@ export default function Section4() {
                                     </svg>
                                 </span>
                             </div>
-                            <span className="sec-4-home-8__since fs-font-md fw-500 text-decoration-underline">Since 2012</span>
+                            <span className="sec-4-home-8__since fs-font-md fw-500 text-decoration-underline">Since 2014</span>
                         </div>
                     </div>
 

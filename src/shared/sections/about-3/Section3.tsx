@@ -77,14 +77,14 @@ const STARS_SVG = (
 
 const TESTIMONIALS = [
     {
-        avatar: "/assets/imgs/template/avatar/avatar-6.webp",
+        avatar: "/assets/imgs/template/avatar/avatar-6.png",
         text: "They delivered not just a design, but a complete brand experience. Strategic, creative, and incredibly detail-oriented.",
         name: "Amelia Wright",
         position: "Head of Marketing",
         company: "London, United Kingdom",
     },
     {
-        avatar: "/assets/imgs/template/avatar/avatar-7.webp",
+        avatar: "/assets/imgs/template/avatar/avatar-7.png",
         text: "The collaboration was seamless from start to finish. Their UX decisions significantly improved our product engagement.",
         name: "Steven Jobs",
         position: "CEO of Krim Co",
@@ -105,7 +105,7 @@ const TESTIMONIALS = [
         company: "London, United Kingdom",
     },
     {
-        avatar: "/assets/imgs/template/avatar/avatar-7.webp",
+        avatar: "/assets/imgs/template/avatar/avatar-7.png",
         text: "They delivered not just a design, but a complete brand experience. Strategic, creative, and incredibly detail-oriented.",
         name: "Amelia Wright",
         position: "Head of Marketing",

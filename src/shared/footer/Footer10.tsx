@@ -238,7 +238,7 @@ export default function Footer10() {
                 <div className="footer-10__bottom">
                     <div className="footer-10__bottom-inner d-flex flex-wrap align-items-center justify-content-between gap-3">
                         <span className="footer-10__copy">Infin Digital &copy; 2026</span>
-                        <span className="footer-10__since">[ Since 2012 ]</span>
+                        <span className="footer-10__since">[ Since 2014 ]</span>
                     </div>
                 </div>
             </div>

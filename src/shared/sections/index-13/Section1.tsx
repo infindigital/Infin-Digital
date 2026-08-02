@@ -75,7 +75,7 @@ export default function Section1() {
             <div className="sec-1-home-13__inner">
                 <div className="sec-1-home-13__top">
                     <h1 className="sec-1-home-13__brand mb-0 text-scale-anim">Infin Digital<sup>&reg;</sup> Architecture</h1>
-                    <Link className="sec-1-home-13__since text-scramble" to="/about-1">&copy; Since 2012</Link>
+                    <Link className="sec-1-home-13__since text-scramble" to="/about-1">&copy; Since 2014</Link>
                 </div>
 
                 <div className="sec-1-home-13__card">

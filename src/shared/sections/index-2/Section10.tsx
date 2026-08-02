@@ -33,7 +33,7 @@ const TESTIMONIALS = [
     {
         quote:
             '"Infin Digital transformed our brand identity! Their strategic approach and creative vision delivered a cohesive brand that resonates with our audience."',
-        img: "/assets/imgs/template/avatar/avatar-6.webp",
+        img: "/assets/imgs/template/avatar/avatar-6.png",
         name: "Arifa KY",
         position: "Founder",
         company: "Soulishwear",
@@ -41,7 +41,7 @@ const TESTIMONIALS = [
     {
         quote:
             '"Working with Infin Digital has been an excellent experience. Within a year they enhanced our digital presence, website, and ad performance, delivering more than expected."',
-        img: "/assets/imgs/template/avatar/avatar-7.webp",
+        img: "/assets/imgs/template/avatar/avatar-7.png",
         name: "Nafisa Afnan",
         position: "Founder",
         company: "Earthy By Ellenza",

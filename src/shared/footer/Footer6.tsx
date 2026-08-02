@@ -144,7 +144,7 @@ export default function Footer6() {
                                                 <span className="fz-font-md neutral-0 opacity-50">Infin Digital &copy; 2026 </span>
                                             </li>
                                             <li>
-                                                <span className="fz-font-md neutral-0 opacity-50">[ Since 2012 ] </span>
+                                                <span className="fz-font-md neutral-0 opacity-50">[ Since 2014 ] </span>
                                             </li>
                                         </ul>
                                     </div>

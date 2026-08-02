@@ -58,7 +58,7 @@ export default function Section1() {
                                 <div className="testimonial-author d-flex align-items-start mb-0 gap-2">
                                     <div className="testimonial-left-img size-30 rounded-2 overflow-hidden">
                                         <img
-                                            src="/assets/imgs/template/avatar/avatar-6.webp"
+                                            src="/assets/imgs/template/avatar/avatar-6.png"
                                             alt="Infin Digital"
                                             width={30}
                                             height={30}

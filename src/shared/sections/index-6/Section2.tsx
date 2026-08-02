@@ -116,7 +116,7 @@ export default function Section2() {
         </div>
         <div className="col-xxl-6 col-lg-6 ms-auto p-relative">
           <p className="fw-500 neutral-900 text-end pt-md-5 d-none d-md-block">
-            &copy; Since 2012
+            &copy; Since 2014
           </p>
           <div className="scroll-section vertical-section section scroll-active-item">
             <div className="wrapper">

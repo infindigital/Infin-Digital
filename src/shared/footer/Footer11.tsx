@@ -279,7 +279,7 @@ export default function Footer11() {
                                 Motion &amp; Video Creative Studio
                             </span>
                         </div>
-                        <span className="footer-11__since">[ Since 2019 ]</span>
+                        <span className="footer-11__since">[ Since 2014 ]</span>
                     </div>
                 </div>
             </div>

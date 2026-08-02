@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const TESTIMONIAL_SOURCES = [
     {
         starColor: "#FFB618",
-        img: "/assets/imgs/template/avatar/avatar-6.webp",
+        img: "/assets/imgs/template/avatar/avatar-6.png",
         logo: "/assets/imgs/icons/brand-7.png",
         logoWidth: 86,
         logoHeight: 25,
@@ -17,7 +17,7 @@ const TESTIMONIAL_SOURCES = [
     },
     {
         starColor: "#585959",
-        img: "/assets/imgs/template/avatar/avatar-7.webp",
+        img: "/assets/imgs/template/avatar/avatar-7.png",
         logo: "/assets/imgs/icons/brand-1.png",
         logoWidth: 101,
         logoHeight: 25,

@@ -55,7 +55,7 @@ export default function Section1() {
                     <h1 className="sec-1-home-15__title mb-3 at_fade_anim">Infin Digital Agency Portfolio</h1>
                     <div className="sec-1-home-15__title-meta">
                         <span className="sec-1-home-15__title-side at_fade_anim" data-fade-from="left" data-delay=".4">Based in Kyoto</span>
-                        <span className="sec-1-home-15__title-side at_fade_anim" data-fade-from="right" data-delay=".4">Since 2012</span>
+                        <span className="sec-1-home-15__title-side at_fade_anim" data-fade-from="right" data-delay=".4">Since 2014</span>
                     </div>
                 </div>
             </div>

@@ -163,7 +163,7 @@ export default function Footer1() {
               </div>
               <div className="col-lg-2">
                 <div className="at-footer-copyright-wrap text-lg-end">
-                  <span className="at-footer-copyright">[ Since 2012 ]</span>
+                  <span className="at-footer-copyright">[ Since 2014 ]</span>
                 </div>
               </div>
             </div>

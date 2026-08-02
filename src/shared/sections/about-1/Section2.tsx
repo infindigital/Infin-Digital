@@ -29,25 +29,25 @@ const PLUS_ICON = (
 
 const JOURNEY_ITEMS = [
     {
-        date: "[Year]: Started in Mangalore",
+        date: "2014: Started in Mangalore",
         title: "Where Design Met Marketing",
         company: null,
         desc: "Infin Digital started with one observation: sites nobody finds, and campaigns pointed at pages that cannot sell. We built a team to close that gap for local businesses.",
     },
     {
-        date: "[Year]: A Repeatable Process",
+        date: "2017: A Repeatable Process",
         title: "From Single Projects to a System",
         company: null,
         desc: "Every engagement follows one spine: discovery, research, architecture, design, build, launch checks, then optimisation. Documenting it keeps the quality consistent.",
     },
     {
-        date: "[Year]: Search and Performance",
+        date: "2020: Search and Performance",
         title: "Measurement Becomes the Default",
         company: null,
         desc: "Technical SEO, local SEO and paid media joined the core offer. Analytics, conversion tracking and Google Business Profile are set up before launch, not afterwards.",
     },
     {
-        date: "[Year]: E-commerce and Scale",
+        date: "2023: E-commerce and Scale",
         title: "Building for Growth, Not Launch Day",
         company: null,
         desc: "Storefronts, product feeds, design systems and content that compounds. Work is judged on enquiries, orders and qualified leads, and we keep testing after go live.",
@@ -113,7 +113,7 @@ export default function Section2() {
                                 <div className="alt-portfolio-btn">
                                     <div className="content">
                                         <span className="bg-transparent text-uppercase border px-3 py-1 rounded-pill text-white fz-font-label">
-                                            Since [Year]
+                                            Since 2014
                                         </span>
                                         <h2 className="fw-400 fz-font-3xl text-white mb-0 mt-20">
                                             Design and digital marketing under one roof

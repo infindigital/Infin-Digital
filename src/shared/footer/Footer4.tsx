@@ -173,7 +173,7 @@ export default function Footer4() {
                             </div>
                             <div className="col-xl-3">
                                 <div className="at-footer-copyright-wrap text-lg-end">
-                                    <span className="at-footer-copyright">[ Since 2012 ]</span>
+                                    <span className="at-footer-copyright">[ Since 2014 ]</span>
                                 </div>
                             </div>
                         </div>

@@ -23,7 +23,7 @@ const PLUS_ICON = (
 
 const PROCESS_ITEMS = [
     {
-        img: "/assets/imgs/pages/img-138.png",
+        img: "/assets/imgs/pages/img-138.jpg",
         alt: "System Audit & Discovery",
         title: "01. System Audit & Discovery",
         metaText: "2-3 Weeks",
@@ -39,7 +39,7 @@ const PROCESS_ITEMS = [
         desc: "Together, we develop a comprehensive technical roadmap. I design the neural architecture and data flow, establishing clear performance benchmarks-such as latency thresholds and accuracy targets-required for success.",
     },
     {
-        img: "/assets/imgs/pages/img-140.png",
+        img: "/assets/imgs/pages/img-140.jpg",
         alt: "Engineering & Deployment",
         title: "03. Engineering & Deployment",
         metaText: "8-12 Weeks",

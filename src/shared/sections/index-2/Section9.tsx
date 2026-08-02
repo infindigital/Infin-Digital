@@ -12,7 +12,7 @@ const STATS = [
     },
     {
         prefix: "",
-        count: 11,
+        count: 12,
         suffix: "+",
         label: (
             <>
