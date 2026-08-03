@@ -5,12 +5,15 @@ import Swiper from "swiper";
 import type { Swiper as SwiperInstance } from "swiper";
 import { Autoplay, FreeMode, Thumbs } from "swiper/modules";
 
+// NOTE: still stock portraits paired with the placeholder quote below. Alt text
+// says "portrait" rather than naming a client, so nothing here claims to be a
+// real customer until real quotes and photographs are supplied.
 const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-15.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-1" },
-    { src: "/assets/imgs/template/avatar/avatar-16.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-2" },
-    { src: "/assets/imgs/template/avatar/avatar-17.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-3" },
-    { src: "/assets/imgs/template/avatar/avatar-18.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-4" },
-    { src: "/assets/imgs/template/avatar/avatar-19.webp", alt: "Client portrait placeholder", thumbClass: "thumb-slide-5" },
+    { src: "/assets/imgs/template/avatar/avatar-15.webp", alt: "Portrait thumbnail for the first Infin Digital testimonial", thumbClass: "thumb-slide-1" },
+    { src: "/assets/imgs/template/avatar/avatar-16.webp", alt: "Portrait thumbnail for the second Infin Digital testimonial", thumbClass: "thumb-slide-2" },
+    { src: "/assets/imgs/template/avatar/avatar-17.webp", alt: "Portrait thumbnail for the third Infin Digital testimonial", thumbClass: "thumb-slide-3" },
+    { src: "/assets/imgs/template/avatar/avatar-18.webp", alt: "Portrait thumbnail for the fourth Infin Digital testimonial", thumbClass: "thumb-slide-4" },
+    { src: "/assets/imgs/template/avatar/avatar-19.webp", alt: "Portrait thumbnail for the fifth Infin Digital testimonial", thumbClass: "thumb-slide-5" },
 ];
 
 const QUOTE_TEXT = (

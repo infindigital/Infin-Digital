@@ -2,16 +2,19 @@ import Marquee from "react-fast-marquee";
 
 // About 2 Section 4 - Moving gallery (carousel ticker left)
 
-// Scrolling mood board of editorial stock imagery used as a visual sign off
-// at the foot of the contact page. Alt text describes each photo as it appears.
+// Scrolling gallery of social media creatives INFIN Digital designed for a
+// marketplace app client, used as a visual sign off at the foot of the contact
+// page. Alt text describes each creative and the kind of work it represents.
+// NOTE: as with the portfolio titles, client names are kept out of the copy
+// until each client has approved being named publicly.
 const GALLERY_IMGS = [
-    { src: "/assets/imgs/pages/img-130.webp", alt: "Motion blurred photograph of a runner sprinting against a clear blue sky" },
-    { src: "/assets/imgs/pages/img-131.webp", alt: "Side profile of a woman wearing a white mixed reality headset" },
-    { src: "/assets/imgs/pages/img-132.webp", alt: "Man in a black tailored coat and dark sunglasses, blurred figures behind him" },
-    { src: "/assets/imgs/pages/img-133.webp", alt: "Woman in a navy coat walking past a red train carriage on a station platform" },
-    { src: "/assets/imgs/pages/img-134.webp", alt: "Person in a padded jacket seen through a narrow gap, backlit against snow" },
-    { src: "/assets/imgs/pages/img-135.webp", alt: "Model in an orange gilet and red tinted visor shot through a shop window" },
-    { src: "/assets/imgs/pages/img-136.webp", alt: "Portrait of a model in a translucent iridescent hooded jacket and visor" },
+    { src: "/assets/imgs/pages/img-130.png", alt: "Social media creative by INFIN Digital showing a marketplace app sending order and enquiry notifications to a listed business" },
+    { src: "/assets/imgs/pages/img-131.png", alt: "Food delivery social media post designed by INFIN Digital, with two friends sharing a pizza beside the app screen" },
+    { src: "/assets/imgs/pages/img-132.png", alt: "Business listing campaign creative by INFIN Digital, with illustrated figures around a boardroom table" },
+    { src: "/assets/imgs/pages/img-133.png", alt: "Seasonal social media creative by INFIN Digital featuring a couple watching a sunset inside a gift box" },
+    { src: "/assets/imgs/pages/img-134.png", alt: "App download creative by INFIN Digital with a city skyline and food, leisure and gaming category visuals" },
+    { src: "/assets/imgs/pages/img-135.png", alt: "Local search visibility creative by INFIN Digital, with a chef seated on an oversized search bar graphic" },
+    { src: "/assets/imgs/pages/img-136.png", alt: "Luxury fragrance product launch creative by INFIN Digital showing a perfume bottle being sprayed" },
 ];
 
 export default function Section4() {

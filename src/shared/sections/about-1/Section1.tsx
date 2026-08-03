@@ -12,19 +12,21 @@ const ARROW_SVG = (
     </svg>
 );
 
+// Icon row for the platforms and services Infin Digital works across, sitting
+// directly under the copy that lists those same services.
 const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-10.webp", alt: "Portrait of an Infin Digital designer", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-11.webp", alt: "Portrait of an Infin Digital web developer", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-12.webp", alt: "Portrait of an Infin Digital SEO specialist", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-13.webp", alt: "Portrait of an Infin Digital campaign manager", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-14.webp", alt: "Portrait of an Infin Digital brand strategist", hiddenOnMobile: true },
+    { src: "/assets/imgs/template/avatar/avatar-10.png", alt: "Google My Business icon, part of the local SEO work Infin Digital handles in Mangalore", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-11.png", alt: "Google Ads icon, one of the paid platforms Infin Digital manages for clients", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-12.png", alt: "Meta Ads icon, covering the Facebook and Instagram campaigns Infin Digital runs", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-13.png", alt: "SEO icon representing Infin Digital's search engine optimisation service", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-14.png", alt: "Performance marketing icon showing a rising bar chart and growth arrow", hiddenOnMobile: true },
 ];
 
 const SLIDES = [
-    { src: "/assets/imgs/pages/img-117.webp", alt: "Website design work in progress at the Infin Digital studio in Mangalore" },
-    { src: "/assets/imgs/pages/img-118.webp", alt: "Brand and identity design laid out during a client project review" },
-    { src: "/assets/imgs/pages/img-119.webp", alt: "Search and campaign performance being reviewed on screen" },
-    { src: "/assets/imgs/pages/img-120.webp", alt: "Team collaborating on a website build at the Infin Digital office" },
+    { src: "/assets/imgs/pages/img-117.png", alt: "Infin Digital studio desk in Mangalore with a laptop showing an ideas, strategy and results deck beside brand mission and vision cards" },
+    { src: "/assets/imgs/pages/img-118.png", alt: "Brand and identity design mood board with a laptop, colour swatches and website wireframe sketches" },
+    { src: "/assets/imgs/pages/img-119.png", alt: "Laptop showing social media and search growth figures beside SEO, content and paid ads planning notes" },
+    { src: "/assets/imgs/pages/img-120.png", alt: "Website layout and user flow sketches next to a laptop showing a digital marketing performance dashboard" },
 ];
 
 export default function Section1() {

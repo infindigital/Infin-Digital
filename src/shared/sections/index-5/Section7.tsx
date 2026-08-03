@@ -35,7 +35,7 @@ const TESTIMONIALS: TestimonialItem[] = [
     {
         name: "Marcus Thorne",
         roleLine: "CTO\nNexusTech",
-        avatar: "/assets/imgs/template/avatar/avatar-10.webp",
+        avatar: "/assets/imgs/template/avatar/avatar-10.png",
         quote:
             '"Infin Digital doesn\'t just build models; he builds engines for growth. His ability to deploy complex architectures with 99.9% reliability is what sets his work apart."',
         headerFirst: true,
@@ -44,7 +44,7 @@ const TESTIMONIALS: TestimonialItem[] = [
     {
         name: "Sarah Jenkins",
         roleLine: "Lead Architect\nFlowData",
-        avatar: "/assets/imgs/template/avatar/avatar-12.webp",
+        avatar: "/assets/imgs/template/avatar/avatar-12.png",
         quote:
             '"From start to finish, the transition from raw data to a production-ready API was seamless. The efficiency gains in our pipeline exceeded all expectations."',
         headerFirst: false,

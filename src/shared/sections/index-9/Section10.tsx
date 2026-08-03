@@ -21,13 +21,13 @@ function LongArrowRight() {
 }
 
 const galleryImages = [
-    "/assets/imgs/pages/img-130.webp",
-    "/assets/imgs/pages/img-131.webp",
-    "/assets/imgs/pages/img-132.webp",
-    "/assets/imgs/pages/img-133.webp",
-    "/assets/imgs/pages/img-134.webp",
-    "/assets/imgs/pages/img-135.webp",
-    "/assets/imgs/pages/img-136.webp",
+    "/assets/imgs/pages/img-130.png",
+    "/assets/imgs/pages/img-131.png",
+    "/assets/imgs/pages/img-132.png",
+    "/assets/imgs/pages/img-133.png",
+    "/assets/imgs/pages/img-134.png",
+    "/assets/imgs/pages/img-135.png",
+    "/assets/imgs/pages/img-136.png",
 ];
 
 export default function Section10() {

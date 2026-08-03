@@ -120,7 +120,7 @@ export default function Section10() {
                                                                     <div className="testimonial-left-img">
                                                                         <img
                                                                             src={item.img}
-                                                                            alt="Portrait of a client who reviewed Infin Digital"
+                                                                            alt={`Photograph of ${item.name}, ${item.position} at ${item.company}, an Infin Digital client`}
                                                                             width={56}
                                                                             height={56} loading="lazy" />
                                                                     </div>

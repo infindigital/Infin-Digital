@@ -47,14 +47,14 @@ const ARROW_ICON_SM = (
     </svg>
 );
 
-// Decorative avatar row (stock template imagery, not photographs of named staff),
-// so every alt is intentionally empty for screen readers.
+// Icon row for the platforms and services Infin Digital works across. These
+// carry meaning now (they name real services), so each one gets descriptive alt.
 const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-10.webp", alt: "", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-11.webp", alt: "", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-12.webp", alt: "", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-13.webp", alt: "", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-14.webp", alt: "", hiddenOnMobile: true },
+    { src: "/assets/imgs/template/avatar/avatar-10.png", alt: "Google My Business icon for Infin Digital's local SEO service", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-11.png", alt: "Google Ads icon for Infin Digital's paid search campaigns", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-12.png", alt: "Meta Ads icon for Infin Digital's Facebook and Instagram advertising", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-13.png", alt: "SEO icon for Infin Digital's search engine optimisation service", hiddenOnMobile: false },
+    { src: "/assets/imgs/template/avatar/avatar-14.png", alt: "Performance marketing icon for Infin Digital's growth campaigns", hiddenOnMobile: true },
 ];
 
 const SOCIAL_ITEMS = [

@@ -17,7 +17,7 @@ const SERVICES = [
         listLeft: ["Brand Research & Positioning", "Logo & Identity Design", "Colour & Type Systems"],
         listRight: ["Packaging & Print", "Brand Guidelines", "Brand Messaging"],
         image: "/assets/imgs/pages/img-30.png",
-        imageAlt: "Smooth white sculptural object beside a slim ceramic vase",
+        imageAlt: "Sports brand identity by Infin Digital across business cards, an envelope, notebook, tumbler and swing tags",
         itemClass: "pb-40",
     },
     {
@@ -27,7 +27,7 @@ const SERVICES = [
         listLeft: ["UX Research & User Journeys", "Responsive Interface Design", "WordPress & Custom Builds"],
         listRight: ["E-Commerce Development", "Speed & Core Web Vitals"],
         image: "/assets/imgs/pages/img-31.png",
-        imageAlt: "Close view of layered sandstone showing fine natural strata",
+        imageAlt: "Responsive sports training website built by Infin Digital, shown on a phone, laptop and tablet",
         itemClass: "pb-40",
     },
     {
@@ -37,7 +37,7 @@ const SERVICES = [
         listLeft: ["Social Media Marketing", "Content & Creative Production", "Email & WhatsApp Campaigns"],
         listRight: ["Performance Marketing", "Reporting & Analytics"],
         image: "/assets/imgs/pages/img-32.png",
-        imageAlt: "Abstract red ridges lit against a soft grey sky",
+        imageAlt: "Meta campaign dashboard for a property expo run by Infin Digital, showing conversions, reach, leads and cost per lead next to the Facebook ad",
         itemClass: "pb-40",
     },
     {
@@ -47,7 +47,7 @@ const SERVICES = [
         listLeft: ["Technical SEO Audits", "Local SEO & Google Business", "Keyword & Content Strategy"],
         listRight: ["On-Page Optimisation", "Conversion Rate Optimisation"],
         image: "/assets/imgs/pages/img-33.png",
-        imageAlt: "Fine golden particles drifting through soft blue light",
+        imageAlt: "Local search results and a Search Console performance report showing organic click growth from Infin Digital's SEO work",
         itemClass: "pb-50",
     },
 ];

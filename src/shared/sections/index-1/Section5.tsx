@@ -21,7 +21,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/pages/img-11.webp",
+        img: "/assets/imgs/pages/img-11.png",
         title: "Noirform",
         description: "Brand art direction & visual identity",
         tags: [

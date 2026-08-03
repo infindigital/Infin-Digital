@@ -29,7 +29,7 @@ export default function Section1() {
                     className="img-cover scale-up"
                     data-speed=".4"
                     src="/assets/imgs/pages/img-153.png"
-                    alt="Four colleagues talking around a laptop at a bright studio table"
+                    alt="Meta Ads campaign dashboard and performance overview showing leads, reach and cost per lead from campaigns Infin Digital manages"
                     width={1920}
                     height={800} loading="lazy" />
             </div>

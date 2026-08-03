@@ -63,10 +63,10 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
 ];
 
 const AVATARS = [
-    "/assets/imgs/template/avatar/avatar-10.webp",
-    "/assets/imgs/template/avatar/avatar-11.webp",
-    "/assets/imgs/template/avatar/avatar-12.webp",
-    "/assets/imgs/template/avatar/avatar-13.webp",
+    "/assets/imgs/template/avatar/avatar-10.png",
+    "/assets/imgs/template/avatar/avatar-11.png",
+    "/assets/imgs/template/avatar/avatar-12.png",
+    "/assets/imgs/template/avatar/avatar-13.png",
 ];
 
 const ARROW_SVG = (

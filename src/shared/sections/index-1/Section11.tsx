@@ -64,7 +64,7 @@ export default function Section11({ classList = "" }: { classList?: string }) {
                                     width={600}
                                     height={700}
                                     className="w-100"
-                                    alt="Side profile of a young man in a black cap against a tiled wall" loading="lazy" />
+                                    alt="Question mark cube on a desk beside a notebook and laptop, illustrating the Infin Digital FAQ section" loading="lazy" />
                             </div>
                             <h6 className="mb-15 pt-50">Question not answered here?</h6>
                             <p className="at-faq-dec mb-35">Tell us what you need and we will advise</p>

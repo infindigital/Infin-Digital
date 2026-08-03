@@ -13,11 +13,11 @@ const ARROW_SVG = (
 );
 
 const AVATARS = [
-    "/assets/imgs/template/avatar/avatar-10.webp",
-    "/assets/imgs/template/avatar/avatar-11.webp",
-    "/assets/imgs/template/avatar/avatar-12.webp",
-    "/assets/imgs/template/avatar/avatar-13.webp",
-    "/assets/imgs/template/avatar/avatar-14.webp",
+    "/assets/imgs/template/avatar/avatar-10.png",
+    "/assets/imgs/template/avatar/avatar-11.png",
+    "/assets/imgs/template/avatar/avatar-12.png",
+    "/assets/imgs/template/avatar/avatar-13.png",
+    "/assets/imgs/template/avatar/avatar-14.png",
 ];
 
 const QUOTE_SVG = (

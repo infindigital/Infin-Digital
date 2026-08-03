@@ -57,11 +57,11 @@ const SKILLS_LIST_ITEMS = [
 ];
 
 const AVATAR_IMGS = [
-    "/assets/imgs/template/avatar/avatar-10.webp",
-    "/assets/imgs/template/avatar/avatar-11.webp",
-    "/assets/imgs/template/avatar/avatar-12.webp",
-    "/assets/imgs/template/avatar/avatar-13.webp",
-    "/assets/imgs/template/avatar/avatar-14.webp",
+    "/assets/imgs/template/avatar/avatar-10.png",
+    "/assets/imgs/template/avatar/avatar-11.png",
+    "/assets/imgs/template/avatar/avatar-12.png",
+    "/assets/imgs/template/avatar/avatar-13.png",
+    "/assets/imgs/template/avatar/avatar-14.png",
 ];
 
 const FOOTER_TAGS = [
@@ -159,7 +159,7 @@ export default function Section2() {
                                         <div className="d-flex align-items-center gap-3 mb-3">
                                             <div className="sec-2-home-5__avatar rounded-3 overflow-hidden flex-shrink-0">
                                                 <img
-                                                    src="/assets/imgs/template/avatar/avatar-10.webp"
+                                                    src="/assets/imgs/template/avatar/avatar-10.png"
                                                     alt="Hannah Lee"
                                                     width={56}
                                                     height={56}

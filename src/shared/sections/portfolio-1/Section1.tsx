@@ -9,6 +9,7 @@ type PortfolioItem = {
     title: string;
     description: string;
     tags: PortfolioCard1Tag[];
+    imgAlt: string;
 };
 
 // NOTE: these titles describe the TYPE of work rather than naming a client, because
@@ -21,16 +22,17 @@ type PortfolioItem = {
 const PORTFOLIO_DATA: PortfolioItem[] = [
     {
         classList: "col-xxl-6 col-lg-7",
-        category: "design",
+        category: "photography",
         link: "/work",
-        img: "/assets/imgs/pages/img-11.webp",
-        title: "Restaurant Website",
-        description: "Restaurant website & online ordering",
+        img: "/assets/imgs/pages/img-11.png",
+        imgAlt: "Cold pressed oil brand e-commerce website designed by INFIN Digital, showing the homepage with product categories and best selling oils",
+        title: "Oil Brand E-Commerce",
+        description: "Cold pressed oil brand online store",
         tags: [
-            { label: "web design", href: "#" },
-            { label: "online ordering", href: "#" },
-            { label: "responsive", href: "#" },
-            { label: "restaurant", href: "#" },
+            { label: "ecommerce", href: "#" },
+            { label: "online store", href: "#" },
+            { label: "product pages", href: "#" },
+            { label: "fmcg", href: "#" },
         ],
     },
     {
@@ -38,6 +40,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "photography",
         link: "/work",
         img: "/assets/imgs/pages/img-12.png",
+        imgAlt: "Ethnic fashion e-commerce website built by INFIN Digital, shown on a laptop beside embroidered outfits and branded packaging",
         title: "Fashion E-Commerce",
         description: "Clothing store with size guides",
         tags: [
@@ -52,6 +55,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "design",
         link: "/work",
         img: "/assets/imgs/pages/img-13.png",
+        imgAlt: "Real estate property portal designed by INFIN Digital, shown on desktop and mobile with a property search, featured listings and an enquiry form",
         title: "Real Estate Portal",
         description: "Property listings & enquiry capture",
         tags: [
@@ -66,6 +70,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "marketing",
         link: "/work",
         img: "/assets/imgs/pages/img-14.png",
+        imgAlt: "Sports brand identity by INFIN Digital laid out across business cards, stationery, a cap, polo shirt, tumbler and tote bag",
         title: "Brand Identity",
         description: "Identity, packaging & brand guidelines",
         tags: [
@@ -80,6 +85,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "marketing",
         link: "/work",
         img: "/assets/imgs/pages/img-170.png",
+        imgAlt: "Google Ads, Meta Ads and Search Console dashboards showing clicks, conversions and cost per lead from campaigns managed by INFIN Digital",
         title: "Paid Campaigns",
         description: "Paid campaigns & landing pages",
         tags: [
@@ -94,6 +100,7 @@ const PORTFOLIO_DATA: PortfolioItem[] = [
         category: "marketing",
         link: "/work",
         img: "/assets/imgs/pages/img-171.png",
+        imgAlt: "B2B print company brand refresh by INFIN Digital, shown across a folder, notebook, business cards, mug and ID lanyard",
         title: "B2B Brand Refresh",
         description: "B2B brand refresh & website redesign",
         tags: [
@@ -139,6 +146,7 @@ export default function Section1() {
                                     classList={item.classList}
                                     link={item.link}
                                     img={item.img}
+                                    imgAlt={item.imgAlt}
                                     title={item.title}
                                     description={item.description}
                                     tags={item.tags}

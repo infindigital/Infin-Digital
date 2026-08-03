@@ -106,8 +106,8 @@ export default function Section2() {
                                     className="w-100 scale-img-from-to"
                                     data-value-1="1.5"
                                     data-value-2="1"
-                                    src="/assets/imgs/pages/img-121.webp"
-                                    alt="Infin Digital team at work on a client website in Mangalore"
+                                    src="/assets/imgs/pages/img-121.png"
+                                    alt="Website wireframe sketches, an analytics dashboard and social media feed on a desk at Infin Digital in Mangalore"
                                     width={550}
                                     height={660} loading="lazy" />
                                 <div className="alt-portfolio-btn">
