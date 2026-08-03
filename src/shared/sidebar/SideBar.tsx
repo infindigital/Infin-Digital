@@ -8,7 +8,15 @@ interface SideBarProps {
   onClose: () => void;
 }
 
-const AVATARS = ["avatar-10", "avatar-11", "avatar-12", "avatar-13", "avatar-14"] as const;
+// Icon row for the platforms and services Infin Digital works across, shown
+// under the intro copy in the offcanvas panel.
+const AVATARS = [
+  { name: "avatar-10", alt: "Google My Business icon for Infin Digital's local SEO service" },
+  { name: "avatar-11", alt: "Google Ads icon for Infin Digital's paid search campaigns" },
+  { name: "avatar-12", alt: "Meta Ads icon for Infin Digital's Facebook and Instagram advertising" },
+  { name: "avatar-13", alt: "SEO icon for Infin Digital's search engine optimisation service" },
+  { name: "avatar-14", alt: "Performance marketing icon for Infin Digital's growth campaigns" },
+] as const;
 
 function CloseIconSvg() {
   return (
@@ -136,9 +144,9 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
 
           <div className="at-offcanvas-gallery d-none d-xl-block">
             <div className="sec-2-home-5__avatars-row d-flex gap-2">
-              {AVATARS.map((name) => (
-                <div key={name} className="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                  <img className="img-cover" src={`/assets/imgs/template/avatar/${name}.webp`} alt="" width={80} height={80} />
+              {AVATARS.map((avatar) => (
+                <div key={avatar.name} className="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
+                  <img className="img-cover" src={`/assets/imgs/template/avatar/${avatar.name}.png`} alt={avatar.alt} width={80} height={80} />
                 </div>
               ))}
             </div>

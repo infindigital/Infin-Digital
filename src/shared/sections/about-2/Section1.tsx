@@ -87,7 +87,7 @@ const BRAND_DIMS: Record<number, { width: number; height: number }> = {
 
 // Order from HTML: 1,2,3,4,5,6, 1,2,3, 5,6, 1,2,3,4,5,6, 1,2,3,4,5,6, 1,2,3,4,5
 const BRANDS = [1, 2, 3, 4, 5, 6, 1, 2, 3, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5].map(
-    (n) => ({ src: `/assets/imgs/icons/brand-${n}.webp`, ...BRAND_DIMS[n] })
+    (n) => ({ src: `/assets/imgs/icons/brand-${n}.png`, ...BRAND_DIMS[n] })
 );
 
 export default function Section1() {
