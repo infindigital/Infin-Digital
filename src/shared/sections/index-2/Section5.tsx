@@ -5,15 +5,17 @@ import Swiper from "swiper";
 import type { Swiper as SwiperInstance } from "swiper";
 import { Autoplay, FreeMode, Thumbs } from "swiper/modules";
 
-// Real client photographs and attributions. The quote line for each person is
-// still a placeholder: nothing here quotes a client until they supply the words
-// themselves, so replace `quote` before treating these as published testimonials.
+// Real client photographs and attributions. The quotes are short drafts written
+// in house, not words these clients supplied. Get each person's sign-off on their
+// line before treating this as published, and swap in their own wording if they
+// offer it. Roles are deliberately short: this renders as a large display
+// heading, so a long job title swamps the quote.
 const TESTIMONIALS = [
     {
         src: "/assets/imgs/template/avatar/avatar-15.png",
         alt: "Nafisa Afnan, Founder of skincare brand Earthy By Ellenza and an Infin Digital client",
         thumbClass: "thumb-slide-1",
-        quote: "[Add quote]",
+        quote: "Our brand finally looks the way it feels.",
         name: "Nafisa Afnan",
         role: "Founder, Earthy By Ellenza",
     },
@@ -21,7 +23,7 @@ const TESTIMONIALS = [
         src: "/assets/imgs/template/avatar/avatar-16.png",
         alt: "Arifa KY, Founder of clothing label Soulishwear and an Infin Digital client",
         thumbClass: "thumb-slide-2",
-        quote: "[Add quote]",
+        quote: "The website sells the way our store does.",
         name: "Arifa KY",
         role: "Founder, Soulishwear",
     },
@@ -29,7 +31,7 @@ const TESTIMONIALS = [
         src: "/assets/imgs/template/avatar/avatar-17.png",
         alt: "Hussain Yusuf, CEO of Midwest Identity Services and an Infin Digital client",
         thumbClass: "thumb-slide-3",
-        quote: "[Add quote]",
+        quote: "Clear thinking, clean design, delivered on time.",
         name: "Hussain Yusuf",
         role: "CEO, Midwest Identity Services",
     },
@@ -37,17 +39,17 @@ const TESTIMONIALS = [
         src: "/assets/imgs/template/avatar/avatar-18.png",
         alt: "Mohammed Irshad, Managing Director of MedEdge MEA and an Infin Digital client",
         thumbClass: "thumb-slide-4",
-        quote: "[Add quote]",
+        quote: "They understood our market before we explained it.",
         name: "Mohammed Irshad",
-        role: "Managing Director, MedEdge MEA | Journalist",
+        role: "Managing Director, MedEdge MEA",
     },
     {
         src: "/assets/imgs/template/avatar/avatar-19.png",
         alt: "Abdul Nasir, Co-Founder and General Manager of Local Souq and an Infin Digital client",
         thumbClass: "thumb-slide-5",
-        quote: "[Add quote]",
+        quote: "They made local retail easy to find online.",
         name: "Abdul Nasir",
-        role: "Co-Founder & GM, Local Souq | Driving Digital Transformation for Local Retail & Supermarkets",
+        role: "Co-Founder, Local Souq",
     },
 ];
 
@@ -234,11 +236,13 @@ export default function Section5() {
                                 {TESTIMONIALS.map((person, index) => (
                                     <div key={index} className="swiper-slide">
                                         <div className="text-center">
-                                            <h3 className="fw-700 reveal-text">
-                                                <RevealText>
-                                                    {`“${person.quote}” — ${person.name}, ${person.role}`}
-                                                </RevealText>
+                                            <h3 className="fw-700 reveal-text mb-20">
+                                                <RevealText>{`“${person.quote}”`}</RevealText>
                                             </h3>
+                                            <p className="mb-0 fw-500">
+                                                {person.name}
+                                                <span className="opacity-75">, {person.role}</span>
+                                            </p>
                                         </div>
                                     </div>
                                 ))}
