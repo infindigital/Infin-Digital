@@ -5,23 +5,51 @@ import Swiper from "swiper";
 import type { Swiper as SwiperInstance } from "swiper";
 import { Autoplay, FreeMode, Thumbs } from "swiper/modules";
 
-// NOTE: still stock portraits paired with the placeholder quote below. Alt text
-// says "portrait" rather than naming a client, so nothing here claims to be a
-// real customer until real quotes and photographs are supplied.
-const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-15.webp", alt: "Portrait thumbnail for the first Infin Digital testimonial", thumbClass: "thumb-slide-1" },
-    { src: "/assets/imgs/template/avatar/avatar-16.webp", alt: "Portrait thumbnail for the second Infin Digital testimonial", thumbClass: "thumb-slide-2" },
-    { src: "/assets/imgs/template/avatar/avatar-17.webp", alt: "Portrait thumbnail for the third Infin Digital testimonial", thumbClass: "thumb-slide-3" },
-    { src: "/assets/imgs/template/avatar/avatar-18.webp", alt: "Portrait thumbnail for the fourth Infin Digital testimonial", thumbClass: "thumb-slide-4" },
-    { src: "/assets/imgs/template/avatar/avatar-19.webp", alt: "Portrait thumbnail for the fifth Infin Digital testimonial", thumbClass: "thumb-slide-5" },
+// Real client photographs and attributions. The quote line for each person is
+// still a placeholder: nothing here quotes a client until they supply the words
+// themselves, so replace `quote` before treating these as published testimonials.
+const TESTIMONIALS = [
+    {
+        src: "/assets/imgs/template/avatar/avatar-15.png",
+        alt: "Nafisa Afnan, Founder of skincare brand Earthy By Ellenza and an Infin Digital client",
+        thumbClass: "thumb-slide-1",
+        quote: "[Add quote]",
+        name: "Nafisa Afnan",
+        role: "Founder, Earthy By Ellenza",
+    },
+    {
+        src: "/assets/imgs/template/avatar/avatar-16.png",
+        alt: "Arifa KY, Founder of clothing label Soulishwear and an Infin Digital client",
+        thumbClass: "thumb-slide-2",
+        quote: "[Add quote]",
+        name: "Arifa KY",
+        role: "Founder, Soulishwear",
+    },
+    {
+        src: "/assets/imgs/template/avatar/avatar-17.png",
+        alt: "Hussain Yusuf, CEO of Midwest Identity Services and an Infin Digital client",
+        thumbClass: "thumb-slide-3",
+        quote: "[Add quote]",
+        name: "Hussain Yusuf",
+        role: "CEO, Midwest Identity Services",
+    },
+    {
+        src: "/assets/imgs/template/avatar/avatar-18.png",
+        alt: "Mohammed Irshad, Managing Director of MedEdge MEA and an Infin Digital client",
+        thumbClass: "thumb-slide-4",
+        quote: "[Add quote]",
+        name: "Mohammed Irshad",
+        role: "Managing Director, MedEdge MEA | Journalist",
+    },
+    {
+        src: "/assets/imgs/template/avatar/avatar-19.png",
+        alt: "Abdul Nasir, Co-Founder and General Manager of Local Souq and an Infin Digital client",
+        thumbClass: "thumb-slide-5",
+        quote: "[Add quote]",
+        name: "Abdul Nasir",
+        role: "Co-Founder & GM, Local Souq | Driving Digital Transformation for Local Retail & Supermarkets",
+    },
 ];
-
-const QUOTE_TEXT = (
-    <>
-        &quot;[Add a real client quote here]&quot; [Client name],
-        [Role, Company, Mangalore]
-    </>
-);
 
 const ARROW_SVG = (
     <svg
@@ -180,15 +208,15 @@ export default function Section5() {
                             className="swiper slider-testimonial-thumbs overflow-visible"
                         >
                             <div className="swiper-wrapper position-relative">
-                                {AVATARS.map((avatar, index) => (
+                                {TESTIMONIALS.map((person, index) => (
                                     <div
                                         key={index}
-                                        className={`swiper-slide d-flex justify-content-center ${avatar.thumbClass}`}
+                                        className={`swiper-slide d-flex justify-content-center ${person.thumbClass}`}
                                     >
                                         <div className="avatar-thumbnail">
                                             <img
-                                                src={avatar.src}
-                                                alt={avatar.alt}
+                                                src={person.src}
+                                                alt={person.alt}
                                                 width={150}
                                                 height={150}
                                                 className="img-cover" loading="lazy" />
@@ -203,11 +231,13 @@ export default function Section5() {
                     <div className="col-xxl-8 mx-auto">
                         <div ref={mainRef} className="swiper slider-testimonial-2 mt-50">
                             <div className="swiper-wrapper">
-                                {[1, 2, 3, 4, 5].map((i) => (
-                                    <div key={i} className="swiper-slide">
+                                {TESTIMONIALS.map((person, index) => (
+                                    <div key={index} className="swiper-slide">
                                         <div className="text-center">
                                             <h3 className="fw-700 reveal-text">
-                                                <RevealText>{QUOTE_TEXT}</RevealText>
+                                                <RevealText>
+                                                    {`“${person.quote}” — ${person.name}, ${person.role}`}
+                                                </RevealText>
                                             </h3>
                                         </div>
                                     </div>

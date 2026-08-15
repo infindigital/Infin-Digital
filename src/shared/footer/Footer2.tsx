@@ -114,13 +114,13 @@ const Footer2 = forwardRef<HTMLElement, Record<string, never>>(function Footer2(
                   <a href="https://www.instagram.com/infindigital.in/" target="_blank" rel="noopener noreferrer">
                     Instagram {SOCIAL_ARROW}
                   </a>
-                  <a href="https://in.linkedin.com/company/infin-digital" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/company/infin-digital/" target="_blank" rel="noopener noreferrer">
                     LinkedIn {SOCIAL_ARROW}
                   </a>
-                  <a href="https://wa.me/918073302248" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.link/tj1o72" target="_blank" rel="noopener noreferrer">
                     WhatsApp {SOCIAL_ARROW}
                   </a>
-                  <a href="https://maps.app.goo.gl/e2k7gFiubpNxbLCN6" target="_blank" rel="noopener noreferrer">
+                  <a href="https://share.google/Os5ovmoT2nVarRLcm" target="_blank" rel="noopener noreferrer">
                     Google {SOCIAL_ARROW}
                   </a>
                 </div>

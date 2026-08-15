@@ -28,7 +28,7 @@ export const BUSINESS = {
 
 export const SOCIAL_PROFILES = [
   "https://www.instagram.com/infindigital.in/",
-  "https://in.linkedin.com/company/infin-digital",
+  "https://www.linkedin.com/company/infin-digital/",
   "https://maps.app.goo.gl/e2k7gFiubpNxbLCN6",
 ];
 

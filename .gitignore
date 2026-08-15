@@ -38,3 +38,7 @@ pnpm-debug.log*
 
 # Original template documentation / demo files (not used by the build)
 _theme-reference/
+
+# Staging area for photos waiting to be placed on the site. Kept outside
+# public/ so the originals are never copied into dist and deployed.
+_incoming-photos/

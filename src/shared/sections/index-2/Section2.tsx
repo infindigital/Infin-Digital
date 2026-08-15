@@ -118,14 +118,6 @@ export default function Section2() {
                                         width={400}
                                         height={400} loading="lazy" />
                                 </div>
-                                <div className="card-item-avatar p-absolute top-0 end-0 changeless">
-                                    <img
-                                        src="/assets/imgs/template/avatar/avatar-9.webp"
-                                        alt="Portrait photograph used in the Infin Digital brand collage"
-                                        className="home-2-card-item__avatar-img"
-                                        width={65}
-                                        height={65} loading="lazy" />
-                                </div>
                                 <div className="card-item-content p-absolute bottom-0 start-0">
                                     {QUOTE_SVG}
                                     <h6 className="card-item-text mb-0 text-white">

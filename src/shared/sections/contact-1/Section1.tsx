@@ -60,7 +60,7 @@ const AVATARS = [
 const SOCIAL_ITEMS = [
     {
         label: "WhatsApp",
-        href: "https://wa.me/918073302248",
+        href: "https://wa.link/tj1o72",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
                 <path
@@ -86,7 +86,7 @@ const SOCIAL_ITEMS = [
     },
     {
         label: "LinkedIn",
-        href: "https://in.linkedin.com/company/infin-digital",
+        href: "https://www.linkedin.com/company/infin-digital/",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <path
@@ -98,7 +98,7 @@ const SOCIAL_ITEMS = [
     },
     {
         label: "Google Business Profile",
-        href: "https://maps.app.goo.gl/e2k7gFiubpNxbLCN6",
+        href: "https://share.google/Os5ovmoT2nVarRLcm",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
                 <path

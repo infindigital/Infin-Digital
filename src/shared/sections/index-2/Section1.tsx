@@ -19,9 +19,9 @@ const LOGO_SVG = (
 
 const SOCIAL_LINKS = [
     { label: "Instagram", href: "https://www.instagram.com/infindigital.in/" },
-    { label: "LinkedIn", href: "https://in.linkedin.com/company/infin-digital" },
-    { label: "WhatsApp", href: "https://wa.me/918073302248" },
-    { label: "Google", href: "https://maps.app.goo.gl/e2k7gFiubpNxbLCN6" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/company/infin-digital/" },
+    { label: "WhatsApp", href: "https://wa.link/tj1o72" },
+    { label: "Google", href: "https://share.google/Os5ovmoT2nVarRLcm" },
 ];
 
 export default function Section1({ classList }: { classList?: string }) {
