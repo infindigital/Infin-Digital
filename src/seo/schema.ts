@@ -119,6 +119,47 @@ export function faqSchema(faqs: Faq[]): Json {
   };
 }
 
+/** One BlogPosting node for an article page. */
+export function articleSchema(article: {
+  slug: string;
+  title: string;
+  excerpt: string;
+  img: string;
+  date: string;
+}): Json {
+  const url = `${SITE_URL}/blog/${article.slug}`;
+  return {
+    "@type": "BlogPosting",
+    "@id": `${url}#article`,
+    headline: article.title,
+    description: article.excerpt,
+    image: `${SITE_URL}${article.img}`,
+    datePublished: article.date,
+    dateModified: article.date,
+    inLanguage: "en-IN",
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    author: { "@id": ORG_ID },
+    publisher: { "@id": ORG_ID },
+  };
+}
+
+/** The /blog index, listing every published article. */
+export function blogSchema(articles: { slug: string; title: string }[]): Json {
+  return {
+    "@type": "Blog",
+    "@id": `${SITE_URL}/blog#blog`,
+    name: `${BUSINESS.name} Insights`,
+    url: `${SITE_URL}/blog`,
+    publisher: { "@id": ORG_ID },
+    blogPost: articles.map((article) => ({
+      "@type": "BlogPosting",
+      "@id": `${SITE_URL}/blog/${article.slug}#article`,
+      headline: article.title,
+      url: `${SITE_URL}/blog/${article.slug}`,
+    })),
+  };
+}
+
 export type Crumb = { name: string; path: string };
 
 export function breadcrumbSchema(crumbs: Crumb[]): Json {

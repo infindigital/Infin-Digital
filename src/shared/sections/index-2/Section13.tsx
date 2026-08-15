@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 import ArticleCard2 from "@/shared/cards/ArticleCard2";
+import { POSTS } from "@/content/posts";
+
+// Home 2 Section 13 - the four published articles. Titles, images and dates all
+// come from src/content/posts.ts, so this grid, the About page rail and /blog
+// can never disagree about what has actually been written.
 
 const ARROW_SVG = (
     <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -9,61 +14,6 @@ const ARROW_SVG = (
         />
     </svg>
 );
-
-const ARTICLES = [
-    {
-        classList: "blog-card-2-wrap scroll-move-up",
-        categoryFilter: "",
-        linkPost: "/services",
-        linkAuthor: "/about",
-        img: "/assets/imgs/pages/img-50.webp",
-        category: "SEO",
-        title: "How Long Local SEO Really Takes for a Mangalore Business",
-        excerpt:
-            "What changes in the first month, what changes by month six, and why local search rewards patience over shortcuts.",
-        author: "[Author name]",
-        date: "[Add date]",
-    },
-    {
-        classList: "blog-card-2-wrap scroll-move-up",
-        categoryFilter: "",
-        linkPost: "/services",
-        linkAuthor: "/about",
-        img: "/assets/imgs/pages/img-51.webp",
-        category: "Web Design",
-        title: "What Should Actually Be On Your Business Website Homepage",
-        excerpt:
-            "The handful of things a visitor needs within five seconds, and the decorative extras that quietly cost you enquiries.",
-        author: "[Author name]",
-        date: "[Add date]",
-    },
-    {
-        classList: "blog-card-2-wrap scroll-move-up",
-        categoryFilter: "",
-        linkPost: "/services",
-        linkAuthor: "/about",
-        img: "/assets/imgs/pages/img-52.webp",
-        category: "Performance Marketing",
-        title: "Google Ads or Meta Ads: Which One Should You Start With",
-        excerpt:
-            "A practical way to choose between search intent and social discovery when your monthly ad budget is limited.",
-        author: "[Author name]",
-        date: "[Add date]",
-    },
-    {
-        classList: "blog-card-2-wrap scroll-move-up",
-        categoryFilter: "",
-        linkPost: "/services",
-        linkAuthor: "/about",
-        img: "/assets/imgs/pages/img-53.webp",
-        category: "BRANDING",
-        title: "Why a Consistent Brand Beats a Clever Logo Every Time",
-        excerpt:
-            "How colour, type, and tone applied consistently across every touchpoint build the recognition a logo alone cannot.",
-        author: "[Author name]",
-        date: "[Add date]",
-    },
-];
 
 export default function Section13() {
     return (
@@ -86,10 +36,10 @@ export default function Section13() {
                                 <h1 className="fz-ds-1 mb-0">Inside</h1>
                             </div>
                             <div>
-                                <Link className="at-btn px-5" to="/services">
+                                <Link className="at-btn px-5" to="/blog">
                                     <span>
-                                        <span className="text-1 text-capitalize">EXPLORE SERVICES</span>
-                                        <span className="text-2 text-capitalize">EXPLORE SERVICES</span>
+                                        <span className="text-1 text-capitalize">ALL ARTICLES</span>
+                                        <span className="text-2 text-capitalize">ALL ARTICLES</span>
                                     </span>
                                     <i>
                                         {ARROW_SVG}
@@ -102,19 +52,19 @@ export default function Section13() {
                 </div>
                 <div className="row p-relative z-1">
                     <div className="col-xxl-9 ms-auto mt-70 d-flex flex-column gap-4">
-                        {ARTICLES.map((item, index) => (
+                        {POSTS.map((post) => (
                             <ArticleCard2
-                                key={index}
-                                classList={item.classList}
-                                categoryFilter={item.categoryFilter}
-                                linkPost={item.linkPost}
-                                linkAuthor={item.linkAuthor}
-                                img={item.img}
-                                category={item.category}
-                                title={item.title}
-                                excerpt={item.excerpt}
-                                author={item.author}
-                                date={item.date}
+                                key={post.slug}
+                                classList="blog-card-2-wrap scroll-move-up"
+                                linkPost={`/blog/${post.slug}`}
+                                linkAuthor="/about"
+                                img={post.img}
+                                alt={post.alt}
+                                category={post.category}
+                                title={post.title}
+                                excerpt={post.excerpt}
+                                author="INFIN Digital"
+                                date={post.dateLabel}
                             />
                         ))}
                     </div>

@@ -37,8 +37,8 @@ statistics on a real business website. That is why they are placeholders and not
 | `[Team member name]` and `[Role]` | 4 each | `index-3/Section9.tsx` |
 | `[00]+` key numbers (projects, years, retention) | 3 | `index-2/Section9.tsx` |
 | `[Client name]`, `[Role, Company]`, quote | 1 set | `index-2/Section5.tsx` |
-| `[Author]` and `[Date]` on article cards | 6 each | `index-3/Section11.tsx` |
-| `[Author name]` and `[Add date]` on article cards | 4 each | `index-2/Section13.tsx` |
+| ~~`[Author]` and `[Date]` on article cards~~ RESOLVED | 0 | `index-3/Section11.tsx` now reads the real articles from `src/content/posts.ts` |
+| ~~`[Author name]` and `[Add date]` on article cards~~ RESOLVED | 0 | `index-2/Section13.tsx` now reads the real articles from `src/content/posts.ts` |
 | `[Award or recognition]`, `[Organisation]`, `[ Add date ]`, `[add-website.com]` | 5 each | `index-2/Section7.tsx` |
 | `[Award name]`, `[Organisation]`, `[ Add date ]`, `[add-website.com]` | 5 each | `about-1/Section3.tsx` |
 | `₹XX,XXX` price points | 6 | `index-2/Section12Pricing.tsx` |

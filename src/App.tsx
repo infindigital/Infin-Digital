@@ -8,6 +8,8 @@ import Archive2Page from "@/pages/Archive2Page";
 import Archive3Page from "@/pages/Archive3Page";
 import Archive4Page from "@/pages/Archive4Page";
 import BlogDetailsPage from "@/pages/BlogDetailsPage";
+import BlogPage from "@/pages/BlogPage";
+import BlogPostPage from "@/pages/BlogPostPage";
 import ComingSoonPage from "@/pages/ComingSoonPage";
 import Contact1Page from "@/pages/Contact1Page";
 import Contact2Page from "@/pages/Contact2Page";
@@ -67,6 +69,8 @@ export default function App() {
         <Route path="/about" element={<About1Page />} />
         <Route path="/services" element={<Services1Page />} />
         <Route path="/work" element={<Portfolio1Page />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="/contact" element={<Contact1Page />} />
       </Route>
       <Route element={<MainLayout headerStyle={1} footerStyle={1} />}>

@@ -8,6 +8,7 @@ const NAV_LINKS: Item[] = [
   { to: "/about", label: "About" },
   { to: "/services", label: "Services" },
   { to: "/work", label: "Work" },
+  { to: "/blog", label: "Blog" },
   { to: "/contact", label: "Contact" },
 ];
 

@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import RevealText from "@/shared/effects/RevealText";
+import { POSTS } from "@/content/posts";
 
-// Home 3 Section 11 - Insights & Inspiration / Latest journal
+// Insights & Inspiration rail, used on the About page. Reads the published
+// articles from src/content/posts.ts rather than carrying its own list, so it
+// cannot drift from the home page grid or /blog.
 
 const ARROW_SVG = (
     <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,15 +14,6 @@ const ARROW_SVG = (
         />
     </svg>
 );
-
-const POSTS = [
-    { category: "Local SEO", title: "How Local Search Puts Mangalore Businesses on the Map", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-71.webp" },
-    { category: "Web", title: "What Actually Makes a Business Website Load Fast", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-72.webp" },
-    { category: "branding", title: "Why a Clear Visual Identity Makes Every Campaign Cheaper", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-73.webp" },
-    { category: "Technical SEO", title: "The Checks Every New Website Should Pass Before Launch", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-51.webp" },
-    { category: "Conversion", title: "Turning Website Visitors Into Enquiries With Better Structure", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-52.webp" },
-    { category: "paid media", title: "Planning an Ad Budget You Can Measure From Day One", author: "[Author]", date: "[Date]", img: "/assets/imgs/pages/img-53.webp" },
-];
 
 export default function Section11() {
     return (
@@ -40,10 +34,10 @@ export default function Section11() {
                             <h3 className="reveal-text fz-ds-1 mb-30 fw-500 lh-1">
                                 <RevealText>Topics we get asked about</RevealText>
                             </h3>
-                            <Link className="at-btn" to="/services">
+                            <Link className="at-btn" to="/blog">
                                 <span>
-                                    <span className="text-1">ALL SERVICES</span>
-                                    <span className="text-2">ALL SERVICES</span>
+                                    <span className="text-1">ALL ARTICLES</span>
+                                    <span className="text-2">ALL ARTICLES</span>
                                 </span>
                                 <i>
                                     {ARROW_SVG}
@@ -56,29 +50,30 @@ export default function Section11() {
                         <div className="scroll-section vertical-section section">
                             <div className="wrapper">
                                 <div role="list" className="list">
-                                    {POSTS.map((post, i) => (
-                                        <div key={i} className="item">
+                                    {POSTS.map((post) => (
+                                        <div key={post.slug} className="item">
                                             <article className="blog-card-2 bg-neutral-0 py-5">
                                                 <div className="blog-card-2__left flex-grow-1">
                                                     <span className="blog-card-2__category">{post.category}</span>
                                                     <h6 className="blog-card-2__title">
-                                                        <Link to="/services" className="blog-card-2__title-link">
+                                                        <Link to={`/blog/${post.slug}`} className="blog-card-2__title-link">
                                                             {post.title}
                                                         </Link>
                                                     </h6>
                                                     <p className="blog-card-2__meta">
                                                         <span className="blog-card-2__meta-text">By </span>
                                                         <Link to="/about" className="blog-card-2__author">
-                                                            {post.author}
+                                                            INFIN Digital
                                                         </Link>
-                                                        <span className="blog-card-2__meta-text"> on {post.date}</span>
+                                                        <span className="blog-card-2__meta-text"> on </span>
+                                                        <time dateTime={post.date}>{post.dateLabel}</time>
                                                     </p>
                                                 </div>
                                                 <div className="blog-card-2__thumb hover-effect-1">
-                                                    <Link to="/services" className="blog-card-2__img-link">
+                                                    <Link to={`/blog/${post.slug}`} className="blog-card-2__img-link">
                                                         <img
                                                             src={post.img}
-                                                            alt={`Illustration for the topic: ${post.title}`}
+                                                            alt={post.alt}
                                                             width={400}
                                                             height={280}
                                                             className="blog-card-2__img" loading="lazy" />

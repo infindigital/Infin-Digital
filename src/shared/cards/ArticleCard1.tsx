@@ -6,6 +6,8 @@ export type ArticleCard1Props = {
   linkPost: string;
   linkAuthor: string;
   img: string;
+  /** Describe the image. Defaults to the title so a card never ships empty alt text. */
+  alt?: string;
   title: string;
   author: string;
   date: string;
@@ -17,6 +19,7 @@ export default function ArticleCard1({
   linkPost,
   linkAuthor,
   img,
+  alt,
   title,
   author,
   date,
@@ -25,7 +28,7 @@ export default function ArticleCard1({
     <div className={`blog-card ${classList} mb-30`} data-category={category}>
       <div className="blog-card__thumb hover-effect-1">
         <Link to={linkPost} className="blog-card__img-link">
-          <img src={img} className="blog-card__img22" alt="Infin Digital" width={450} height={350} />
+          <img src={img} className="blog-card__img22" alt={alt ?? title} width={450} height={350} loading="lazy" />
         </Link>
       </div>
       <div className="blog-card__content">

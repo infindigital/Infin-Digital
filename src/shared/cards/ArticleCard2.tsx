@@ -6,6 +6,8 @@ export type ArticleCard2Props = {
   linkPost: string;
   linkAuthor: string;
   img: string;
+  /** Describe the image. Defaults to the title so a card never ships empty alt text. */
+  alt?: string;
   category: string;
   title: string;
   excerpt: string;
@@ -19,6 +21,7 @@ export default function ArticleCard2({
   linkPost,
   linkAuthor,
   img,
+  alt,
   category,
   title,
   excerpt,
@@ -37,7 +40,7 @@ export default function ArticleCard2({
       </div>
       <div className="blog-card-2__thumb hover-effect-1">
         <Link to={linkPost} className="blog-card-2__img-link">
-          <img src={img} className="blog-card-2__img" alt={title} width={800} height={500} loading="lazy" />
+          <img src={img} className="blog-card-2__img" alt={alt ?? title} width={800} height={500} loading="lazy" />
         </Link>
       </div>
       <div className="blog-card-2__right">
