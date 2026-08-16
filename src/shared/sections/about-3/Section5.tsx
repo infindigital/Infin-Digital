@@ -1,31 +1,30 @@
 // About 3 Section 5 - Gallery (3 columns, parallax-style data-speed)
 
-// Parallax gallery on the services page: client work alongside the partner and
-// certification badges Infin Digital holds. Every frame comes from the supplied
-// _incoming-photos set, not the theme's stock images. Alt text names what is in
-// each frame so the images support the service keywords on the page. The badges
-// use the -lg source files because the gallery renders each frame at full
-// column width.
+// Parallax gallery on the services page: the six Local Souq social media
+// creatives Infin Digital produced, and nothing else. Every frame comes from the
+// supplied _incoming-photos set and is 1080x1350, so the three columns stay the
+// same height. Alt text names the campaign message in each frame so the images
+// support the social media and campaign keywords on the page.
 const COLUMNS = [
     {
         dataSpeed: ".1",
         images: [
-            { src: "/assets/imgs/pages/img-146.jpg", alt: "Business listing campaign creative by Infin Digital with illustrated figures around a boardroom table", width: 1080, height: 1350 },
-            { src: "/assets/imgs/pages/img-43-lg.png", alt: "Meta Business Partner and Facebook Verified Agency Partner badges held by Infin Digital", width: 1552, height: 1013 },
+            { src: "/assets/imgs/pages/img-146.jpg", alt: "Local Souq creative by Infin Digital showing outlined figures around a boardroom table with the line we are like your invisible employees working for you", width: 1080, height: 1350 },
+            { src: "/assets/imgs/pages/img-140.jpg", alt: "Local Souq creative by Infin Digital with a chef seated on an oversized search bar and the line they search, you get discovered", width: 1080, height: 1350 },
         ],
     },
     {
         dataSpeed: ".8",
         images: [
-            { src: "/assets/imgs/pages/img-38.png", alt: "Startup funding show website designed by Infin Digital, shown on a laptop on a wooden desk", width: 1086, height: 1449 },
-            { src: "/assets/imgs/pages/img-40-lg.png", alt: "Google 5 Star Rated badge earned by Infin Digital", width: 1551, height: 1014 },
+            { src: "/assets/imgs/pages/img-138.jpg", alt: "Local Souq creative by Infin Digital showing two friends sharing a pizza beside the app screen", width: 1080, height: 1350 },
+            { src: "/assets/imgs/pages/img-144.jpg", alt: "Local Souq creative by Infin Digital showing order and enquiry notifications arriving on a business owner's phone", width: 1080, height: 1350 },
         ],
     },
     {
         dataSpeed: ".1",
         images: [
-            { src: "/assets/imgs/pages/img-42-lg.png", alt: "Google Certified Partner badge showing Infin Digital as a Google verified and trusted partner", width: 1552, height: 1013 },
-            { src: "/assets/imgs/pages/img-41-lg.png", alt: "Trustpilot badge showing Infin Digital rated 4.9 out of 5, Excellent", width: 1552, height: 1013 },
+            { src: "/assets/imgs/pages/img-143.jpg", alt: "Local Souq creative by Infin Digital showing a couple watching a Dubai sunset inside a gift box held in an open hand", width: 1080, height: 1350 },
+            { src: "/assets/imgs/pages/img-142.jpg", alt: "Local Souq app download creative by Infin Digital with a winding road linking food, leisure, riding and gaming across the Dubai skyline", width: 1080, height: 1350 },
         ],
     },
 ];
