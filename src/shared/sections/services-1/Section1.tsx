@@ -7,7 +7,7 @@ export default function Section1() {
                 <div className="row align-items-center mb-20">
                     <div className="col-lg-9">
                         <h1 className="section-title d-flex fw-600 fz-200 reveal-text mb-0">
-                            Infin Digital<sup>®</sup>
+                            Infin Digital
                         </h1>
                     </div>
                     <div className="col-lg-3 ms-auto text-lg-end">
