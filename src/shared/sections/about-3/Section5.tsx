@@ -1,9 +1,11 @@
 // About 3 Section 5 - Gallery (3 columns, parallax-style data-speed)
 
 // Parallax gallery on the services page: client work alongside the partner and
-// certification badges Infin Digital holds. Alt text names what is in each frame
-// so the images support the service keywords on the page. The badges use the
-// -lg source files because the gallery renders each frame at full column width.
+// certification badges Infin Digital holds. Every frame comes from the supplied
+// _incoming-photos set, not the theme's stock images. Alt text names what is in
+// each frame so the images support the service keywords on the page. The badges
+// use the -lg source files because the gallery renders each frame at full
+// column width.
 const COLUMNS = [
     {
         dataSpeed: ".1",
@@ -23,7 +25,7 @@ const COLUMNS = [
         dataSpeed: ".1",
         images: [
             { src: "/assets/imgs/pages/img-42-lg.png", alt: "Google Certified Partner badge showing Infin Digital as a Google verified and trusted partner", width: 1552, height: 1013 },
-            { src: "/assets/imgs/pages/img-44-lg.webp", alt: "Close up portrait of a person wearing augmented reality glasses lit in red and blue", width: 361, height: 236 },
+            { src: "/assets/imgs/pages/img-41-lg.png", alt: "Trustpilot badge showing Infin Digital rated 4.9 out of 5, Excellent", width: 1552, height: 1013 },
         ],
     },
 ];
