@@ -32,7 +32,7 @@ const DIAMOND_SVG = (
 
 const AWARDS = [
     {
-        href: "https://www.google.com",
+        href: "https://www.google.com/search?q=infin+digital+mangalore#lrd=0x3ba35b95226e6e2b:0x2ae397742b4ab0eb,1,,,,",
         date: "5.0 Rating",
         img: "/assets/imgs/pages/img-40.png",
         imgLg: "/assets/imgs/pages/img-40-lg.png",
@@ -41,7 +41,7 @@ const AWARDS = [
         url: "google.com",
     },
     {
-        href: "https://www.trustpilot.com",
+        href: "https://www.trustpilot.com/review/infindigital.in",
         date: "Rated 4.9 / 5",
         img: "/assets/imgs/pages/img-41.png",
         imgLg: "/assets/imgs/pages/img-41-lg.png",

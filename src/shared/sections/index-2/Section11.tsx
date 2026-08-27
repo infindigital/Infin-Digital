@@ -1,3 +1,7 @@
+// Showreel video. Empty until the real URL is supplied: paste it here and the
+// play control below becomes a link again, no other change needed.
+const SHOWREEL_URL = "";
+
 const PLAY_SVG = (
     <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M15 9L0 17.6603L0 0.339746L15 9Z" fill="currentColor" />
@@ -43,19 +47,21 @@ export default function Section11() {
                                     <MarqueeRowEl key={i} row={row} />
                                 ))}
                             </div>
-                            <a href="#">
-                                <img className="postbox-scroll-zoom-img img-cover" src="/assets/imgs/pages/bg-img-2.webp" alt="Large outdoor screen glowing with fire at dusk" loading="lazy" />
-                            </a>
+                            <img className="postbox-scroll-zoom-img img-cover" src="/assets/imgs/pages/bg-img-2.webp" alt="Large outdoor screen glowing with fire at dusk" loading="lazy" />
                             <div className="postbox-play-btn postbox-scroll-zoom-play z-index-1 d-flex align-items-center justify-content-center gap-3">
                                 <h1 className="text-white d-none d-md-flex">Play</h1>
-                                <a
-                                    className="popup-video"
-                                    href="https://www.youtube.com/watch?v=VCPGMjCW0is"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
+                                {SHOWREEL_URL ? (
+                                    <a
+                                        className="popup-video"
+                                        href={SHOWREEL_URL}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <span className="text-white">{PLAY_SVG}</span>
+                                    </a>
+                                ) : (
                                     <span className="text-white">{PLAY_SVG}</span>
-                                </a>
+                                )}
                                 <h1 className="text-white d-none d-md-flex">showreel</h1>
                             </div>
                         </div>

@@ -13,6 +13,9 @@ const ARROW_SVG = (
 
 type Brand = {
     src: string;
+    /** Dark-mode artwork, only for logos supplied on an opaque plate that the
+     *  whitening filter in custom.css cannot key out on its own. */
+    darkSrc?: string;
     alt: string;
     width: number;
     height: number;
@@ -20,9 +23,9 @@ type Brand = {
 
 const BRAND_SOURCES: Brand[] = [
     { src: "/assets/imgs/icons/brand-1.png", alt: "Soulish logo, an Infin Digital e-commerce client", width: 147, height: 40 },
-    { src: "/assets/imgs/icons/brand-2.png", alt: "MedEdge logo, an Infin Digital client", width: 173, height: 43 },
+    { src: "/assets/imgs/icons/brand-2.png", darkSrc: "/assets/imgs/icons/brand-2-dark.png", alt: "MedEdge logo, an Infin Digital client", width: 173, height: 43 },
     { src: "/assets/imgs/icons/brand-3.png", alt: "Local Souq logo, an Infin Digital client", width: 162, height: 47 },
-    { src: "/assets/imgs/icons/brand-4.png", alt: "NKN Media logo, an Infin Digital client", width: 167, height: 35 },
+    { src: "/assets/imgs/icons/brand-4.png", darkSrc: "/assets/imgs/icons/brand-4-dark.png", alt: "NKN Media logo, an Infin Digital client", width: 167, height: 35 },
     { src: "/assets/imgs/icons/brand-5.png", alt: "Midwest Identity Services logo, an Infin Digital client", width: 105, height: 24 },
     { src: "/assets/imgs/icons/brand-6.png", alt: "Earthy by Ellenza logo, an Infin Digital client", width: 170, height: 48 },
 ];
@@ -85,7 +88,18 @@ export default function Section3() {
                                                     alt={brand.alt}
                                                     width={brand.width}
                                                     height={brand.height}
+                                                    className={brand.darkSrc ? "brand-logo-light" : undefined}
                                                     style={{ height: 35, width: "auto" }} loading="lazy" />
+                                                {brand.darkSrc && (
+                                                    <img
+                                                        src={brand.darkSrc}
+                                                        alt=""
+                                                        aria-hidden="true"
+                                                        width={brand.width}
+                                                        height={brand.height}
+                                                        className="brand-logo-dark"
+                                                        style={{ height: 35, width: "auto" }} loading="lazy" />
+                                                )}
                                             </div>
                                         </li>
                                     ))}
