@@ -36,8 +36,8 @@ const SERVICES = [
             "Social, content, and always on campaigns that reach the people who buy from you.",
         listLeft: ["Social Media Marketing", "Content & Creative Production", "Email & WhatsApp Campaigns"],
         listRight: ["Performance Marketing", "Reporting & Analytics"],
-        image: "/assets/imgs/pages/img-32.png",
-        imageAlt: "Meta campaign dashboard for a property expo run by Infin Digital, showing conversions, reach, leads and cost per lead next to the Facebook ad",
+        image: "/assets/imgs/pages/img-32.webp",
+        imageAlt: "Results from the NKN Media Property Expo campaign run by Infin Digital: 1,596 leads, 615K reach, 1.84M impressions and a 28.6% drop in cost per lead, beside the Meta Ads campaign breakdown",
         itemClass: "pb-40",
     },
     {
