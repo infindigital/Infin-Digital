@@ -163,3 +163,23 @@ h1, h2, h3, h4, h5, h6,
     visibility: visible;
   }
 }
+
+/* ---------------------------------------------------------
+   Client logo wall.
+
+   The stock `dark-mode-invert` filter flips each logo to its
+   colour complement, so a red mark turns cyan rather than
+   going neutral. Ship a white knockout of every logo instead
+   and swap the two files on the theme.
+   --------------------------------------------------------- */
+.brand-item__logo--dark {
+  display: none;
+}
+
+[data-bs-theme="dark"] .brand-item__logo--light {
+  display: none;
+}
+
+[data-bs-theme="dark"] .brand-item__logo--dark {
+  display: inline-block;
+}

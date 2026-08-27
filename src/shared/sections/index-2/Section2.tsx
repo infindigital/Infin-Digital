@@ -1,11 +1,17 @@
 import RevealText from "@/shared/effects/RevealText";
 
-const CIRCLE_SVG = (
-    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-        <path
-            d="M20 0C20.3015 10.9184 29.0816 19.6985 40 20C29.0816 20.3015 20.3015 29.0816 20 40C19.6985 29.0816 10.9184 20.3015 0 20C10.9184 19.6985 19.6985 10.9184 20 0Z"
-            fill="#B7B7B7"
-        />
+// The in/fin slash, used on its own as the brand mark.
+const SLASH_SVG = (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        role="img"
+        aria-label="Infin Digital"
+    >
+        <path d="M24.1 2h3.45L15.85 38H12.4z" fill="#B5AEA2" />
     </svg>
 );
 
@@ -45,9 +51,9 @@ export default function Section2() {
         <section className="sec-2-home-2 container-2200">
             <div className="mx-4 pt-20 pb-20">
                 <div className="d-flex align-items-center justify-content-between">
-                    {CIRCLE_SVG}
-                    {CIRCLE_SVG}
-                    {CIRCLE_SVG}
+                    {SLASH_SVG}
+                    {SLASH_SVG}
+                    {SLASH_SVG}
                 </div>
             </div>
             <div
@@ -112,11 +118,11 @@ export default function Section2() {
                             >
                                 <div className="card-item__bg">
                                     <img
-                                        src="/assets/imgs/pages/img-29.png"
-                                        alt="Monochrome illustration of a laptop, phone and browser window surrounded by a megaphone, target and rising growth chart"
+                                        src="/assets/imgs/pages/img-29.svg"
+                                        alt="Infin Digital brand panel: a rising bar chart climbing towards the in/fin slash"
                                         className="home-2-card-item__bg-img img-cover"
-                                        width={400}
-                                        height={400} loading="lazy" />
+                                        width={1088}
+                                        height={1445} loading="lazy" />
                                 </div>
                                 <div className="card-item-content p-absolute bottom-0 start-0">
                                     {QUOTE_SVG}

@@ -1,0 +1,12 @@
+{
+  "name": "INFIN Digital",
+  "short_name": "INFIN",
+  "icons": [
+    { "src": "/assets/imgs/icons/infin-favicon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/assets/imgs/icons/infin-favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#14130F",
+  "background_color": "#F4F3F0",
+  "display": "standalone",
+  "start_url": "/"
+}
