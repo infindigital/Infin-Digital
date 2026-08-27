@@ -22,11 +22,13 @@ const AVATARS = [
     { src: "/assets/imgs/template/avatar/avatar-14.png", alt: "Performance marketing icon showing a rising bar chart and growth arrow", hiddenOnMobile: true },
 ];
 
+// A set of four brand plates, alternating ink and paper so any two of them
+// sitting side by side in the slider read as a pair.
 const SLIDES = [
-    { src: "/assets/imgs/pages/img-117.png", alt: "Infin Digital studio desk in Mangalore with a laptop showing an ideas, strategy and results deck beside brand mission and vision cards" },
-    { src: "/assets/imgs/pages/img-118.png", alt: "Brand and identity design mood board with a laptop, colour swatches and website wireframe sketches" },
-    { src: "/assets/imgs/pages/img-119.png", alt: "Laptop showing social media and search growth figures beside SEO, content and paid ads planning notes" },
-    { src: "/assets/imgs/pages/img-120.png", alt: "Website layout and user flow sketches next to a laptop showing a digital marketing performance dashboard" },
+    { src: "/assets/imgs/pages/about-plate-mark.webp", alt: "Infin Digital brand plate: the in/fin slash set large on ink, over the line 'From the way in to a refined finish.'" },
+    { src: "/assets/imgs/pages/about-plate-structure.webp", alt: "Infin Digital brand plate: a twelve column layout study showing how a page is structured before it is designed" },
+    { src: "/assets/imgs/pages/about-plate-signal.webp", alt: "Infin Digital brand plate: a plotted campaign series climbing across a dark field, under the line 'Ads that report back.'" },
+    { src: "/assets/imgs/pages/about-plate-identity.webp", alt: "Infin Digital brand plate: the in/fin wordmark above the five tone monochrome palette" },
 ];
 
 export default function Section1() {
