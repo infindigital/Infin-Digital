@@ -11,7 +11,7 @@ const SLASH_SVG = (
         role="img"
         aria-label="Infin Digital"
     >
-        <path d="M24.1 2h3.45L15.85 38H12.4z" fill="#B5AEA2" />
+        <path d="M22.35 2H29.35L17.65 38H10.65Z" fill="#B5AEA2" />
     </svg>
 );
 

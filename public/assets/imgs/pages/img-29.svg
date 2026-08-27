@@ -8,23 +8,16 @@
   <rect width="1088" height="1445" fill="#EFECE6"/>
   <rect width="1088" height="790" fill="url(#grid)"/>
 
-  <!-- Three small marks, echoing the rhythm above the fold. -->
-  <g fill="#14130F">
-    <path d="M119.3 80H127.9L98.6 170H90Z"/>
-    <path d="M184.3 80H192.9L163.6 170H155Z"/>
-    <path d="M249.3 80H257.9L228.6 170H220Z"/>
-  </g>
-
   <!-- Measured growth: a plotted series climbing towards the mark. -->
   <g fill="#14130F">
-    <rect x="80"  y="702" width="50" height="48"/>
-    <rect x="146" y="675" width="50" height="75"/>
-    <rect x="212" y="638" width="50" height="112"/>
-    <rect x="278" y="600" width="50" height="150"/>
-    <rect x="344" y="545" width="50" height="205"/>
-    <rect x="410" y="475" width="50" height="275"/>
-    <rect x="476" y="380" width="50" height="370"/>
-    <rect x="542" y="270" width="50" height="480"/>
+    <rect x="80"  y="692" width="50" height="58"/>
+    <rect x="146" y="660" width="50" height="90"/>
+    <rect x="212" y="616" width="50" height="134"/>
+    <rect x="278" y="570" width="50" height="180"/>
+    <rect x="344" y="504" width="50" height="246"/>
+    <rect x="410" y="420" width="50" height="330"/>
+    <rect x="476" y="306" width="50" height="444"/>
+    <rect x="542" y="174" width="50" height="576"/>
   </g>
   <path d="M80 762H592" stroke="#14130F" stroke-opacity="0.35" stroke-width="3"/>
 
