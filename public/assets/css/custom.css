@@ -163,3 +163,30 @@ h1, h2, h3, h4, h5, h6,
     visibility: visible;
   }
 }
+
+/* ---------------------------------------------------------
+   Client logo wall, dark mode.
+   The theme's .dark-mode-invert is filter: invert(1), which is
+   correct for a black-on-transparent mark but renders a colour
+   logo as its negative: Local Souq's blue comes back orange,
+   Earthy's green comes back magenta. brightness(0) first
+   crushes every opaque pixel to black while leaving alpha
+   alone, so the following invert(1) paints the mark as a flat
+   white silhouette whatever colour it started out.
+   --------------------------------------------------------- */
+[data-bs-theme="dark"] .brand-item.dark-mode-invert {
+  filter: brightness(0) invert(1);
+}
+
+/* NKN's logo was supplied as an opaque red plate rather than a
+   transparent mark, so no filter can whiten it, it would just
+   turn the plate white. That one swaps to keyed-out artwork. */
+.brand-logo-dark {
+  display: none;
+}
+[data-bs-theme="dark"] .brand-logo-light {
+  display: none;
+}
+[data-bs-theme="dark"] .brand-logo-dark {
+  display: inline-block;
+}

@@ -40,7 +40,7 @@ const AWARDS = [
         title: "Google 5 Star Rated",
         webExcellence: "Google Reviews",
         url: "google.com",
-        href: "https://www.google.com",
+        href: "https://www.google.com/search?q=infin+digital+mangalore#lrd=0x3ba35b95226e6e2b:0x2ae397742b4ab0eb,1,,,,",
     },
     {
         date: "Rated 4.9 / 5",
@@ -49,7 +49,7 @@ const AWARDS = [
         title: "Excellent on Trustpilot",
         webExcellence: "Trustpilot Reviews",
         url: "trustpilot.com",
-        href: "https://www.trustpilot.com",
+        href: "https://www.trustpilot.com/review/infindigital.in",
     },
     {
         date: "Google Verified",
