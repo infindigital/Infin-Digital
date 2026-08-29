@@ -234,8 +234,8 @@ export const POSTS: Post[] = [
       "The most common reason ad spend feels wasted is that nobody set up the tracking before the money started moving. A straightforward way to plan a budget you can actually judge.",
     standfirst:
       "Reach and impressions are the metrics agencies report when there is nothing better to say. If you decide what counts as a result before you launch, you never have to accept them.",
-    img: "/assets/imgs/pages/img-32.png",
-    alt: "A Meta Ads campaign dashboard showing conversions, reach, leads and cost per lead for NKN Media, a performance marketing client of Infin Digital",
+    img: "/assets/imgs/pages/img-32.webp",
+    alt: "A Meta Ads campaign dashboard showing three active London Expo campaigns and 1,494+ form leads generated for NKN Media, a performance marketing client of Infin Digital",
     date: "2026-08-15",
     dateLabel: "15 August 2026",
     readingTime: "6 min read",

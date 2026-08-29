@@ -37,7 +37,7 @@ const SERVICES = [
         listLeft: ["Social Media Marketing", "Content & Creative Production", "Email & WhatsApp Campaigns"],
         listRight: ["Performance Marketing", "Reporting & Analytics"],
         image: "/assets/imgs/pages/img-32.webp",
-        imageAlt: "Results from the NKN Media Property Expo campaign run by Infin Digital: 1,596 leads, 615K reach, 1.84M impressions and a 28.6% drop in cost per lead, beside the Meta Ads campaign breakdown",
+        imageAlt: "Results from the NKN Media London Expo campaigns run by Infin Digital: three active Meta Ads campaigns returning 265, 482 and 747 form leads, for 1,494+ leads generated in total",
         itemClass: "pb-40",
     },
     {

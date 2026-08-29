@@ -83,10 +83,11 @@ const BRAND_DIMS: Record<number, { width: number; height: number }> = {
     4: { width: 167, height: 35 },
     5: { width: 105, height: 24 },
     6: { width: 170, height: 48 },
+    8: { width: 147, height: 40 },
 };
 
-// Order from HTML: 1,2,3,4,5,6, 1,2,3, 5,6, 1,2,3,4,5,6, 1,2,3,4,5,6, 1,2,3,4,5
-const BRANDS = [1, 2, 3, 4, 5, 6, 1, 2, 3, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5].map(
+// Order from HTML, with 8 following each full run: 1,2,3,4,5,6,8, 1,2,3, 5,6,8, ...
+const BRANDS = [1, 2, 3, 4, 5, 6, 8, 1, 2, 3, 5, 6, 8, 1, 2, 3, 4, 5, 6, 8, 1, 2, 3, 4, 5, 6, 8, 1, 2, 3, 4, 5].map(
     (n) => ({ src: `/assets/imgs/icons/brand-${n}.png`, ...BRAND_DIMS[n] })
 );
 
