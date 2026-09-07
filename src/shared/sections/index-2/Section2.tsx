@@ -118,11 +118,11 @@ export default function Section2() {
                             >
                                 <div className="card-item__bg">
                                     <img
-                                        src="/assets/imgs/pages/img-29.svg"
-                                        alt="Infin Digital brand panel: a rising bar chart climbing towards the in/fin slash"
+                                        src="/assets/imgs/pages/img-inf.png"
+                                        alt="A laptop on a studio desk showing the in/fin mark ringed by the ad and analytics platforms we work across"
                                         className="home-2-card-item__bg-img img-cover"
-                                        width={1088}
-                                        height={1445} loading="lazy" />
+                                        width={1374}
+                                        height={1145} loading="lazy" />
                                 </div>
                                 <div className="card-item-content p-absolute bottom-0 start-0">
                                     {QUOTE_SVG}
