@@ -1,0 +1,20 @@
+# Single-page-app fallback for Apache / LiteSpeed (Hostinger).
+#
+# React Router owns every URL below, but index.html is the only HTML file on
+# disk. A direct hit or a refresh on /about, /contact, /blog/<slug> etc. asks
+# the server for a file that does not exist, so without this rule the host
+# answers with its own 404 page. Serve index.html instead and let the client
+# router resolve the path. Vercel does the same thing via vercel.json.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Real files and directories (assets, robots.txt, sitemap.xml, ...) are
+  # served untouched.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Everything else is a client-side route.
+  RewriteRule ^ index.html [L]
+</IfModule>
