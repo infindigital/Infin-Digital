@@ -18,3 +18,16 @@
   # Everything else is a client-side route.
   RewriteRule ^ index.html [L]
 </IfModule>
+
+# The HTML shell is the entry point for every route and it names the hashed
+# asset bundles, so it must be revalidated rather than reused from cache.
+# Otherwise a browser that cached a response for /about before the rule above
+# existed keeps replaying it, and a deploy that renames the bundles can be
+# served an index.html pointing at files that are gone. The hashed files under
+# /assets are content-addressed and keep the caching the host already gives
+# them; only the HTML is affected here.
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
