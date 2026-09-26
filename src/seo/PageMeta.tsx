@@ -58,7 +58,13 @@ export default function PageMeta({
     <>
       <title>{title}</title>
       {description ? <meta name="description" content={description} /> : null}
-      {canonical ? <link rel="canonical" href={canonical} /> : null}
+      {path ? (
+        <>
+          <link rel="alternate" hrefLang="en-IN" href={`https://infindigital.in${path}`} />
+          <link rel="alternate" hrefLang="en" href={`https://infindigital.net${path}`} />
+          <link rel="alternate" hrefLang="x-default" href={`https://infindigital.net${path}`} />
+        </>
+      ) : null}
       <meta
         name="robots"
         content={noIndex ? "noindex, follow" : "index, follow, max-image-preview:large"}
