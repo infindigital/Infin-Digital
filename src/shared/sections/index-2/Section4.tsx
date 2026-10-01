@@ -36,8 +36,8 @@ const SERVICES = [
             "Social, content, and always on campaigns that reach the people who buy from you.",
         listLeft: ["Social Media Marketing", "Content & Creative Production", "Email & WhatsApp Campaigns"],
         listRight: ["Performance Marketing", "Reporting & Analytics"],
-        image: "/assets/imgs/pages/img-32.webp",
-        imageAlt: "Results from the NKN Media London Expo campaigns run by Infin Digital: three active Meta Ads campaigns returning 265, 482 and 747 form leads, for 1,494+ leads generated in total",
+        image: "/assets/imgs/pages/img-170.png",
+        imageAlt: "Google Ads, Meta Ads and Search Console dashboards showing clicks, conversions and cost per lead from campaigns managed by Infin Digital",
         itemClass: "pb-40",
     },
     {

@@ -78,13 +78,13 @@ const LOGO_SVG = (
     </svg>
 );
 
-/** Live client sites. redCamel has no public URL yet, so that card points at the work page. */
+/** Live client sites. redCamel and soulish have no public URL yet, so those cards point at the work page. */
 const PROJECTS = {
     localSouq: "https://thelocalsouq.com/",
     earthy: "https://earthybyellenza.com/",
     medEdge: "https://mededgemea.com/",
     redCamel: "/work",
-    nknMedia: "https://falconsofmajlis.com/",
+    soulish: "/work",
     arvento: "https://arventoevents.com/",
 };
 
@@ -281,22 +281,22 @@ export default function Section6() {
                         </div>
                     </div>
 
-                    {/* Row 3: NKN Media, Arvento Events */}
+                    {/* Row 3: Soulish, Arvento Events */}
                     <div className="row justify-content-xl-start justify-content-center">
                         <div className="col-xl-4 offset-xl-2 col-xxl-3 offset-xxl-2 col-lg-5 col-md-6">
                             <div className="alt-portfolio-item alt-portfolio-item-5 mb-30 at-hover-item">
                                 <PortfolioItemContent
-                                    href={PROJECTS.nknMedia}
-                                    title="Paid Campaigns"
+                                    href={PROJECTS.soulish}
+                                    title="Fashion E-Commerce"
                                     className="mb-15"
                                 />
                                 <PortfolioThumb
-                                    href={PROJECTS.nknMedia}
-                                    src="/assets/imgs/pages/img-38.png"
-                                    alt="Falcons of Majlis startup funding show landing page displayed on a laptop"
-                                    tag="Marketing"
-                                    title="Paid campaigns for NKN Media"
-                                    description="Google and Meta ads for a startup funding show, run against a cost per application target."
+                                    href={PROJECTS.soulish}
+                                    src="/assets/imgs/pages/img-12.png"
+                                    alt="Soulish Wear ethnic fashion store shown on a laptop beside embroidered outfits and branded packaging"
+                                    tag="E-Commerce"
+                                    title="Online fashion store for Soulish Wear"
+                                    description="Ethnic wear catalogue with shop-by-category browsing, product pages and checkout."
                                     thumbBelowContent
                                     width={400}
                                     height={550}
